@@ -1,9 +1,19 @@
-#+options: num:nil toc:nil timestamp:nil title:nil tags:nil
-#+BIND: org-export-latex-title-command ""
-#+LaTeX_CLASS_OPTIONS: [a4paper,12pt]
-#+LATEX_HEADER: \usepackage{setspace}
-#+LATEX_HEADER: \usepackage{a4wide}
+#+TITLE: Appliction for DECRA 2018
+#+AUTHOR: Paul Bryan
 #+SETUPFILE: ~/.emacs.d/org-templates/bibliography.org
+
+# ***  Class
+#+LATEX_CLASS: amsart
+
+# *** Macros
+#+LATEX_HEADER: \input{local_definitions}
+
+# *** Author
+
+
+# *** Other formatting settings
+#+LATEX_HEADER: \date{}
+
 #+LaTeX_Header: \renewcommand*{\bibfont}{\footnotesize}
 
 
