@@ -191,20 +191,19 @@ Proposal.
 The PDF must be in the format described in Appendix B of these Instructions. The PDF
 must provide the following information using the headings below and in this order:
 
-o PROJECT TITLE
-o AIMS AND BACKGROUND
-o PROJECT QUALITY AND INNOVATION
-o DECRA CANDIDATE
-o FEASIBILITY
-o BENEFIT
-o COMMUNICATION OF RESULTS
-o MANAGEMENT OF DATA
-o REFERENCES
+- PROJECT TITLE
+- AIMS AND BACKGROUND
+- PROJECT QUALITY AND INNOVATION
+- DECRA CANDIDATE
+- FEASIBILITY
+- BENEFIT
+- COMMUNICATION OF RESULTS
+- MANAGEMENT OF DATA
+- REFERENCES
  Applicants should ensure that information provided under these headings
 addresses the Selection Criteria as detailed in the Funding Rules.
 **** PROJECT TITLE
-o This title may differ from that shown in Part A1 of the Proposal form, and may
-exceed ten words.
+- This title may differ from that shown in Part A1 of the Proposal form, and may exceed ten words.
 
 **** AIMS AND BACKGROUND
 o Briefly outline the aims and background of the Proposal.
@@ -260,8 +259,133 @@ o Include a list of all references, including relevant references to the
 Participant’s previous work
 o References may be in 10 point Times New Roman or equivalent font. 
 
+
+*** PROJECT TITLE
+
+Analysis and geometric techniques for fully non-linear problems in geometry and PDE.
+
+*** AIMS AND BACKGROUND
+o Briefly outline the aims and background of the Proposal.
+o Include information about national/international progress in this field of
+research and its relationship to this Proposal.
+o Refer only to publications or non-traditional equivalents (outputs) that are
+accessible to the national and international research communities.
+
+  This project has aims falling into one of three broad, related categories: isoperimetry, convexity and geometric flows.
+
+***** _Isoperimetry_
+
+      The isoperimetric profile of a Riemannian manifold was introduced in the 1980's \cite{MR875084,MR999971} to study isoperimetric inequalities on Riemannian manifolds. By definition, for a given real number $x$, the isoperimetric profile $I(x)$ is the infimum of the boundary area of all domains with volume equal to $x$.  For instance, the isoperimetric profile of the plane is $I(x) = \sqrt{4\pi x}$ which follows immediately from the classical isoperimetric inequality $L^2 \geq 4\pi A$ with equality attained by round circles.
+
+    A major outstanding conjecture in this area is the Aubin-Cartan-Hadamard conjecture \cite{MR0448404, MR936419} stating that a Cartan-Hadamard manifold with sectional curvature bounded above by $K_0$ has isoperimetric profile bounded below by the isoperimetric profile of the simply-connected model space of constant section curvature $K_0$. This has been proven in dimension 2 \cite{zbMATH02588223}, dimension 3 \cite{MR1156385,MR2167269} and dimension 4 \cite{MR608287} (for $K_0 = 0$ only), but still remains outstanding in general. Using the curve shortening flow, an analogous comparison for rotationally symmetric model spaces with total positive curvature less than $2\pi$ was obtained in \cite{MR1417620} in dimension $2$. This was also one of the first works to characterise isoperimetric regions in spaces with non-constant curvature. In the twenty or so years since then, much research has been undertaken to increase the understanding of isoperimetric domains \cite{MR1883725, MR1661278} yet in general, as the Aubin-Cartan-Hadamard conjecture suggests, we have only so far scratched the surface of this deep problem.
+
+  *Aim 1* _Comparison theorems for the isoperimetric profile._
+
+  In \cite{ricci_iso,pbthesis,MR2843240,MR2794630}, a (parabolic) viscosity differential inequality for the isoperimetric profile is used to obtain a comparison principle for the isoperimetric profile evolving under curvature flows. The elliptic version of this inequality is also used to investigate properties of the isoperimetric profile. For example, in positive curvature, the isoperimetric profile is concave and hence isoperimetric regions have connected boundary (see also \cite{MR1674097}). Such results are broadly applicable as for instant in the the recent work of \cite{MR3608721} showsing that the Levy-Gromov isoperimetric inequality holds in RCD spaces; that is those metric measure spaces with lower Ricci bounds \cite{Sturm,Lott-Vilani}. This result relates closely to the viscosity equation mentioned above via \cite{MR3544942} in which the ellptic version of the viscosity equation is used to prove the Levy-Gromov isoperimetric inequality in the smooth setting.
+
+  The aim here is to extend classical comparison results (see e.g. \cite{MR2229062, MR1063226}) under lower curvature bound assumptions for the isoperimetric profile to more general spaces. In particular, sharp comparisons may be obtained comparing against radially symmetric model space with such as those studied in \cite{MR839689, MR2836657,MR1417620}. The expectation is that sharper comparisons may be obtained in this situation by allowing variable comparisons. The radial models themselves have been studied in \cite{Ritore, Morgan-Hass-Hutchings, recent Morgan paper about rotational symmetric and counter example} with models existing displaying various pathologies and one might hope to dedeuce whether these pathologies capture the higher dimensional behaviour also.
+
+  *Aim 2* _The isoperimetric profile of covers._
+  
+  In \cite{MR2729306, ricci_iso}, the isoperimetric comparison theorem gives a bound on the isoperimetric constant on the universal cover of a closed surface. It would be desirable to transfer the bound on the isoperimetric constant from the universal cover to the surface, since then very strong control is obtained over the geometry and also the analysis via the Sobolev constant, allowing interpolation techniques to be used to obtain higher regularity. In \cite{MR1354290}, it is shown that the growth of the isoperimetric profile on the universal cover of tori is $\sqrt{Ca}$ with $C\leq 4\pi$ and equality is attained precisely on the flat torus. The aim of this part of the project is to obtain similar control for general surfaces, proving that $I(x)/x^2 \leq C$ with $C \leq (1-\genus)A$, equality being attained on the constant curvature surface.
+
+  *Aim 3* _Fully non-linear comparisons for the Einstein volume._
+
+  XCF.
+
+  *Aim 4* Isoperimetric profile of Ricci solitons
+
+  Using the potential function as exhaustion, try to apply Ritore's techniques and obtain curvature control.
+
+****** Notes							   :noexport:
+
+    - Maybe I should just try to study certain situations such as radially symmetric or homogeneous/symmetric spaces.
+    - The conjecture is probably too much to prove in full generality.
+    - It might be possible to prove it for rotationally symmetric manifolds using comparison geometry like in \cite{MR839689}.
+    - Levy-Gromov may prove useful, but works on lower curvature bounds.
+    - The required inequality is true for geodesic balls. Perhaps one can extend this to convex domains (non-singular Wiengarten map). This connects with the convexity part.
+    - Perhaps one can use perturbation arguments, or curvature balls to extend the results from convex domains. Can I compare the second fundamental form (or even just the mean curvature) to the second fundamental form of a curvature ball and hence to the model space?
+    - Again connecting with the convexity part, one may be able to perform some kind of symmetrisation in say, symmetric spaces.
+    - Extend comparison theorems to manifolds with bounded /total/ curvature via comparison with radial models.
+    - Here we want to extend classical comparison results with constant curvature spaces to the radially symmetric case such as in Abresch and later. Since Toponogov works, why not volume comparison?
+    - Also, tackling a more general problem than aim 1 may allow for progress in aim 1.
+
+  - *Aim 3*:
+  
+    - Derive the growth of $(n-1)$ dimensional area for Riemannian covering spaces of $n$-dimensional manifolds.
+    - Compare Burago-Z- for tori.
+    - High genus surfaces would be first.
+    - Look at Ben's email with a suggestion about geodesic loops.
+
+****** References						   :noexport:
+  - Topping iso inequalities \cite{MR1714389}
+  - Ritore surfaces \cite{MR2167269,MR1883725}
+  - Morgan, Hass, Hutchings surfaces \cite{MR1417428}\cite{MR1661278}
+  - Bayle, Rosales: isoprofile \cite{MR2177105,MR2041647}
+  - Bavard, Pansu \cite{MR875084}
+  - Sternberg, Zumbrun \cite{MR1674097}
+  - minimal surfaces \cite{MR764944}
+  - Aubin-Cartan-Hadamard: Croke, Kleiner, Ritore \cite{MR1156385}, \cite{MR2167269} \cite{MR608287} and references within
+  - optimal often convex - maximal symmetry constant mean curvature Steiner symmetrisation \cite{MR1849187}
+  - comparison: particularly profile of smooth domains, \cite{pbthesis}\cite{MR2843240}
+  - distance comparison: \cite{MR2794630,MR1656553} \cite{MR3011290,MR2967056}
+  - isoperimetric comparison: \cite{pbthesis,MR2843240,MR2729306,MR1369140,MR1369139}
+  - isoperimetric inequalities: \cite{MR1849187}, \cite{MR0500557}
+  - comparison geometry: \cite{MR1063226}
+  - Heintze: comparison \cite{MR0493885} \cite{MR936318}
+  - variations and stability: \cite{MR917854,MR731682}
+
+
+
+*** PROJECT QUALITY AND INNOVATION
+o Explain how the research addresses a significant problem.
+o Outline the conceptual/theoretical framework, design and methods and
+demonstrate that these are adequately developed, well integrated,
+innovative and original?
+o If the research has been nominated as focussing upon a topic or outcome
+that falls within one of the Science and Research Priorities, explain how it
+addresses one or more of the associated Practical Research Challenges
+(as selected in question B1 of the Proposal form).
+o Explain how the aims, concepts, methods and results advance knowledge.
+*** DECRA CANDIDATE
+o Describe how the DECRA Candidate will have the time and capacity to
+undertake the proposed research, taking into account any other grants or
+roles they may hold. 
+Discovery for Early Career Researcher Award for funding commencing in 2018 – Instructions to
+Applicants
+19
+*** FEASIBILITY
+o Explain how the design of the proposed project, the expertise of the
+participants and requested budget will be sufficient to ensure the project can
+be successfully completed within the proposed budget and timeframe.
+o Describe whether there is an existing, or developing, supportive and high
+quality environment for this Candidate, their Project and for Higher Degree
+by Research students where appropriate.
+o Describe the necessary facilities available to complete the Project.
+*** BENEFIT
+o Outline how the completed project will produce significant new knowledge
+and/or innovative economic, commercial, environmental, social and/or
+cultural benefit to the Australian and international community.
+o Describe how the proposed research will be cost-effective and value for
+money.
+*** COMMUNICATION OF RESULTS
+o Outline plans for communicating the research results to other researchers
+and the broader community, including but not limited to scholarly and public
+communication and dissemination.
+*** MANAGEMENT OF DATA
+o Outline plans for the management of data produced as a result of the
+proposed research, including but not limited to storage, access and re-use
+arrangements.
+o It is not sufficient to state that the organisation has a data management
+policy. Researchers are encouraged to highlight specific plans for the
+management of their research data.
+*** REFERENCES
+o Include a list of all references, including relevant references to the
+Participant’s previous work
+o References may be in 10 point Times New Roman or equivalent font. 
+
 ** D2 Organisational Statement 				      :exportprojorg:
-*** Requirements
+*** Notes							   :noexport:
 **** Introduction of Candidate
 
   - Opportunity to emphasise the suitability of the candidate
