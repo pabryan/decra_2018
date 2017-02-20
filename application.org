@@ -91,6 +91,32 @@ any circumstances that may have slowed down your research and publications
 or affected the time you have had to conduct and publish from research). For
 more information on Research Opportunity and Performance Evidence (ROPE)
 see the ARC ROPE Policy.
+
+*** Response
+
+I obtained a Ph.D. at the Australian National University, Canberra in August 2012.
+
+I was a visiting researcher at the Beijing International Centre for Mathematics from May 2012 to September 2012, during which time I established connections with leading Chinese mathematicians such as Professor Gang Tian. China is an emerging research power, and I was very fortunate to have spent time at two of China's most prestigious universities, Peking University and Tsinghua University. It was in Beijing that my understanding of isoperimetric problems began to take shape.
+
+From July 2012 until July 2015, I held the prestigious Stephan E. Warschawski Visiting Assistant Professorship at the University of California, San Diego. This is a position awarded to top upcoming mathematicians from all fields. This position did not come with any specific mentor, though I benefited greatly from the experience and advice of Professors Bennett Chow and Lei Ni. During that time, I focused almost exclusively on teaching and research supervision, with a corresponding reduced research output of two papers written during that period. Both papers were published in 2016, one of which I was sole author of and published in the highly respected journal, Annali Della Scuola Normale Superiore Di Pisa - Classe Di Scienze.
+
+Following on, I briefly returned to the ANU in Australia as a Research Fellow working with Professor Ben Andrews. During this time I reestablished contacts at Australian Universities, and consolidated my research plans for the forthcoming year. In this period I was invited to Monash University and began a project with ARC Future Fellow, Julie Clutterbuck. I then took up a highly sought after Riemann Fellowship at Leibniz University in Hannover, Germany where I build research connections and began a very fruitful collaboration with Doctors Mohammad Ivaki and Julian Scheuer . Over the course of the following year, this collaboration produced five publications, submitted to leading journals such as the Journal of Differential Geometry and the Journal of the European Mathematical Society. Next, I began a twelve month postdoctoral potion at the University of Warwick and under the supervision of Peter Topping, a leader in the field of Geometric Analysis. I further developed research networks with senior researchers such as Professor Mario Micalef as well as upcoming researchers such as Doctors Andrea Mondino and Ben Sharp. I also visited Pontificia Universidad Católica de Chile and began a collaboration with Professor Mariel Saez. I have now returned to Australia, with a Research Fellow position working with Professor Joseph Grotowski.
+
+Thus I have worked alongside leading researchers in the field of Geometric Analysis, established international networks and began highly fruitful collaborations. I experienced a slow period of research whilst teaching, but then clearly reestablished a strong research program. This is evidenced by my research/teaching load over the past five years, as a fraction of full time load as follows:
+
+  | Year | Research | Teaching |
+  |------+----------+----------|
+  | 2012 |     0.75 |     0.25 |
+  | 2013 |      0.1 |      0.9 |
+  | 2014 |      0.1 |      0.9 |
+  | 2015 |     0.25 |     0.75 |
+  | 2016 |      0.8 |      0.2 |
+
+
+The table clearly shows I had little time for research in the years 2013 to 2015, but nevertheless published research, supervised a Ph.D. project, supervised an undergraduate research project and ran undergraduate seminars. Then in late 2015 and 2016, with a more modest research load, as mentioned above, I co-wrote five articles all of the highest calibre clearly showing my ability to conduct high level research given the opportunity.
+
+This project will benefit greatly from access to the internationally renowned Non-linear Analysis and Analysis and Geometry groups at the ANU. In particular, the expertise of members such as Ben Andrews, Neil Trudinger and Andrew Hassell is highly relevant to the project. Both groups are very active in research closely aligned with this project, hosting regular seminars and workshops along with regularly hosting international visitors. This active environment, along with a lower teaching load will provide an excellent setting for the execution of this project.
+
 ** C8. Research Opportunity and Performance Evidence (ROPE) - Significant research outputs
    :PROPERTIES:
    :pages:    4
@@ -110,6 +136,52 @@ see the ARC ROPE Policy.
 - include the acceptance date if listing in-press publications or programed creative presentations. Do NOT include forthcoming publications or works under contract unless the pre-publication version has been accepted;
 - include the details of any outputs available online, before publication or presentation.
 
+*** Response
+  # #+BEGIN_LATEX
+  # \doublespacing
+  # #+END_LATEX
+
+
+**** Refereed Journal Articles
+
+   1. * Ben Andrews, *Paul Bryan*. /Curvature bounds by isoperimetric comparison for normalized Ricci flow on the two-sphere/. Calc. Var. Partial Differential Equations 39, 419--428, 2010.
+   2. * Ben Andrews, *Paul Bryan*. /A comparison theorem for the isoperimetric profile under curve-shortening flow/. Comm. Anal. Geom. 19, 503--539, 2011.
+   3. * Ben Andrews, *Paul Bryan*. /Curvature bound for curve shortening flow via distance comparison and a direct proof of Grayson's theorem/. J. Reine Angew. Math. 653, 179--187. 2011.
+   4. * *Paul Bryan*. /Isoperimetric Comparison Techniques for Low Dimension Curvature Flows/. Ph.D. Thesis, Australian National University, 2012.
+   5. * *Paul Bryan* /Curvature bounds via an isoperimetric comparison for Ricci flow on surfaces/ Ann. Scuola Norm. Sup. Pisa Cl. Sci September 2016, Volume 16, Issue 3
+   6. * *Paul Bryan*, Janelle Louie /Classification of Convex Ancient Solutions to Curve Shortening Flow on the Sphere/ J. Geom. Anal. April 2016, Volume 26, Issue 2, 858--872
+   7. * *Paul Bryan*, Mohammad Ivaki, Julian Scheuer /Harnack inequalities for evolving hypersurfaces on the sphere/ Comm. Anal Geom. (Accepted) 2016 arXiv: [math.DG] (available at http://arxiv.org/abs/1512.03374)
+   8. *Paul Bryan*, Mohammad Ivaki, Julian Scheuer /A unified flow approach to smooth, even $L_p$-Minkowski problems/, Analysis & PDE (Accepted) 2016 arXiv: [math.DG] (available at http://arxiv.org/abs/1512.03374)
+
+**** Other
+***** Pre-prints
+
+  1. * *Paul Bryan*, Mohammad Ivaki, Julian Scheuer /On the classification of ancient solutions to curvature flows on the sphere/, Submitted to /Journal of the European Mathematical Society/, 2016. arXiv: [math.DG] (available at [[http://arxiv.org/abs/1604.01694]])
+  2. * *Paul Bryan*, Mohammad Ivaki /Harnack estimate for mean curvature flow on the sphere/ Submitted to /Journal of Differential Geometry/, 2015. arXiv: [math.DG] (available at [[http://arxiv.org/abs/1508.02821]])
+
+***** Invited Talks
+   1. Dec 2016 /Harnack Inequalities and Ancient Solutions of Hypersurface Flows/ Singularities of Geometric Partial Differential Equations, Warwick University
+   2. Jun 2016 /Ancient soutions and Harnack Inequalities for curvature flows/ Pontifical Catholic University of Chile
+   3. May 2016 /Ancient solutions of curvature flows in the sphere/ University of Warwick
+   4. Nov 2015 /Harnack inequalities, Aleksandrov reflection, and ancient solution of curvature flows on the sphere./  Free University, Berlin
+   5. Oct 2015 /Harnack inequalities and Classification of Ancient Solutions to Mean Curvature Flow./ Riemann Center, Liebniz University Oberseminar
+   6. Sep 2015 /Isoperimetric Inequalities: What's new since Queen Dido? An case for the isoperimetric profile./ ANU Colloquium
+   7. Sep 2015 /Harnack inequalities and Classification of Ancient Solutions to Mean Curvature Flow/ Monash University Geometry and Analysis Seminar
+   8. Aug 2015 /Harnack inequalities and Classification of Ancient Solutions to Mean Curvature Flow/ ANU Geometry and Analysis Seminar
+   9. Jun 2015 /Comparison results for the Isoperimetric profile and curvature flows/ Columbia University Geometry Seminar
+   10. Apr 2015 /A viscosity equation and applications of the maximum principle for the isoperimetric profile/ Geometric Flows: Recent Developments and Applications (BIRS)
+   11. May 2014 /A history of Isoperimetric Problems/. UCSC Colloquium.
+   12. March 2014 /Isoperimetric Problems in Geometry/. UCI Geometry Seminar.
+   13. October 2013 /Polar Dual of Convex Bodies and Curvature Flows/. UCSD Differential Geometry Seminar.
+   14. May 2013 /Isoperimetry and Viscosity Solutions in Geometric Evolution Equations/. Pacific Northwest Geometry Seminar.
+   15. October 2012 /Isoperimetric comparison techniques for Ricci flow on surfaces/. UCSD Differential Geometry Seminar.
+   16. Jun 2012 /A Viscosity Equation for the Isoperimetric Profile of Surfaces/. Peking University, Analysis Seminar.
+   17. Sep 2011 /An Isoperimetric Comparison Theorem for the Ricci Flow on Surfaces/. 55th Annual Australian Mathematical Society Meeting.
+   18. Aug 2011 /An Isoperimetric Comparison Theorem for the Ricci Flow on Surfaces/. Peking University, Analysis Seminar.
+   19. Mar 2009 /An Isoperimetric Comparison Theorem for the Ricci Flow on the $2$-sphere/. Workshop on Nonlinear Analysis, Australian National University.
+   20. Oct 2008 /A Distance Comparison Theorem for the Curve Shortening Flow/. Workshop on Geometric Analysis, University of Wollongong.
+   21. Feb 2007 /The Curve Shortening Flow: Grayson's Theorem/. AMSI/CSIRO The Big Day In.
+
 ** C9. Research Opportunity and Performance Evidence (ROPE) - A statement of your Research Impact and contributions to the research field of this Proposal
    :PROPERTIES:
    :pages:    4
@@ -124,6 +196,32 @@ where applicable, as well as conference organisation and learned societies membe
 Describe how your research has led to a significant change or advancement of
 knowledge in your field and outline how your achievements will contribute to this
 Proposal.
+*** Response
+
+I have been working on the connection between isoperimetric problems and curvature flows since my Ph.D. thesis. Using variational techniques, I discovered the underlying structure behind prior investigations \cite{MR1369140,MR1369139,MR1656553} in papers published in the finest and highly ranked journals. This structure manifests itself through a viscosity differential inequality for the /isoperimetric profile/ of a surface and is also described in \cite{Bryan}. One of the referees for my thesis described the exposition as "one of the clearest explanations of the isoperimetric profile".
+
+  The approach used, for instance in my work with Ben Andrews \cite{MR2729306} extends the isoperimetric comparison techniques in \cite{MR1369140,MR1369139} to obtain a direct curvature bound for solutions of the normalised Ricci flow on the two-sphere, leading directly to a proof that solutions of the normalised Ricci flow smoothly converge to a constant curvature metric. Prior to this, the proof relied on a good deal of extra machinery, beginning with a proof for /positively/ curved metrics in \cite{MR954419} employing a Harnack inequality and then later proven for general metrics in \cite{MR1094458} by employing an entropy inequality. The standout features of our approach are that we were able, via a comparison with a model solution, to obtain the direct curvature bound mentioned above, along with a bound on the isoperimetric constant. The two combined give extremely strong control of the flow, both geometrically and analytically; the latter since the isoperimetric constant equals the Sobolev constant.
+
+  These results are extended to arbitrary surfaces in \cite{Bryan} and published in one of the top ranking journals, Ann. Scuola Norm. Sup. Pisa Cl. Sci. The result gives a unifying approach to the Ricci flow on surfaces obtaining convergence results for all closed surfaces by a single method.
+
+  The paper \cite{MR2794630}, was described by the Mathematical Reviews of the AMS as an "...article [that] presents another significant simplifying contribution". We used the viscosity approach to again obtain strong control over the flow in the form of a curvature bound, leading directly to a proof of the Gage-Hamilton-Grayson theorem \cite{MR840401,MR906392} that any embedded curve in the plane smoothly converges to a round circle under the normalised Curve Shortening Flow. The technique was inspired by the distance comparison principle in \cite{MR1656553} which has been generalised to higher dimensions in \cite{MR2967056,MR3011290}. This work has featured in several sets of lecture notes on the Curve Shortening Flow such as those by Assistant Professor Robert Haslhofer at the University of Toronto and by Doctor Mohammad Ivaki at the Vienna University of Technology. Moreover, this paper strongly influenced the development in higher dimensions, which in turn heavily influenced the recent successes solving the Hsiang-Lawson conjecture \cite{brendlelawson} for minimal tori in $\sphere^3$ and the Pinkall-Stirling conjecture for CMC tori in $\sphere^3$ \cite{2012arXiv1204.5007A}. The paper \cite{alpha_csf_dist_comp} in preparation further elucidates the underlying viscosity equation, and extends it to a greater class of flows.
+
+  As further testament to the importance of this approach, in \cite{MR2843240} we offered yet another proof of the Gage-Hamilton-Grayson theorem, obtaining a viscosity equation for the /relative/ isoperimetric profile for the Curve Shortening Flow. This required considerable analysis of the isoperimetric profile, particularly in a symmetric, convex model situation, the importance and value of which is reflected in it's publication in the highly respected Crelle's journal.
+
+  One striking feature of the comparison results described above, is that the model comparison used comes from an /ancient/ solution of the flow. Ancient solutions are solutions are important in that they model singularity formation of flows, a very active area of current research \cite{MR3020169,MR2993752}. Such solutions have been classified in certain situations in \cite{MR2669361, MR2971286} as either the trivial solutions or the model solutions used in the above comparison results.
+
+  Beginning with the paper \cite{bryanlouie}, I have turned my attention to the question of analysing ancient solutions, in particular classifying such solutions.
+
+  Ancient solutions to evolution equations are important for several reasons. One major reason is that the self-similar solutions - the solitons - are used to model singularity formation \cite{MR1375255,MR1666878}. Closely related is the Harnack inequality for geometric flows \cite{MR1296393,MR1316556,MR1100812,MR1198607} which serves as an important tool in the analysis of singularity formation as well as solitons. In the series of papers \cite{bryanlouie,2016arXiv160401694B,2015arXiv150802821B,2015arXiv151203374B}, with collaborators, I have instigated a program of obtaining Li-Yau-Hamilton Harnack inequalities for hypersurface flows in Riemannian backgrounds. The non-linearities introduced by the background curvature become of significant importance, strongly restricting when such inequalities are possible. A rather significant fact is that we are able to deal with this at all - the computations involved, even in Euclidean space are notoriously difficult and our results are the first known results in non-Euclidean background spaces.
+
+  In \cite{MR1296393} a method was introduced leading to significant simplifications in the Euclidean case, but the method does not readily generalise to other background spaces. Our work on Harnack inequalities culminates in \cite{BIS4} where a new method is introduced allowing us to perform the necessary computations in /arbitrary background spaces/. The idea is based on two observations. The first is that given a homothetically scaling soliton, the change of parametrisation from scaling $F(x, t) = \lambda(t) F_0(x)$ to the standard parametrisation where $\partial_t F = -f(\mathcal{W})\nu$ introduces a gradient term. The second is that the Harnack quantity decreases most rapidly along the flow in the direction of this very same gradient. Thus we obtain an optimal framework in which to perform the computations, and also illuminate the connection between solitons and the Harnack inequality, previously only seen through considerable computations based on the soliton equation. Moreover, our work exhibits precisely the conditions required on the speed of the flow and the background curvature for which a Harnack inequality could hold. The level of generality of this paper is not often seen in works on curvature flows.
+
+  The impact of this work, being very recent, is difficult to judge, but after giving several talks on the subject, the strong interest in the work is clear. The technique applies quite broadly and is appropriate for intrinsic flows such as the Ricci flow and scalar heat equations and will surely be developed on in the coming years.
+
+
+- Mention lecture notes based on comparison work.
+- Ancient solutions and the Harnack.
+
 ** OLD								   :noexport:
 *** C1 Career Opportunities
   - I obtained a Ph.D. at the Australian National University, Canberra in August 2012.
