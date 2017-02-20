@@ -259,7 +259,6 @@ o Include a list of all references, including relevant references to the
 Participant’s previous work
 o References may be in 10 point Times New Roman or equivalent font. 
 
-
 *** PROJECT TITLE
 
 Analysis and geometric techniques for fully non-linear problems in geometry and PDE.
@@ -296,6 +295,35 @@ accessible to the national and international research communities.
   *Aim 4* Isoperimetric profile of Ricci solitons
 
   Using the potential function as exhaustion, try to apply Ritore's techniques and obtain curvature control.
+
+***** Speed Estimates and Asymptotics
+- Harnack Inequalities.
+  - XCF.
+    - Can prove the Harnack when we have Codazzi.
+    - Question: Does Codazzi imply locally embeddable? Is it topological?
+  - $k^{\alpha}$ flow
+- Modulus of Continuity for the Speed
+  - Can work for level set flow too!
+  - Comparison theorems better suited to fully non-linear equations.
+- Background space can introduce non-linearities
+***** Ancient Solutions and Symmetries
+- Linearisation near minimal surfaces
+- Conformal symmetries in the sphere
+- Degeneracies and perturbation
+- Lyapunov Functions - L_p Version, Giga-Kohn
+- Area and eigenvalue estimates based on forwards time estimates
+  - Go past Peter's estimates by working with level set flow for which some time regularity does hold as in Colding-Minicozzi time-of-arrival function is C^2.
+- Conformal rescaling.
+***** Isoperimetric Techniques
+- XCF
+  - Use Codazzi to simplify the topology?
+  - 3d is special - a non-vanishing vector field corresponds to a non-vanishing 2-plane.
+  - But exactness is not quite as straight forward as with Gauss-Bonnet but something should be there.
+- 3D Ricci Flow
+- Kahler Rici Flow
+***** Optimal Transport Shape Tracking Techniques
+- Optimal map
+
 
 ****** Notes							   :noexport:
 
