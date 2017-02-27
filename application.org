@@ -587,7 +587,6 @@ that falls within one of the Science and Research Priorities, explain how it add
 
   My work with flows allows for very strong results to be obtained and is very new and still being explored and understood. It is highly innovative, with no one else realising the connection before. It is also highly effective. The methods should be broadly applicable and the results should be well regarded.
 
-
 *** DECRA CANDIDATE
 - Describe how the DECRA Candidate will have the time and capacity to
 undertake the proposed research, taking into account any other grants or
@@ -603,25 +602,17 @@ roles they may hold.
   The project builds on the candidates existing expertise and has a high chance of producing strong research outcomes. The aims are ambitious, but involve many intermediate steps along the away, ensuring continual progress throughout the duration of the project. The aims closely align with the expertise of the MSI, with several experts in the field available to offer support and guidance to the candidate.
 
 *** BENEFIT
-- Outline how the completed project will produce significant new knowledge and/or innovative economic, commercial, environmental, social and/or cultural benefit to the Australian and international community.
-- Describe how the proposed research will be cost-effective and value for money.
+  The funding requested is minimal, consisting principally of salary and a modest request for travel. Hence the execution of the of the project offers excellent value for money, particularly as the candidates research to date, shows that the methods described in this proposal are extremely effective. 
 
-  The funding requested is minimal, consisting principally of salary and a modest request for travel. Hence the execution of the of the project offers excellent value for money, particularly as the candidates research to date, shows that the methods described in this proposal are extremely effective.
-
-  The research is highly innovative, with strong results already obtained by these methods, and involves international collaboration strengthening Australia's ties with research institutes in the US and China.
+  The research is highly innovative, with strong results already obtained by these methods, and involves international collaboration strengthening Australia's ties with research institutes in North and South America, Europe and China. The techniques developed also have very broad applicability, as has already been established by the candidates previous work, and hence benefits the international community in pushing the frontiers of geometric and non-linear analysis. Australia in particular will see social, cultural and economic benefits by strengthening it's international reputation and attracting leading researchers and students to Australia to study the methods developed in the project.
 
 *** COMMUNICATION OF RESULTS
-- Outline plans for communicating the research results to other researchers and the broader community, including but not limited to scholarly and public communication and dissemination.
 
-- Papers.
-- Conferences.
-- Visitors.
+  The results of the project will be disseminated primarily by scholarly publications. Announcements of the results will be posted to the arXiv pre-print server (http://arxiv.org/) whenever permitted by copyright requirements. The results will also be announced at conferences, workshops, and seminars.
 
 *** MANAGEMENT OF DATA
-- Outline plans for the management of data produced as a result of the proposed research, including but not limited to storage, access and re-use arrangements.
-- It is not sufficient to state that the organisation has a data management policy. Researchers are encouraged to highlight specific plans for the management of their research data.
 
-  The project will primarily generate research articles, published in scholarly journals, with standard access are re-use arrangements. Preference will be given to open access journals with their access and re-use arrangements.
+  The project will primarily generate research articles, published in scholarly journals, with standard access are re-use arrangements. Preference will be given to open access journals with their access and re-use arrangements. All work, wherever permitted by copyright requirements will also be deposited on the arXiv pre-print server (http://arxiv.org/).
 
 *** REFERENCES
 - Include a list of all references, including relevant references to the Participant’s previous work
