@@ -60,6 +60,33 @@ The project aims at conducting top quality mathematical research with internatio
 :PROPERTIES:
 :characters: 5250
 :END:
+
+I obtained a Ph.D. at the Australian National University, Canberra in August 2012.
+
+I was a visiting researcher at the Beijing International Centre for Mathematics from May 2012 to September 2012, during which time I established connections with leading Chinese mathematicians such as Professor Gang Tian. China is an emerging research power, and I was very fortunate to have spent time at two of China's most prestigious universities, Peking University and Tsinghua University. It was in Beijing that my understanding of isoperimetric problems began to take shape.
+
+From July 2012 until July 2015, I held the prestigious Stephan E. Warschawski Visiting Assistant Professorship at the University of California, San Diego. This is a position awarded to top upcoming mathematicians from all fields. This position did not come with any specific mentor, though I benefited greatly from the experience and advice of Professors Bennett Chow and Lei Ni. During that time, I focused almost exclusively on teaching, delivering some nineteen courses, and research supervision, supervising a Ph.D. thesis, an undergraduate research project and conducting an undergraduate research seminar. As such my research output was reduced to two papers written during that period. Both papers were published in 2016, one arising from the supervison of Prof. Bennett Chow's student Dr. Janelle Louise and the other with me as sole author and published in the highly respected journal, Annali Della Scuola Normale Superiore Di Pisa - Classe Di Scienze.
+
+Following on, I briefly returned to the ANU in Australia as a Research Fellow working with Professor Ben Andrews. During this time I reestablished contacts at Australian Universities, and consolidated my research plans for the forthcoming year. In this period I was invited to Monash University and began a project with ARC Future Fellow, Julie Clutterbuck.
+
+I then took up a highly sought after Riemann Fellowship at Leibniz University in Hannover, Germany where I built further research connections primarily with Professor Knut Smoczyck. Next, I began a twelve month postdoctoral potion at the University of Warwick under the supervision of Peter Topping, a leader in the field of Geometric Analysis. I further developed research networks with senior researchers such as Professor Mario Micalef as well as upcoming researchers such as Doctors Andrea Mondino and Ben Sharp. I also visited Pontificia Universidad Católica de Chile and began a collaboration with Professor Mariel Saez. I have now returned to Australia, with a Research Fellow position working with Professor Joseph Grotowski at the University of Queendland, broadening my research network and beginning yet another collaboration.
+
+Over the eighteen month period where I focused research after leaving San Diego I began a very fruitful collaboration with Doctors Mohammad Ivaki and Julian Scheuer. This collaboration produced five publications, two of which have been accepted for publication in the quality journals Analysis & PDE and Communications in Analysis and Geometry. The remaining papers have been submitted to leading journals such as the Journal of Differential Geometry, the Journal of the European Mathematical Society.
+
+I have worked alongside leading researchers in the field of Geometric Analysis, established international networks and began highly fruitful collaborations. I experienced an understanably slow period of research whilst teaching, but since then have clearly reestablished a strong research program, resulting in publiscations submitted and accepted by top journals as well as several further publications in preparation arising from the international collaborations I established. The following table shows y research/teaching load over the past five years, as a fraction of full time load, highlighting in particular the heavy teaching load in my early career and the recent return to a research focus:
+
+  | Year | Research | Teaching |
+  |------+----------+----------|
+  | 2012 |     0.75 |     0.25 |
+  | 2013 |      0.1 |      0.9 |
+  | 2014 |      0.1 |      0.9 |
+  | 2015 |     0.25 |     0.75 |
+  | 2016 |      0.8 |      0.2 |
+
+
+This project will benefit greatly from access to the internationally renowned Non-linear Analysis and Analysis and Geometry groups at the ANU. In particular, the expertise of members such as Ben Andrews, Neil Trudinger and Andrew Hassell is highly relevant to the project. Both groups are very active in research closely aligned with this project, hosting regular seminars and workshops along with regularly hosting international visitors. This active environment, along with a lower teaching load will provide an excellent setting for the execution of this project.
+
+*** Old								   :noexport:
   - I obtained a Ph.D. at the Australian National University, Canberra in August 2012.
   - I was a visiting researcher at the Beijing International Centre for Mathematics from May 2012 to September 2012, during which time I established numerous connections with leading Chinese mathematicians. China is an emerging research power, and I was very fortunate to have spent time at two of China's most prestigious universities, Peking University and Tsinghua University. It was in Beijing that my understanding of isoperimetric problems began to take shape.
   - From July 2012, I have held the prestigious Stephan E. Warschawski Visiting Assistant Professorship at the University of California, San Diego. This is a position awarded to top upcoming mathematicians from all fields. This position does not come with any specific mentor, though I have benefited from experience and advice of Professors Bennett Chow and Lei Ni. I have had the opportunity to participate in several conferences and workshops, establishing connections with top U.S. mathematicians. The University of California, San Diego mathematics department has limited funding however, for hosting seminars and workshops, limiting my access to an active research environment. The position comes with a relatively high teaching load, equivalent to permanent faculty, and greater than that of most post-doctoral positions. As such, my ability to establish a strong research base has been slowed down, but is beginning to bear fruit, with several publications ready for submission with a high potential for several more this year alone. It has been somewhat of a "trial by fire", and a major skill I have learnt is how to balance the numerous demands placed on modern academics, such as teaching, administration and general service to the academic community (e.g. journal refereeing), whilst conducting research.
@@ -106,31 +133,6 @@ any circumstances that may have slowed down your research and publications
 or affected the time you have had to conduct and publish from research). For
 more information on Research Opportunity and Performance Evidence (ROPE)
 see the ARC ROPE Policy.
-
-*** Response
-
-I obtained a Ph.D. at the Australian National University, Canberra in August 2012.
-
-I was a visiting researcher at the Beijing International Centre for Mathematics from May 2012 to September 2012, during which time I established connections with leading Chinese mathematicians such as Professor Gang Tian. China is an emerging research power, and I was very fortunate to have spent time at two of China's most prestigious universities, Peking University and Tsinghua University. It was in Beijing that my understanding of isoperimetric problems began to take shape.
-
-From July 2012 until July 2015, I held the prestigious Stephan E. Warschawski Visiting Assistant Professorship at the University of California, San Diego. This is a position awarded to top upcoming mathematicians from all fields. This position did not come with any specific mentor, though I benefited greatly from the experience and advice of Professors Bennett Chow and Lei Ni. During that time, I focused almost exclusively on teaching and research supervision, with a corresponding reduced research output of two papers written during that period. Both papers were published in 2016, one of which I was sole author of and published in the highly respected journal, Annali Della Scuola Normale Superiore Di Pisa - Classe Di Scienze.
-
-Following on, I briefly returned to the ANU in Australia as a Research Fellow working with Professor Ben Andrews. During this time I reestablished contacts at Australian Universities, and consolidated my research plans for the forthcoming year. In this period I was invited to Monash University and began a project with ARC Future Fellow, Julie Clutterbuck. I then took up a highly sought after Riemann Fellowship at Leibniz University in Hannover, Germany where I build research connections and began a very fruitful collaboration with Doctors Mohammad Ivaki and Julian Scheuer . Over the course of the following year, this collaboration produced five publications, submitted to leading journals such as the Journal of Differential Geometry and the Journal of the European Mathematical Society. Next, I began a twelve month postdoctoral potion at the University of Warwick and under the supervision of Peter Topping, a leader in the field of Geometric Analysis. I further developed research networks with senior researchers such as Professor Mario Micalef as well as upcoming researchers such as Doctors Andrea Mondino and Ben Sharp. I also visited Pontificia Universidad Católica de Chile and began a collaboration with Professor Mariel Saez. I have now returned to Australia, with a Research Fellow position working with Professor Joseph Grotowski.
-
-Thus I have worked alongside leading researchers in the field of Geometric Analysis, established international networks and began highly fruitful collaborations. I experienced a slow period of research whilst teaching, but then clearly reestablished a strong research program. This is evidenced by my research/teaching load over the past five years, as a fraction of full time load as follows:
-
-  | Year | Research | Teaching |
-  |------+----------+----------|
-  | 2012 |     0.75 |     0.25 |
-  | 2013 |      0.1 |      0.9 |
-  | 2014 |      0.1 |      0.9 |
-  | 2015 |     0.25 |     0.75 |
-  | 2016 |      0.8 |      0.2 |
-
-
-The table clearly shows I had little time for research in the years 2013 to 2015, but nevertheless published research, supervised a Ph.D. project, supervised an undergraduate research project and ran undergraduate seminars. Then in late 2015 and 2016, with a more modest research load, as mentioned above, I co-wrote five articles all of the highest calibre clearly showing my ability to conduct high level research given the opportunity.
-
-This project will benefit greatly from access to the internationally renowned Non-linear Analysis and Analysis and Geometry groups at the ANU. In particular, the expertise of members such as Ben Andrews, Neil Trudinger and Andrew Hassell is highly relevant to the project. Both groups are very active in research closely aligned with this project, hosting regular seminars and workshops along with regularly hosting international visitors. This active environment, along with a lower teaching load will provide an excellent setting for the execution of this project.
 
 ** C8. Research Opportunity and Performance Evidence (ROPE) - Significant research outputs
    :PROPERTIES:
@@ -618,7 +620,7 @@ roles they may hold.
 - Include a list of all references, including relevant references to the Participant’s previous work
 - References may be in 10 point Times New Roman or equivalent font. 
 
-\printbibliography
+# \printbibliography
 
 ** D2 Organisational Statement 				      :exportprojorg:
 *** Notes							   :noexport:
