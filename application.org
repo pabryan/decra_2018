@@ -60,6 +60,21 @@ The project aims at conducting top quality mathematical research with internatio
 :PROPERTIES:
 :characters: 5250
 :END:
+  - I obtained a Ph.D. at the Australian National University, Canberra in August 2012.
+  - I was a visiting researcher at the Beijing International Centre for Mathematics from May 2012 to September 2012, during which time I established numerous connections with leading Chinese mathematicians. China is an emerging research power, and I was very fortunate to have spent time at two of China's most prestigious universities, Peking University and Tsinghua University. It was in Beijing that my understanding of isoperimetric problems began to take shape.
+  - From July 2012, I have held the prestigious Stephan E. Warschawski Visiting Assistant Professorship at the University of California, San Diego. This is a position awarded to top upcoming mathematicians from all fields. This position does not come with any specific mentor, though I have benefited from experience and advice of Professors Bennett Chow and Lei Ni. I have had the opportunity to participate in several conferences and workshops, establishing connections with top U.S. mathematicians. The University of California, San Diego mathematics department has limited funding however, for hosting seminars and workshops, limiting my access to an active research environment. The position comes with a relatively high teaching load, equivalent to permanent faculty, and greater than that of most post-doctoral positions. As such, my ability to establish a strong research base has been slowed down, but is beginning to bear fruit, with several publications ready for submission with a high potential for several more this year alone. It has been somewhat of a "trial by fire", and a major skill I have learnt is how to balance the numerous demands placed on modern academics, such as teaching, administration and general service to the academic community (e.g. journal refereeing), whilst conducting research.
+  - In the last 5 years, my research/teaching load, as a fraction of full time load is as follows:
+
+  | Year | Research    | Teaching |
+  |------+-------------+----------|
+  | 2009 | (Ph.D.) 0.9 |      0.2 |
+  | 2010 | (Ph.D.) 0.9 |      0.1 |
+  | 2011 | (Ph.D.) 0.9 |      0.1 |
+  | 2012 | 0.5         |      0.5 |
+  | 2013 | 0.4         |      0.6 |
+
+  - This project will benefit greatly from access to the internationally renowned Non-linear Analysis and Analysis and Geometry groups at the ANU. In particular, the expertise of members such as Ben Andrews, Neil Trudinger, Andrew Hassell, and Thierry Coulhon is highly relevant to the project. Both groups are very active in research closely aligned with this project, hosting regular seminars and workshops along with regularly hosting international visitors. This active environment, along with a lower teaching load will provide an excellent setting for the execution of this project.
+
 *** Notes							   :noexport:
 
 - The research opportunities that you have had in the context of your
@@ -91,10 +106,39 @@ any circumstances that may have slowed down your research and publications
 or affected the time you have had to conduct and publish from research). For
 more information on Research Opportunity and Performance Evidence (ROPE)
 see the ARC ROPE Policy.
+
 ** C8. Research Opportunity and Performance Evidence (ROPE) - Significant research outputs
    :PROPERTIES:
    :pages:    4
    :END:
+ # #+BEGIN_LATEX
+ # \doublespacing
+ # #+END_LATEX
+
+**** Refereed Journal Articles
+
+  1. * *Paul Bryan*. /Isoperimetric Comparison Techniques for Low Dimension Curvature Flows/. Ph.D. Thesis, Australian National University.     
+  2. * Ben Andrews, *Paul Bryan*. /A comparison theorem for the isoperimetric profile under curve-shortening flow/. Comm. Anal. Geom. 19, 503--539, 2011.
+  3. * Ben Andrews, *Paul Bryan*. /Curvature bound for curve shortening flow via distance comparison and a direct proof of Grayson's theorem/. J. Reine Angew. Math. 653, 179--187. 2011.
+  4. * Ben Andrews, *Paul Bryan*. /Curvature bounds by isoperimetric comparison for normalized Ricci flow on the two-sphere/. Calc. Var. Partial Differential Equations 39, 419--428, 2010.
+
+**** Other
+***** Pre-prints
+  1. * *Paul Bryan*. /Curvature bounds via an isoperimetric comparison for Ricci flow on surfaces/. 2014. Available http://arxiv.org/abs/1403.4654. 
+  1. *Paul Bryan*, Janelle Louie. /Ancient solutions of the curve shortening flow on the two-sphere/. 2014.
+***** Invited Talks
+  1. May 2014 /A history of Isoperimetric Problems/. UCSC Colloquium.
+  2. March 2014 /Isoperimetric Problems in Geometry/. UCI Geometry Seminar.
+  3. October 2013 /Polar Dual of Convex Bodies and Curvature Flows/. UCSD Differential Geometry Seminar.
+  4. May 2013 /Isoperimetry and Viscosity Solutions in Geometric Evolution Equations/. Pacific Northwest Geometry Seminar.
+  5. October 2012 /Isoperimetric comparison techniques for Ricci flow on surfaces/. UCSD Differential Geometry Seminar.
+  6. Jun 2012 /A Viscosity Equation for the Isoperimetric Profile of Surfaces/. Peking University, Analysis Seminar.
+  7. Sep 2011 /An Isoperimetric Comparison Theorem for the Ricci Flow on Surfaces/. 55th Annual Australian Mathematical Society Meeting.
+  8. Aug 2011 /An Isoperimetric Comparison Theorem for the Ricci Flow on Surfaces/. Peking University, Analysis Seminar.
+  9. Mar 2009 /An Isoperimetric Comparison Theorem for the Ricci Flow on the $2$-sphere/. Workshop on Nonlinear Analysis, Australian National University.
+  10. Oct 2008 /A Distance Comparison Theorem for the Curve Shortening Flow/. Workshop on Geometric Analysis, University of Wollongong.
+  11. Feb 2007 /The Curve Shortening Flow: Grayson's Theorem/. AMSI/CSIRO The Big Day In.
+
 *** Notes							   :noexport:
 
 - List outputs under the following headings and in this order:
@@ -114,6 +158,15 @@ see the ARC ROPE Policy.
    :PROPERTIES:
    :pages:    4
    :END:
+  I have been working on the connection between isoperimetric problems and curvature flows since my Ph.D. thesis. Using variational techniques, I discovered the underlying structure behind prior investigations \cite{MR1369140,MR1369139,MR1656553} in papers published in either A or A* ranked journals (by the former ARC ranking). This structure manifests itself through a viscosity differential inequality for the /isoperimetric profile/ of a surface and is also described in the pre-print \cite{ricci_iso}. One of the referees for my thesis described the exposition as "one of the clearest explanations of the isoperimetric profile". 
+
+  The approach used, for instance in my work with Ben Andrews \cite{MR2729306} extends the isoperimetric comparison techniques in \cite{MR1369140,MR1369139} to obtain a direct curvature bound for solutions of the normalised Ricci flow on the two-sphere, leading directly to a proof that solutions of the normalised Ricci flow smoothly converge to a constant curvature metric. Prior to this, the proof relied on a good deal of extra machinery, beginning with a proof for /positively/ curved metrics in \cite{MR954419} employing a Harnack inequality and then later proven for general metrics in \cite{MR1094458} by employing an entropy inequality. The standout features of our approach are that we were able, via a comparison with a model solution, to obtain the direct curvature bound mentioned above, along with a bound on the isoperimetric constant. The two combined give extremely strong control of the flow, both geometrically and analytically; the latter since the isoperimetric constant equals the Sobolev constant. These results are extended to arbitrary surfaces in \cite{ricci_iso}.
+
+  The paper \cite{MR2794630}, was described by the Mathematical Reviews of the AMS as an "...article [that] presents another significant simplifying contribution". We used the viscosity approach to again obtain strong control over the flow in the form of a curvature bound, leading directly to a proof of the Gage-Hamilton-Grayson theorem \cite{MR840401,MR906392} that any embedded curve in the plane smoothly converges to a round circle under the normalised Curve Shortening Flow. The technique was inspired by the distance comparison principle in \cite{MR1656553} which has been generalised to higher dimensions in \cite{MR2967056,MR3011290}. Our paper \cite{MR2794630} strongly influenced the development in higher dimensions, which in turn heavily influenced the recent successes solving the Hsiang-Lawson conjecture \cite{brendlelawson} for minimal tori in $\sphere^3$ and the Pinkall-Stirling conjecture for CMC tori in $\sphere^3$ \cite{2012arXiv1204.5007A}. The paper \cite{alpha_csf_dist_comp} in preparation further elucidates the underlying viscosity equation, and extends it to a greater class of flows.
+
+  As further testament to the importance of this approach, in \cite{MR2843240} we offered yet another proof of the Gage-Hamilton-Grayson theorem, obtaining a viscosity equation for the /relative/ isoperimetric profile for the Curve Shortening Flow. 
+
+  One striking feature of the comparison results described above, is that the model comparison used comes from an /ancient/ solution of the flow. Ancient solutions are solutions are important in that they model singularity formation of flows, a very active area of current research \cite{MR3020169,MR2993752}. Such solutions have been classified in certain situations in \cite{MR2669361, MR2971286} as either the trivial solutions or the model solutions used in the above comparison results. I have begun exploring the connections in the preprint \cite{csf_ancient_twosphere}, classifying ancient solutions of the Curve Shortening Flow on the two-sphere.
 *** Notes							   :noexport:
 Please upload a PDF of no more than four A4 pages detailing your Research Impact and
 contributions to the research field of this proposal and evidence of your performance
@@ -265,37 +318,38 @@ o References may be in 10 point Times New Roman or equivalent font.
 Analysis and geometric techniques for fully non-linear problems in geometry and PDE.
 
 *** AIMS AND BACKGROUND
-o Briefly outline the aims and background of the Proposal.
-o Include information about national/international progress in this field of
-research and its relationship to this Proposal.
-o Refer only to publications or non-traditional equivalents (outputs) that are
-accessible to the national and international research communities.
 
-  This project has aims falling into one of three broad, related categories: isoperimetry, convexity and geometric flows.
+This project has aims straddling three broad, interrelated programs: 
 
-***** _Isoperimetry_
+1. Isoperimetric comparisons,
+2. estimates for fully non-linear geometric evolution equations, and
+3. singularities, symmetries and ancient solutions of fully non-linear geometric evolution equations.
+
+***** _Isoperimetric Comparisons
 
       The isoperimetric profile of a Riemannian manifold was introduced in the 1980's \cite{MR875084,MR999971} to study isoperimetric inequalities on Riemannian manifolds. By definition, for a given real number $x$, the isoperimetric profile $I(x)$ is the infimum of the boundary area of all domains with volume equal to $x$.  For instance, the isoperimetric profile of the plane is $I(x) = \sqrt{4\pi x}$ which follows immediately from the classical isoperimetric inequality $L^2 \geq 4\pi A$ with equality attained by round circles.
 
     A major outstanding conjecture in this area is the Aubin-Cartan-Hadamard conjecture \cite{MR0448404, MR936419} stating that a Cartan-Hadamard manifold with sectional curvature bounded above by $K_0$ has isoperimetric profile bounded below by the isoperimetric profile of the simply-connected model space of constant section curvature $K_0$. This has been proven in dimension 2 \cite{zbMATH02588223}, dimension 3 \cite{MR1156385,MR2167269} and dimension 4 \cite{MR608287} (for $K_0 = 0$ only), but still remains outstanding in general. Using the curve shortening flow, an analogous comparison for rotationally symmetric model spaces with total positive curvature less than $2\pi$ was obtained in \cite{MR1417620} in dimension $2$. This was also one of the first works to characterise isoperimetric regions in spaces with non-constant curvature. In the twenty or so years since then, much research has been undertaken to increase the understanding of isoperimetric domains \cite{MR1883725, MR1661278} yet in general, as the Aubin-Cartan-Hadamard conjecture suggests, we have only so far scratched the surface of this deep problem.
 
-  *Aim 1* _Comparison theorems for the isoperimetric profile._
+******  *Aim 1* _Comparison theorems for the isoperimetric profile._
 
   In \cite{ricci_iso,pbthesis,MR2843240,MR2794630}, a (parabolic) viscosity differential inequality for the isoperimetric profile is used to obtain a comparison principle for the isoperimetric profile evolving under curvature flows. The elliptic version of this inequality is also used to investigate properties of the isoperimetric profile. For example, in positive curvature, the isoperimetric profile is concave and hence isoperimetric regions have connected boundary (see also \cite{MR1674097}). Such results are broadly applicable as for instant in the the recent work of \cite{MR3608721} showsing that the Levy-Gromov isoperimetric inequality holds in RCD spaces; that is those metric measure spaces with lower Ricci bounds \cite{Sturm,Lott-Vilani}. This result relates closely to the viscosity equation mentioned above via \cite{MR3544942} in which the ellptic version of the viscosity equation is used to prove the Levy-Gromov isoperimetric inequality in the smooth setting.
 
   The aim here is to extend classical comparison results (see e.g. \cite{MR2229062, MR1063226}) under lower curvature bound assumptions for the isoperimetric profile to more general spaces. In particular, sharp comparisons may be obtained comparing against radially symmetric model space with such as those studied in \cite{MR839689, MR2836657,MR1417620}. The expectation is that sharper comparisons may be obtained in this situation by allowing variable comparisons. The radial models themselves have been studied in \cite{Ritore, Morgan-Hass-Hutchings, recent Morgan paper about rotational symmetric and counter example} with models existing displaying various pathologies and one might hope to dedeuce whether these pathologies capture the higher dimensional behaviour also.
 
-  *Aim 2* _The isoperimetric profile of covers._
+****** *Aim 2* _The isoperimetric profile of covers._
   
   In \cite{MR2729306, ricci_iso}, the isoperimetric comparison theorem gives a bound on the isoperimetric constant on the universal cover of a closed surface. It would be desirable to transfer the bound on the isoperimetric constant from the universal cover to the surface, since then very strong control is obtained over the geometry and also the analysis via the Sobolev constant, allowing interpolation techniques to be used to obtain higher regularity. In \cite{MR1354290}, it is shown that the growth of the isoperimetric profile on the universal cover of tori is $\sqrt{Ca}$ with $C\leq 4\pi$ and equality is attained precisely on the flat torus. The aim of this part of the project is to obtain similar control for general surfaces, proving that $I(x)/x^2 \leq C$ with $C \leq (1-\genus)A$, equality being attained on the constant curvature surface.
 
-  *Aim 3* _Fully non-linear comparisons for the Einstein volume._
+****** *Aim 3* _Fully non-linear comparisons for the Einstein volume._
 
   XCF.
 
-  *Aim 4* Isoperimetric profile of Ricci solitons
+****** *Aim 4* Isoperimetric profile of Ricci solitons
 
   Using the potential function as exhaustion, try to apply Ritore's techniques and obtain curvature control.
+
+****** *Aim 5* $k^{\alpha}$ distance comparison.
 
 ****** Notes							   :noexport:
 
@@ -335,54 +389,119 @@ accessible to the national and international research communities.
   - Heintze: comparison \cite{MR0493885} \cite{MR936318}
   - variations and stability: \cite{MR917854,MR731682}
 
+***** _Estimates for fully non-linear geometric evolution equations_
+****** Harnack estimates.
+- Build on our work mentioning Julian's grant.
+- A-priori estimates for approximating solutions to $k^{\alpha}$ flows.
+- Matrix Harnack for high co-dimension flows.
 
+****** Modulus of continuity.
 
+- Works well from Ben and Julies work.
+- Works also in the viscosity setting by Xioalong and Kui's works. Could be quite powerful for obtaining estimates particularly in the mean convex MCF setting.
+- Apply it to the speed of the flow like in the Harnack.
+- Answer Balmer's question about time-of-existence close to a model implies initially close to the model. He already has a paper on this.
+- Relation to Harnack.
+- One-dimensional comparison and rotationally symmetric models like Langer.
+- Deal with non-constant curvature by comparison with radial model. e.g. for MCF, we have $u = \partial_t \ln H$. In the sphere, we can add a constant bonus term $u = \partial_t \ln H + K_0$ where $K_0$ is the background curvature. More generally, we'd like to add something like $u = \partial_t \ln H + f(Rm)$. The problem is that then we take $(\partial_t - \Delta) u$ which introduces second derivatives of $Rm$ from the $\Delta$ (maybe it's okay because they might cancel with the $\partial_t Rm$ terms?) and things get out of hand. Still there are also $\nabla Rm$ terms just with $u = \partial_t \ln H$ and it's not clear how to cancel these. But if instead we have something like $u = \partial_t \ln H + f(t, \rho(x))$ where $\rho(x) = d(x, x_0)$ is the distance from a fixed point it may be possible to do radial comparisons.
+
+***** _Singularities, symmetries and ancient solutions of fully non-linear geometric evolution equations_
+- Classification of ancient solutions.
+- Linearisation techniques.
+- Conformal symmetries of the sphere.
+- Eigenvalue and area estimates for minimal surfaces, including singular ones!
 *** PROJECT QUALITY AND INNOVATION
-o Explain how the research addresses a significant problem.
-o Outline the conceptual/theoretical framework, design and methods and
-demonstrate that these are adequately developed, well integrated,
-innovative and original?
-o If the research has been nominated as focussing upon a topic or outcome
-that falls within one of the Science and Research Priorities, explain how it
-addresses one or more of the associated Practical Research Challenges
-(as selected in question B1 of the Proposal form).
-o Explain how the aims, concepts, methods and results advance knowledge.
+- Explain how the research addresses a significant problem.
+- Outline the conceptual/theoretical framework, design and methods and demonstrate that these are adequately developed, well integrated, innovative and original?
+- If the research has been nominated as focussing upon a topic or outcome
+that falls within one of the Science and Research Priorities, explain how it addresses one or more of the associated Practical Research Challenges (as selected in question B1 of the Proposal form).
+- Explain how the aims, concepts, methods and results advance knowledge.
+
+**** _Isoperimetric Comparisons
+
+  *Aim 1* _Comparison theorems for the isoperimetric profile._
+  
+  The principal innovation here is to obtain finer comparisons than comparison with constant curvature spaces. This idea was used in \cite{ricci_iso,pbthesis,MR2843240,MR2729306} to extend the isoperimetric comparisons with constant curvature spaces \cite{MR1369140,MR1369139} to radially symmetric comparisons under curvature flows. Here an understanding of the isoperimetric profile of radially symmetric surfaces is required. This has been carried out to a certain extent in \cite{MR1883725} and \cite{MR1714389}. One immediate difficulty encountered is that isoperimetric regions may not be radially symmetric unless curvature conditions are imposed, which may restrict the comparison models allowed, much as in \cite{MR839689, MR2836657}. Alternatively, a comparison with radially symmetric domains may be obtained, even though in general this is not necessarily the isoperimetric profile. This latter technique was already used successfully in \cite{MR2729306}. 
+
+  Another aspect of this aim is to obtain comparisons under upper bound curvature assumptions, such as in the Aubin-Cartan-Hadamard conjecture. The comparison is currently known for geodesic balls by classical comparison theorems; an investigation of to what extend this may be extended to (tangentially) convex and star-shaped domains via radial geometry comparison techniques will also be undertaken. This approach is similar to the radial comparison techniques discussed above and will require developing and applying suitable analogues of the Rauch comparison theorem \cite{MR1063226} to the radial geometry setting.
+
+  *Aim 2* _The isoperimetric profile of covers._ (Collaborator Ben Andrews)
+  
+  The innovation here is in controlling the length of the shortest geodesic to transfer control of the isoperimetric profile on the universal cover of a closed surface, to that of the closed surface itself. By deforming a closed curve (the boundary of an isoperimetric region on a surface) to a closed geodesic, it is possible to bound the boundary length in terms of the shortest geodesic. This technique uses ideas similar to Blashke's proof of the Gauss-Bonnet theorem \cite{MR0015247}. Already, it looks possible to prove the result for tori (which is already known), and as mentioned the novel part of this approach is for higher genus surfaces. 
+
+****** notes							   :noexport:
+   For more general surfaces, an isoperimetric inequality is usually insufficient because of a lack of scaling and since isoperimetric domains (domains with $L = I(A)$) may have varying topological type. For instance on the standard torus, isoperimetric domains are geodesic balls for small $x$ and annuli for larger $x$. The isoperimetric profile encapsulates all this behaviour and thus provides the finer information necessary for the general Riemannian case. Even in the case of surfaces, determining isoperimetric domains is a non-trivial problem; in \cite{MR1883725}, the question of whether isoperimetric domains in rotationally symmetric planes are also rotationally symmetric is addressed. Under the assumption that the Gauss curvature is positive and decreasing in the radial direction, this is proven, however, an example of a rotationally symmetric plane where no isoperimetric domain is rotationally symmetric is also given.
+
+**** _Estimates_
+
+  *Aim 1* _Convex bodies in Riemannian manifolds._
+ 
+  A major innovation here is through the study is a support function for manifolds with conformal Killing vector fields, in which situation, the Bochner-like formula becomes an inequality. This is still amenable to the maximum principle and similar results as discussed in the backgrounds and aims section above should still be obtainable. This approach has been applied in \cite{MR1722814} to study CMC hypersurfaces in warped product spaces and this looks like just the beginning of the theory. A particular feature of the warped product situation is that the manifold may be foliated by totally geodesic submanifolds, generalising the classical foliation of $\RR^n$ by spheres. A first step in this direction would be to study situations with more rigid geometric structures such as Lie groups and symmetric spaces where suitable foliations may be obtained, and then to move onto the conformal Killing situation. The intermediate steps would be suitable for the involvement of graduate students.
+
+  The other major innovation is in determining to what extend these methods may be extended to study even more general situations: the support function may be defined via the vector field $X = d \grad d$, or more generally as a suitably chosen radial vector field $X$. Weak methods and comparison theory must be applied such as in \cite{MR1695025} to obtain regularity of the cut-locus and in \cite{MR2872966, MR2784296} within the context of optimal transport theory. In the latter work, the authors conjecture that the cut-locus is semi-concave, which is proven for surfaces in \cite{MR2784296}. The aim here is to apply such weak methods, and comparison theory to derive results similar to those discussed in the previous paragraph, and to study the question of semi-concavity of the cut-locus. The latter requires second order estimates of the distance function, which will be obtained by applying regularity techniques such as those developed through oscillation estimates for the distance function on a Riemannian manifold \cite{MR2784332}. 
+
+  Since the injectivity domain is a star-shaped region in $\RR^n$, there is a natural foliation, and part of this project will involve determining what conditions correspond to suitable foliations (e.g by minimal or constant mean curvature hypersurfaces). Therefore, results obtained here will be applicable to the study of constant mean curvature hypersurfaces and hence also the isoperimetric problem.
+
+**** _Singularities and Symmetries_
+
+  *Aim 1* _Isoperimetric comparisons and geometric flows._
+  
+  The major contribution of this part of the project will be to determine conditions (topological and/or curvature related) for which the isoperimetric profile satisfies a useful evolution equation under the Ricci flow. The principal difficulty faced here is determining integral curvature invariants such as in the Gauss-Bonnet formula for surfaces. A promising possibility is the K\"ahler-Ricci flow, where there are a number of curvature integral invariants. Appropriate variations will need to be constructed to obtain such curvature invariants, requiring the solutions of second order, non-linear (probably degenerate) equations. Some extra freedom may be obtained from the fact that only inequalities are required and that the addition of tangential components to the second variation formula may be employed without changing the integrals involved. These latter two features should be enough to render the problem tractable, at least in certain symmetric and/or rigid situations such as the K\"ahler case.
+
+  *Aim 2* _Convexity and geometric flows._
+
+  The innovation in this part is to apply the convexity theory developed in other parts of this project to study curvature flows. In particular, obtaining Harnack inequalities as described in the aims and background section for curvature flows in Riemannian spaces would make available many results obtained for Euclidean space. A theory of polar dual bodies also allows for lower curvature bounds to be obtained as described in the aims and background section.
+
+**** Notes 							   :noexport:
+  The proposed research addresses several current, actively studied problems: the connection between curvature, topology and isoperimetry and obtain more precise comparisons than existing ones. As discussed in "Aims and Background", the understanding of the isoperimetric profile is limited to special cases such as surfaces, constant curvature spaces, and minimal surfaces. The Aubin-Cartan-Hadamard conjecture still remains open despite the relatively simple properties of Cartan-Hadamard manifolds. 
+
+  Convexity allows global methods, and the Euclidean case is well understood, but though generalisations are possible, this is still lacking. Many interesting situations are not amenable to such global methods and so some sort of localisation is required.
+
+  The connection between these and curvature flows, particularly in singularity formulation is there for the picking. 
+
+  My work with flows allows for very strong results to be obtained and is very new and still being explored and understood. It is highly innovative, with no one else realising the connection before. It is also highly effective. The methods should be broadly applicable and the results should be well regarded.
+
+
 *** DECRA CANDIDATE
-o Describe how the DECRA Candidate will have the time and capacity to
+- Describe how the DECRA Candidate will have the time and capacity to
 undertake the proposed research, taking into account any other grants or
 roles they may hold. 
-Discovery for Early Career Researcher Award for funding commencing in 2018 – Instructions to
-Applicants
-19
+
+  The MSI will host the candidate during this grant and will make up the shortfall in salary between the DECRA salary and the position at MSI. The teaching and administrative requirements are minimal, allowing the candidate more time to focus on research than has been available to him in the past. At this stage, the candidate will hold no other grants and will have no additional responsibilities besides the teaching and administrative requirements already mentioned. This will allow the candidate to focus his energies on conducting research, allowing him ample time to establish and implement the research program.
+
 *** FEASIBILITY
-o Explain how the design of the proposed project, the expertise of the
-participants and requested budget will be sufficient to ensure the project can
-be successfully completed within the proposed budget and timeframe.
-o Describe whether there is an existing, or developing, supportive and high
-quality environment for this Candidate, their Project and for Higher Degree
-by Research students where appropriate.
-o Describe the necessary facilities available to complete the Project.
+- Explain how the design of the proposed project, the expertise of the participants and requested budget will be sufficient to ensure the project can be successfully completed within the proposed budget and timeframe.
+- Describe whether there is an existing, or developing, supportive and high quality environment for this Candidate, their Project and for Higher Degree by Research students where appropriate.
+- Describe the necessary facilities available to complete the Project.
+
+  The project builds on the candidates existing expertise and has a high chance of producing strong research outcomes. The aims are ambitious, but involve many intermediate steps along the away, ensuring continual progress throughout the duration of the project. The aims closely align with the expertise of the MSI, with several experts in the field available to offer support and guidance to the candidate.
+
 *** BENEFIT
-o Outline how the completed project will produce significant new knowledge
-and/or innovative economic, commercial, environmental, social and/or
-cultural benefit to the Australian and international community.
-o Describe how the proposed research will be cost-effective and value for
-money.
+- Outline how the completed project will produce significant new knowledge and/or innovative economic, commercial, environmental, social and/or cultural benefit to the Australian and international community.
+- Describe how the proposed research will be cost-effective and value for money.
+
+  The funding requested is minimal, consisting principally of salary and a modest request for travel. Hence the execution of the of the project offers excellent value for money, particularly as the candidates research to date, shows that the methods described in this proposal are extremely effective.
+
+  The research is highly innovative, with strong results already obtained by these methods, and involves international collaboration strengthening Australia's ties with research institutes in the US and China.
+
 *** COMMUNICATION OF RESULTS
-o Outline plans for communicating the research results to other researchers
-and the broader community, including but not limited to scholarly and public
-communication and dissemination.
+- Outline plans for communicating the research results to other researchers and the broader community, including but not limited to scholarly and public communication and dissemination.
+
+- Papers.
+- Conferences.
+- Visitors.
+
 *** MANAGEMENT OF DATA
-o Outline plans for the management of data produced as a result of the
-proposed research, including but not limited to storage, access and re-use
-arrangements.
-o It is not sufficient to state that the organisation has a data management
-policy. Researchers are encouraged to highlight specific plans for the
-management of their research data.
+- Outline plans for the management of data produced as a result of the proposed research, including but not limited to storage, access and re-use arrangements.
+- It is not sufficient to state that the organisation has a data management policy. Researchers are encouraged to highlight specific plans for the management of their research data.
+
+  The project will primarily generate research articles, published in scholarly journals, with standard access are re-use arrangements. Preference will be given to open access journals with their access and re-use arrangements.
+
 *** REFERENCES
-o Include a list of all references, including relevant references to the
-Participant’s previous work
-o References may be in 10 point Times New Roman or equivalent font. 
+- Include a list of all references, including relevant references to the Participant’s previous work
+- References may be in 10 point Times New Roman or equivalent font. 
+
+\printbibliography
 
 ** D2 Organisational Statement 				      :exportprojorg:
 *** Notes							   :noexport:
