@@ -1006,3 +1006,57 @@ roles they may hold.
 
 *** Establish Geometric Analysis Forum				   :noexport:
  - Need web hosting for early dissemination and discussion based on SPNET. Leverage existing technology like Google+ for discussions and video conferencing. What about broadcasting seminars from leading geometric analysts?
+* XCF Project
+
+Let
+\[
+E = \operatorname{Ric} - \tfrac{1}{2} R g
+\]
+be the Einstein tensor where $\operatorname{Ric}$ is the Ricci tensor and $R$ the scalar curvature. Since $E$ is symmetric, we may write $E(X, Y) = g(\mathcal{E} (X), Y)$ for a $g$ self-adjoint endomorphism $\mathcal{E}$. Also let $\operatorname{adj} \mathcal{E}$ denote the adjugate of $\mathcal{E}$ defined as the $\wedge$-adjoint of $\wedge^{n-1} \mathcal{E}$:
+\[
+\operatorname{adj} \mathcal{E} (X) \wedge \eta = X \wedge (\wedge^{n-1} \mathcal{E}) \eta
+\]
+for any tangent vector $X$ and $n-1$-vector $\eta$. Finally, writing $\adj E (X, Y) = g(\adj \mathcal{E} (X), Y)$, we define the /adjugate Einstein flow/:
+\[
+\partial_t g = \adj E.
+\]
+
+Alternatively, define the Einstein-Ricci tensor,
+\[
+\operatorname{Ric}_E (X, Y) = \operatorname{Tr} \left(Z \mapsto \operatorname{Rm} (\mathcal{E}(Z), X) Y,
+\]
+and the Einstein-Ricci flow,
+\[
+\partial_t g = 2 \operatorname{Ric}_E.
+\]
+
+In three dimensions, $\adj E = 2 \operatorname{Ric}_E$ and so both flows agree and are known as the Cross Curvature Flow (XCF). There is an interesting parallel with the Ricci and Yamabe flows, which agree in two dimensions. The Ricci flow is the evolution equation,
+\[
+\partial_t g = -2 \operatorname{Ric}
+\]
+while the Yamabe flow is the evolution equation,
+\[
+\partial_t g = - R g.
+\]
+The latter flow is a conformal flow and in the critical dimension 2, so is the Ricci flow.
+
+Let us write $E^{-1}(X, Y) = g(\mathcal{E} (X), Y)$ in the case of strictly negative curvature, in which case the adjugate Einstein equation exhibits a conformal-like structure,
+\[
+\partial_t g = \det \mathcal{E} E^{-1}.
+\]
+
+Pursuing the analogy further, the conformal nature of $\ric$ in 2 dimensions is closely related to the Gauss-Bonnet formula,
+\[
+\int_M K = 2\pi \chi (M)
+\]
+where $\chi(M)$ denotes the Euler characteristic of $M$ which is the alternating sum of the Betti numbers. Briefly recall that in order to prove the Gauss-Bonnet formula, one applies the Poincare-Hopf index theorem to a vector field $e_1$ which is completed to a basis $\{e_1, e_2\}$ away from the zeros of $e_1$ and uses the Cartan structure equations in the form
+\[
+d \omega = K \theta^1 \wedge \theta^2
+\]
+where $d$ is the exterior derivative, $\omega$ is the connection one-form, $K$ the Gauss curvature and $\theta^i$ the dual basis to $e_i$. Integrating and applying Stokes' theorem gives the sum of the index of $e_1$ at each zero which is equal to the Euler characteristic.
+
+The relevance here is that the Gauss-Bonnet theorem played a pivotal role in the proof of the isoperimetric comparison theorems for the Ricci flow in \cite{Bryan,MR2729306}. There, the theorem was applied to the second variation of perimeter of isoperimetric domains to obtain a viscosity equation for the isoperimetric profile which formed the basis of the comparison theorem. In three dimensions, a consequence of the Poincare-Hopf index lemma is that one always has a non-vanishing vector field $X$ at one's disposal, and by Hodge duality, also a non-vanishing two-vector field $\eta$. Then the aim is to find a topological invariant modeled on Gauss-Bonnet by writing terms arising in the second variation of the Einstein volume as $d\zeta$ for a two-form $\zeta$ obtained by exploiting Hodge duality via the Einstein tensor, and then deriving a viscosity equation for the Einstein Isoperimetric Profile, giving the least area for a given volume as measured by the induced volume form and surface measure by the Einstein tensor:
+\[
+I_E (x) = \inf\{\operatorname{Area}_E (\Omega) : \operatorname{Vol}_E (E) = x\}.
+\]
+In the critical dimension three, one hopes to be able to exploit such topological invariants arising from the conformal-like structure of the cross curvature flow, as well as Hodge duality identifying vectors and two-vectors.
