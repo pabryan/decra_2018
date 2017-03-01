@@ -374,22 +374,33 @@ Analysis and geometric techniques for fully non-linear problems in geometry and 
 
 *** Aims And Background
 
-This project has aims straddling three broad, interrelated programs: 
+This project has aims straddling four broad, interrelated programs: 
 
 1. Isoperimetric comparisons,
-2. Estimates for fully non-linear geometric evolution equations, and
-3. Singularities, symmetries and ancient solutions of fully non-linear geometric evolution equations.
+2. The Cross Curvature Flow,
+3. Singularities, symmetries and ancient solutions of fully non-linear geometric evolution equations,
+4. Estimates for fully non-linear geometric evolution equations.
 
-When combined these programs have applications to a range of problems. In this project, they will be applied to classic geometric flows such as the Ricci flow, Curve Shortening Flow and Mean Curvature Flow to obtain new results and to re-examine old results in a new light. But the program goes considerably deeper, developing new techniques to prove theorems for fully non-linear flows such as the Cross Curvature Flow, Planar Flow by Powers of Curvature, and general hypersurface flows. Further applications of these theorems will be used to prove isoperimetric comparisons and curvature dependent topological results.
+When combined these programs have applications to a range of problems. In this project, they will be applied to classic geometric flows such as the Ricci flow, Curve Shortening Flow and Mean Curvature Flow to obtain new results and to re-examine old results in a new light. But the program goes considerably deeper, developing new techniques to prove theorems for fully non-linear flows such as the Cross Curvature Flow, Planar Flow by Powers of Curvature, and general hypersurface flows in Riemannian backgrounds. The fourth program on estimates is interwoven with the other three, but the estimates themselves are of broad applicability and interest.
+
+The programs and techniques then have further applicability to several outstanding problems such as:
+
+1. The Aubin-Cartan-Hadamard conjecture stating that a complete manifold of negative sectional curvature bounded above by $-K_0 \leq 0$ has isoperimetric profile bounded below by the constant curvature model;
+2. Prove a three-manifold of strictly negative sectional curvature admits a metric of constant negative curvature;
+3. Prove the moduli space of negative sectional curvature metrics on a closed hyperbolic three-manifold is path connected;
+4. Obtain area bounds for minimal surfaces depending on the index and the size of eigenvalues, particularly the first eigenvalue.
 
 ***** Isoperimetric Comparisons
 
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-      The isoperimetric profile of a Riemannian manifold was introduced in the 1980's \cite{MR875084,MR999971} to study isoperimetric inequalities on Riemannian manifolds. By definition, for a given real number $x$, the isoperimetric profile $I(x)$ is the infimum of the boundary area of all domains with volume equal to $x$.  For instance, the isoperimetric profile of the plane is $I(x) = \sqrt{4\pi x}$ which follows immediately from the classical isoperimetric inequality $L^2 \geq 4\pi A$ with equality attained by round circles.
 
-    A major outstanding conjecture in this area is the Aubin-Cartan-Hadamard conjecture \cite{MR0448404, MR936419} stating that a Cartan-Hadamard manifold with sectional curvature bounded above by $K_0$ has isoperimetric profile bounded below by the isoperimetric profile of the simply-connected model space of constant section curvature $K_0$. This has been proven in dimension 2 \cite{zbMATH02588223}, dimension 3 \cite{MR1156385,MR2167269} and dimension 4 \cite{MR608287} (for $K_0 = 0$ only), but still remains outstanding in general. Using the curve shortening flow, an analogous comparison for rotationally symmetric model spaces with total positive curvature less than $2\pi$ was obtained in \cite{MR1417620} in dimension $2$. This was also one of the first works to characterise isoperimetric regions in spaces with non-constant curvature. In the twenty or so years since then, much research has been undertaken to increase the understanding of isoperimetric domains \cite{MR1883725, MR1661278} yet in general, as the Aubin-Cartan-Hadamard conjecture suggests, we have only so far scratched the surface of this deep problem.
+The isoperimetric profile of a Riemannian manifold was introduced in the 1980's \cite{MR875084,MR999971} to study isoperimetric inequalities on Riemannian manifolds. By definition, for a given real number $x$, the isoperimetric profile $I(x)$ is the infimum of the boundary area of all domains with volume equal to $x$.  For instance, the isoperimetric profile of the plane is $I(x) = \sqrt{4\pi x}$ which follows immediately from the classical isoperimetric inequality $L^2 \geq 4\pi A$ with equality attained by round circles.
+
+A major outstanding conjecture in this area is the Aubin-Cartan-Hadamard conjecture \cite{MR0448404, MR936419} stating that a Cartan-Hadamard manifold with sectional curvature bounded above by $K_0$ has isoperimetric profile bounded below by the isoperimetric profile of the simply-connected model space of constant section curvature $K_0$. This has been proven in dimension 2 \cite{zbMATH02588223}, dimension 3 \cite{MR1156385,MR2167269} and dimension 4 \cite{MR608287} (for $K_0 = 0$ only), but still remains outstanding in general. Using the curve shortening flow, an analogous comparison for rotationally symmetric model spaces with total positive curvature less than $2\pi$ was obtained in \cite{MR1417620} in dimension $2$. This was also one of the first works to characterise isoperimetric regions in spaces with non-constant curvature. In the twenty or so years since then, much research has been undertaken to increase the understanding of isoperimetric domains \cite{MR1883725, MR1661278} yet in general, as the Aubin-Cartan-Hadamard conjecture suggests, we have only so far scratched the surface of this deep problem.
+
+Isoperimetric comparisons also play an important role in the study of curvature flows. In the papers \cite{MR2729306,MR2843240,MR2794630,Bryan}, isoperimetric estimates under curvature flows were used to obtain curvature bounds and direct proofs of convergence results. Such comparisons are very powerful and could prove extrelemly effective in the analysis of higher dimensional Ricci flow, Yamabe flow, the Cross Curvature Flow and the Curve Shortening Flow of networks, currently a very actively studied flow and where such techniques have found success already \cite{MR2763716}.
 
 ****** *Aim 1* Comparison theorems for the isoperimetric profile.
 
@@ -449,15 +460,72 @@ Such comparisons may then be used to tackle problems such as the Aubin-Cartan-Ha
   - variations and stability: \cite{MR917854,MR731682}
 
 ***** The Cross Curvature Flow
+Let
+\[
+E = \operatorname{Ric} - \tfrac{1}{2} R g
+\]
+be the Einstein tensor where $\operatorname{Ric}$ is the Ricci tensor and $R$ the scalar curvature. Since $E$ is symmetric, we may write $E(X, Y) = g(\mathcal{E} (X), Y)$ for a $g$ self-adjoint endomorphism $\mathcal{E}$. Also let $\operatorname{adj} \mathcal{E}$ denote the adjugate of $\mathcal{E}$ defined as the $\wedge$-adjoint of $\wedge^{n-1} \mathcal{E}$:
+\[
+\operatorname{adj} \mathcal{E} (X) \wedge \eta = X \wedge (\wedge^{n-1} \mathcal{E}) \eta
+\]
+for any tangent vector $X$ and $n-1$-vector $\eta$. Finally, writing $\adj E (X, Y) = g(\adj \mathcal{E} (X), Y)$, we define the /adjugate Einstein flow/:
+\[
+\partial_t g = \adj E.
+\]
+
+Alternatively, define the Einstein-Ricci tensor,
+\[
+\operatorname{Ric}_E (X, Y) = \operatorname{Tr} \left(Z \mapsto \operatorname{Rm} (\mathcal{E}(Z), X) Y\right),
+\]
+and the Einstein-Ricci flow,
+\[
+\partial_t g = 2 \operatorname{Ric}_E.
+\]
+
+In three dimensions, $\adj E = 2 \operatorname{Ric}_E$ and so both flows agree and are known as the Cross Curvature Flow (XCF). There is an interesting parallel with the Ricci and Yamabe flows, which agree in two dimensions. The Ricci flow is the evolution equation,
+\[
+\partial_t g = -2 \operatorname{Ric}
+\]
+while the Yamabe flow is the evolution equation,
+\[
+\partial_t g = - R g.
+\]
+The latter flow is a conformal flow and in the critical dimension 2, so is the Ricci flow.
+
+Let us write $E^{-1}(X, Y) = g(\mathcal{E} (X), Y)$ in the case of strictly negative curvature, in which case the adjugate Einstein equation exhibits a conformal-like structure,
+\[
+\partial_t g = \det \mathcal{E} E^{-1}.
+\]
+
+Pursuing the analogy further, the conformal nature of $\ric$ in 2 dimensions is closely related to the Gauss-Bonnet formula,
+\[
+\int_M K = 2\pi \chi (M)
+\]
+where $\chi(M)$ denotes the Euler characteristic of $M$ which is the alternating sum of the Betti numbers. Briefly recall that in order to prove the Gauss-Bonnet formula, one applies the Poincare-Hopf index theorem to a vector field $e_1$ which is completed to a basis $\{e_1, e_2\}$ away from the zeros of $e_1$ and uses the Cartan structure equations in the form
+\[
+d \omega = K \theta^1 \wedge \theta^2
+\]
+where $d$ is the exterior derivative, $\omega$ is the connection one-form, $K$ the Gauss curvature and $\theta^i$ the dual basis to $e_i$. Integrating and applying Stokes' theorem gives the sum of the index of $e_1$ at each zero which is equal to the Euler characteristic.
+
+The relevance here is that the Gauss-Bonnet theorem played a pivotal role in the proof of the isoperimetric comparison theorems for the Ricci flow in \cite{Bryan,MR2729306}. There, the theorem was applied to the second variation of perimeter of isoperimetric domains to obtain a viscosity equation for the isoperimetric profile which formed the basis of the comparison theorem. In three dimensions, a consequence of the Poincare-Hopf index lemma is that one always has a non-vanishing vector field $X$ at one's disposal, and by Hodge duality, also a non-vanishing two-vector field $\eta$. Then the aim is to find a topological invariant modeled on Gauss-Bonnet by writing terms arising in the second variation of the Einstein volume as $d\zeta$ for a two-form $\zeta$ obtained by exploiting Hodge duality via the Einstein tensor, and then deriving a viscosity equation for the Einstein Isoperimetric Profile, giving the least area for a given volume as measured by the induced volume form and surface measure by the Einstein tensor:
+\[
+I_E (x) = \inf\{\operatorname{Area}_E (\Omega) : \operatorname{Vol}_E (E) = x\}.
+\]
+In the critical dimension three, one hopes to be able to exploit such topological invariants arising from the conformal-like structure of the cross curvature flow, as well as Hodge duality identifying vectors and two-vectors.
+
+- Can prove the Harnack when we have Codazzi.
+- Question: Does Codazzi imply locally embeddable? Is it topological?
+
+
 ****** *Aim 2* Comparisons for the Einstein volume under the Cross Curvature Flow.
 
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
 
-The Cross Curvature Flow (XCF) was introduced in \cite{MR2055396} in the hopes of deforming negatively curved metrics $g_0$ on a compact three-manifold $M$ to constant curvature metrics in a similar manner to the seminal work on Ricci flow for positively curved metrics \cite{MR664497}.  Very little apart from short-time existence and uniqueness is known about solutions of the cross-curvature flow  \cite{buckland2006short,ma2006examples,knopf2009asymptotic,glickenstein2008riemannian,cao2008cross,cao2009cross}.
+The Cross Curvature Flow (XCF) was introduced in \cite{MR2055396} in the hopes of deforming negatively curved metrics $g_0$ on a compact three-manifold $M$ to constant curvature metrics in a similar manner to the seminal work on Ricci flow for positively curved metrics \cite{MR664497}.  Very little apart from short-time existence and uniqueness \cite{MR2207496} and some results in special situations such as homogeneous spaces and tori \cite{MR2222245,MR2448593,MR2602839, MR2426751,MR2407107, MR2653711, MR2601352} is known about solutions of the cross-curvature flow.
 
-The conjectured asymptotic behavior of the XCF has however been recently confirmed whenever $M$ locally isometrically embeds as a hypersurface into Minkowski space $\RR^{3,1}$ \cite{andrews2015expansion}. The main observation there is that in such a situation, the embedded hypersurface evolves by the Gauss curvature flow. The obstruction to applying this method is the local, isometric embedding problem which is equivalent to isometrically embedding the universal cover of $M$ into $\RR^{3,1}$. Given that $M$ admits a metric of negative sectional curvature, it's cover is a so-called Cartan-Hadamard manifold and well known standard results in differential geometry state that the universal cover is isometric to $\RR^3$ equipped with a negative sectional curvature metric. The difficulty is that one cannot expect in general to isometrically embed this $\RR^3$ into Minkowski space.
+The conjectured asymptotic behavior of the XCF has however been recently confirmed whenever $M$ locally isometrically embeds as a hypersurface into Minkowski space $\RR^{3,1}$ \cite{MR3344442}. The main observation there is that in such a situation, the embedded hypersurface evolves by the Gauss curvature flow. The obstruction to applying this method is the local, isometric embedding problem which is equivalent to isometrically embedding the universal cover of $M$ into $\RR^{3,1}$. Given that $M$ admits a metric of negative sectional curvature, it's cover is a so-called Cartan-Hadamard manifold and well known standard results in differential geometry state that the universal cover is isometric to $\RR^3$ equipped with a negative sectional curvature metric. The difficulty is that one cannot expect in general to isometrically embed this $\RR^3$ into Minkowski space.
 
 In \cite{BIS4} we obtained a Harnack inequality for such a situation which may also be used to obtain the conjecture result in the locally isometrically embedible situation. In fact, all that is required is a Harnack inequality, but his is considerably difficult in the general case, though early computations show it is possible to obtain a Harnack under some assumptions which are satisfied in the locally embedible case, but do not necessarily imply local embedibility.
 
@@ -476,18 +544,9 @@ while the Yamabe flow is the equation,
 \]
 In the critical dimension, $n=2$, the two flows agree.
 
-***** Speed Estimates and Asymptotics
-- Harnack Inequalities.
-  - XCF.
-    - Can prove the Harnack when we have Codazzi.
-    - Question: Does Codazzi imply locally embeddable? Is it topological?
-  - $k^{\alpha}$ flow
-  - Julian's grant: DFG-Grant number is SCHE 1879/1-1 "Harnack inequalities for curvature flows and applications"
-- Modulus of Continuity for the Speed
-  - Can work for level set flow too!
-  - Comparison theorems better suited to fully non-linear equations.
+***** Singularities, symmetries and ancient solutions of fully non-linear geometric evolution equations
+
 - Background space can introduce non-linearities
-***** Ancient Solutions and Symmetries
 - Linearisation near minimal surfaces
 - Conformal symmetries in the sphere
 - Degeneracies and perturbation
@@ -500,10 +559,11 @@ In the critical dimension, $n=2$, the two flows agree.
 - Conformal symmetries of the sphere.
 - Eigenvalue and area estimates for minimal surfaces, including singular ones!
 
-***** Isoperimetric Techniques
 ***** Estimates for fully non-linear geometric evolution equations
+
 ****** Harnack estimates.
-- Build on our work mentioning Julian's grant.
+
+- Julian's grant: DFG-Grant number is SCHE 1879/1-1 "Harnack inequalities for curvature flows and applications"
 - A-priori estimates for approximating solutions to $k^{\alpha}$ flows.
 - Matrix Harnack for high co-dimension flows.
 - XCF
@@ -513,15 +573,16 @@ In the critical dimension, $n=2$, the two flows agree.
 
 ****** Modulus of continuity.
 
+- Comparison theorems better suited to fully non-linear equations.
 - Works well from Ben and Julies work.
-- Works also in the viscosity setting by Xioalong and Kui's works. Could be quite powerful for obtaining estimates particularly in the mean convex MCF setting.
+- Works also in the viscosity setting/level set flow by Xioalong and Kui's works. Could be quite powerful for obtaining estimates particularly in the mean convex MCF setting.
 - Apply it to the speed of the flow like in the Harnack.
 - Answer Balmer's question about time-of-existence close to a model implies initially close to the model. He already has a paper on this.
 - Relation to Harnack.
 - One-dimensional comparison and rotationally symmetric models like Langer.
 - Deal with non-constant curvature by comparison with radial model. e.g. for MCF, we have $u = \partial_t \ln H$. In the sphere, we can add a constant bonus term $u = \partial_t \ln H + K_0$ where $K_0$ is the background curvature. More generally, we'd like to add something like $u = \partial_t \ln H + f(Rm)$. The problem is that then we take $(\partial_t - \Delta) u$ which introduces second derivatives of $Rm$ from the $\Delta$ (maybe it's okay because they might cancel with the $\partial_t Rm$ terms?) and things get out of hand. Still there are also $\nabla Rm$ terms just with $u = \partial_t \ln H$ and it's not clear how to cancel these. But if instead we have something like $u = \partial_t \ln H + f(t, \rho(x))$ where $\rho(x) = d(x, x_0)$ is the distance from a fixed point it may be possible to do radial comparisons.
+- Apply it to \cite{2016arXiv160908238G} to obtain gradient estimates and remove assumptions
 
-***** Singularities, symmetries and ancient solutions of fully non-linear geometric evolution equations
 *** Project Quality And Innovation
 - Explain how the research addresses a significant problem.
 - Outline the conceptual/theoretical framework, design and methods and demonstrate that these are adequately developed, well integrated, innovative and original?
@@ -1029,55 +1090,3 @@ roles they may hold.
  - Need web hosting for early dissemination and discussion based on SPNET. Leverage existing technology like Google+ for discussions and video conferencing. What about broadcasting seminars from leading geometric analysts?
 * XCF Project
 
-Let
-\[
-E = \operatorname{Ric} - \tfrac{1}{2} R g
-\]
-be the Einstein tensor where $\operatorname{Ric}$ is the Ricci tensor and $R$ the scalar curvature. Since $E$ is symmetric, we may write $E(X, Y) = g(\mathcal{E} (X), Y)$ for a $g$ self-adjoint endomorphism $\mathcal{E}$. Also let $\operatorname{adj} \mathcal{E}$ denote the adjugate of $\mathcal{E}$ defined as the $\wedge$-adjoint of $\wedge^{n-1} \mathcal{E}$:
-\[
-\operatorname{adj} \mathcal{E} (X) \wedge \eta = X \wedge (\wedge^{n-1} \mathcal{E}) \eta
-\]
-for any tangent vector $X$ and $n-1$-vector $\eta$. Finally, writing $\adj E (X, Y) = g(\adj \mathcal{E} (X), Y)$, we define the /adjugate Einstein flow/:
-\[
-\partial_t g = \adj E.
-\]
-
-Alternatively, define the Einstein-Ricci tensor,
-\[
-\operatorname{Ric}_E (X, Y) = \operatorname{Tr} \left(Z \mapsto \operatorname{Rm} (\mathcal{E}(Z), X) Y,
-\]
-and the Einstein-Ricci flow,
-\[
-\partial_t g = 2 \operatorname{Ric}_E.
-\]
-
-In three dimensions, $\adj E = 2 \operatorname{Ric}_E$ and so both flows agree and are known as the Cross Curvature Flow (XCF). There is an interesting parallel with the Ricci and Yamabe flows, which agree in two dimensions. The Ricci flow is the evolution equation,
-\[
-\partial_t g = -2 \operatorname{Ric}
-\]
-while the Yamabe flow is the evolution equation,
-\[
-\partial_t g = - R g.
-\]
-The latter flow is a conformal flow and in the critical dimension 2, so is the Ricci flow.
-
-Let us write $E^{-1}(X, Y) = g(\mathcal{E} (X), Y)$ in the case of strictly negative curvature, in which case the adjugate Einstein equation exhibits a conformal-like structure,
-\[
-\partial_t g = \det \mathcal{E} E^{-1}.
-\]
-
-Pursuing the analogy further, the conformal nature of $\ric$ in 2 dimensions is closely related to the Gauss-Bonnet formula,
-\[
-\int_M K = 2\pi \chi (M)
-\]
-where $\chi(M)$ denotes the Euler characteristic of $M$ which is the alternating sum of the Betti numbers. Briefly recall that in order to prove the Gauss-Bonnet formula, one applies the Poincare-Hopf index theorem to a vector field $e_1$ which is completed to a basis $\{e_1, e_2\}$ away from the zeros of $e_1$ and uses the Cartan structure equations in the form
-\[
-d \omega = K \theta^1 \wedge \theta^2
-\]
-where $d$ is the exterior derivative, $\omega$ is the connection one-form, $K$ the Gauss curvature and $\theta^i$ the dual basis to $e_i$. Integrating and applying Stokes' theorem gives the sum of the index of $e_1$ at each zero which is equal to the Euler characteristic.
-
-The relevance here is that the Gauss-Bonnet theorem played a pivotal role in the proof of the isoperimetric comparison theorems for the Ricci flow in \cite{Bryan,MR2729306}. There, the theorem was applied to the second variation of perimeter of isoperimetric domains to obtain a viscosity equation for the isoperimetric profile which formed the basis of the comparison theorem. In three dimensions, a consequence of the Poincare-Hopf index lemma is that one always has a non-vanishing vector field $X$ at one's disposal, and by Hodge duality, also a non-vanishing two-vector field $\eta$. Then the aim is to find a topological invariant modeled on Gauss-Bonnet by writing terms arising in the second variation of the Einstein volume as $d\zeta$ for a two-form $\zeta$ obtained by exploiting Hodge duality via the Einstein tensor, and then deriving a viscosity equation for the Einstein Isoperimetric Profile, giving the least area for a given volume as measured by the induced volume form and surface measure by the Einstein tensor:
-\[
-I_E (x) = \inf\{\operatorname{Area}_E (\Omega) : \operatorname{Vol}_E (E) = x\}.
-\]
-In the critical dimension three, one hopes to be able to exploit such topological invariants arising from the conformal-like structure of the cross curvature flow, as well as Hodge duality identifying vectors and two-vectors.
