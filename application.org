@@ -383,14 +383,27 @@ This project has aims straddling four broad, interrelated programs:
 
 When combined these programs have applications to a range of problems. In this project, they will be applied to classic geometric flows such as the Ricci flow, Curve Shortening Flow and Mean Curvature Flow to obtain new results and to re-examine old results in a new light. But the program goes considerably deeper, developing new techniques to prove theorems for fully non-linear flows such as the Cross Curvature Flow, Planar Flow by Powers of Curvature, and general hypersurface flows in Riemannian backgrounds. The fourth program on estimates is interwoven with the other three, but the estimates themselves are of broad applicability and interest.
 
-The programs and techniques then have further applicability to several outstanding problems such as:
-
-1. The Aubin-Cartan-Hadamard conjecture stating that a complete manifold of negative sectional curvature bounded above by $-K_0 \leq 0$ has isoperimetric profile bounded below by the constant curvature model;
-2. Prove a three-manifold of strictly negative sectional curvature admits a metric of constant negative curvature;
-3. Prove the moduli space of negative sectional curvature metrics on a closed hyperbolic three-manifold is path connected;
-4. Obtain area bounds for minimal surfaces depending on the index and the size of eigenvalues, particularly the first eigenvalue.
-
 ***** Isoperimetric Comparisons
+
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+
+****** Aims
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+
+1. Prove the Aubin-Cartan-Hadamard conjecture,
+1. Obtain comparisons of the isoperimetric profile with radial models,
+1. Prove the multiplicity one conjecture for Curve Shortening of Networks,
+1. Prove a Grayson theorem for Homogeneous Curve Shortening Flow.
+
+****** Background
+
+Isoperimetric comparisons also play an important role in the study of curvature flows. In the papers \cite{MR2729306,MR2843240,MR2794630,Bryan}, isoperimetric estimates under curvature flows were used to obtain curvature bounds and direct proofs of convergence results. Such comparisons are very powerful and could prove extrelemly effective in the analysis of higher dimensional Ricci flow, Yamabe flow, the Cross Curvature Flow and the Curve Shortening Flow of networks, currently a very actively studied flow and where such techniques have found success already \cite{MR2763716}.
+
+******* Comparison theorems for the isoperimetric profile.
 
 :PROPERTIES:
 :UNNUMBERED: t
@@ -400,20 +413,13 @@ The isoperimetric profile of a Riemannian manifold was introduced in the 1980's 
 
 A major outstanding conjecture in this area is the Aubin-Cartan-Hadamard conjecture \cite{MR0448404, MR936419} stating that a Cartan-Hadamard manifold with sectional curvature bounded above by $K_0$ has isoperimetric profile bounded below by the isoperimetric profile of the simply-connected model space of constant section curvature $K_0$. This has been proven in dimension 2 \cite{zbMATH02588223}, dimension 3 \cite{MR1156385,MR2167269} and dimension 4 \cite{MR608287} (for $K_0 = 0$ only), but still remains outstanding in general. Using the curve shortening flow, an analogous comparison for rotationally symmetric model spaces with total positive curvature less than $2\pi$ was obtained in \cite{MR1417620} in dimension $2$. This was also one of the first works to characterise isoperimetric regions in spaces with non-constant curvature. In the twenty or so years since then, much research has been undertaken to increase the understanding of isoperimetric domains \cite{MR1883725, MR1661278} yet in general, as the Aubin-Cartan-Hadamard conjecture suggests, we have only so far scratched the surface of this deep problem.
 
-Isoperimetric comparisons also play an important role in the study of curvature flows. In the papers \cite{MR2729306,MR2843240,MR2794630,Bryan}, isoperimetric estimates under curvature flows were used to obtain curvature bounds and direct proofs of convergence results. Such comparisons are very powerful and could prove extrelemly effective in the analysis of higher dimensional Ricci flow, Yamabe flow, the Cross Curvature Flow and the Curve Shortening Flow of networks, currently a very actively studied flow and where such techniques have found success already \cite{MR2763716}.
-
-****** *Aim 1* Comparison theorems for the isoperimetric profile.
-
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-
-
 In \cite{Bryan,pbthesis,MR2843240,MR2794630}, a (parabolic) viscosity differential inequality for the isoperimetric profile is used to obtain a comparison principle for the isoperimetric profile evolving under curvature flows. The elliptic version of this inequality is also used to investigate properties of the isoperimetric profile. For example, in positive curvature, the isoperimetric profile is concave and hence isoperimetric regions have connected boundary (see also \cite{MR1674097}). Such results are broadly applicable as for instant in the the recent work of \cite{MR3608721} showsing that the Levy-Gromov isoperimetric inequality holds in RCD spaces; that is those metric measure spaces with lower Ricci bounds \cite{MR2237206,MR2237207,MR2480619,MR3205729}. This result relates closely to the viscosity equation mentioned above via \cite{MR3544942} in which the ellptic version of the viscosity equation is used to prove the Levy-Gromov isoperimetric inequality in the smooth setting.
 
 The aim here is to extend classical comparison results (see e.g. \cite{MR2229062, MR1063226}) under lower curvature bound assumptions for the isoperimetric profile to more general spaces. In particular, sharp comparisons may be obtained comparing against radially symmetric model space with such as those studied in \cite{MR839689, MR2836657,MR1417620}. The expectation is that sharper comparisons may be obtained in this situation by allowing variable comparisons. The radial models themselves have been studied in \cite{MR1883725, MR1699261, MR3581260} with models existing displaying various pathologies and one might hope to dedeuce whether these pathologies capture the higher dimensional behaviour also.
 
 Such comparisons may then be used to tackle problems such as the Aubin-Cartan-Hadamard conjecture mentioned above. One possible approach is to deform regions by curvature flows such as the Mean Curvature Flow or the Inverse Mean Curvature Flow. This approach was taken in \cite{MR2420018} by using the mean-convex Mean Curvature Flow to prove the Euclidean isoperimetric inequality but suffered from the lack of suitable tools to analyse non-smooth flows. Such tools have been developed recently for example in \cite{MR3570481,2013arXiv1304.0926H} where regularity results and structure theorems have been more fully developed. In the radial model setting, isoperimetric inequalities have been proven using curvature flows \cite{MR3439091,2016arXiv160908238G}, whilst my collaborator has proven long-time existence results for inverse curvature flows in non-positively curved backgrounds \cite{MR3581327}. Combining these techniques and comparing singularity formation with the radial model in a similar manner to \cite{MR1650335} may be used to obtain suitable comparison results resolving the conjecture.
+
+******* Comparisons and asymptotic singularity formation of planar curve flows
 
 ****** *Aim 2* $k^{\alpha}$ distance comparison.
 - Prove a Grayson type theorem
@@ -427,45 +433,71 @@ Such comparisons may then be used to tackle problems such as the Aubin-Cartan-Ha
 - multiple self-similar solutions exist
 - comparisons and curvature bounds are necessary
 - compared with smooth CSF, moduli space of self-simlar solutions is more complex
-****** Notes							   :noexport:
+******* Notes							   :noexport:
 
-    - Maybe I should just try to study certain situations such as radially symmetric or homogeneous/symmetric spaces.
-    - The conjecture is probably too much to prove in full generality.
-    - It might be possible to prove it for rotationally symmetric manifolds using comparison geometry like in \cite{MR839689}.
-    - Levy-Gromov may prove useful, but works on lower curvature bounds.
-    - The required inequality is true for geodesic balls. Perhaps one can extend this to convex domains (non-singular Wiengarten map). This connects with the convexity part.
-    - Perhaps one can use perturbation arguments, or curvature balls to extend the results from convex domains. Can I compare the second fundamental form (or even just the mean curvature) to the second fundamental form of a curvature ball and hence to the model space?
-    - Again connecting with the convexity part, one may be able to perform some kind of symmetrisation in say, symmetric spaces.
-    - Extend comparison theorems to manifolds with bounded /total/ curvature via comparison with radial models.
-    - Here we want to extend classical comparison results with constant curvature spaces to the radially symmetric case such as in Abresch and later. Since Toponogov works, why not volume comparison?
-    - Also, tackling a more general problem than aim 1 may allow for progress in aim 1.
+     - Maybe I should just try to study certain situations such as radially symmetric or homogeneous/symmetric spaces.
+     - The conjecture is probably too much to prove in full generality.
+     - It might be possible to prove it for rotationally symmetric manifolds using comparison geometry like in \cite{MR839689}.
+     - Levy-Gromov may prove useful, but works on lower curvature bounds.
+     - The required inequality is true for geodesic balls. Perhaps one can extend this to convex domains (non-singular Wiengarten map). This connects with the convexity part.
+     - Perhaps one can use perturbation arguments, or curvature balls to extend the results from convex domains. Can I compare the second fundamental form (or even just the mean curvature) to the second fundamental form of a curvature ball and hence to the model space?
+     - Again connecting with the convexity part, one may be able to perform some kind of symmetrisation in say, symmetric spaces.
+     - Extend comparison theorems to manifolds with bounded /total/ curvature via comparison with radial models.
+     - Here we want to extend classical comparison results with constant curvature spaces to the radially symmetric case such as in Abresch and later. Since Toponogov works, why not volume comparison?
+     - Also, tackling a more general problem than aim 1 may allow for progress in aim 1.
 
-  - *Aim 3*:
-  
-    - Derive the growth of $(n-1)$ dimensional area for Riemannian covering spaces of $n$-dimensional manifolds.
-    - Compare Burago-Z- for tori.
-    - High genus surfaces would be first.
-    - Look at Ben's email with a suggestion about geodesic loops.
+   - *Aim 3*:
+   
+     - Derive the growth of $(n-1)$ dimensional area for Riemannian covering spaces of $n$-dimensional manifolds.
+     - Compare Burago-Z- for tori.
+     - High genus surfaces would be first.
+     - Look at Ben's email with a suggestion about geodesic loops.
 
-****** References						   :noexport:
-  - Topping iso inequalities \cite{MR1714389}
-  - Ritore surfaces \cite{MR2167269,MR1883725}
-  - Morgan, Hass, Hutchings surfaces \cite{MR1417428}\cite{MR1661278}
-  - Bayle, Rosales: isoprofile \cite{MR2177105,MR2041647}
-  - Bavard, Pansu \cite{MR875084}
-  - Sternberg, Zumbrun \cite{MR1674097}
-  - minimal surfaces \cite{MR764944}
-  - Aubin-Cartan-Hadamard: Croke, Kleiner, Ritore \cite{MR1156385}, \cite{MR2167269} \cite{MR608287} and references within
-  - optimal often convex - maximal symmetry constant mean curvature Steiner symmetrisation \cite{MR1849187}
-  - comparison: particularly profile of smooth domains, \cite{pbthesis}\cite{MR2843240}
-  - distance comparison: \cite{MR2794630,MR1656553} \cite{MR3011290,MR2967056}
-  - isoperimetric comparison: \cite{pbthesis,MR2843240,MR2729306,MR1369140,MR1369139}
-  - isoperimetric inequalities: \cite{MR1849187}, \cite{MR0500557}
-  - comparison geometry: \cite{MR1063226}
-  - Heintze: comparison \cite{MR0493885} \cite{MR936318}
-  - variations and stability: \cite{MR917854,MR731682}
+******* References						   :noexport:
+   - Topping iso inequalities \cite{MR1714389}
+   - Ritore surfaces \cite{MR2167269,MR1883725}
+   - Morgan, Hass, Hutchings surfaces \cite{MR1417428}\cite{MR1661278}
+   - Bayle, Rosales: isoprofile \cite{MR2177105,MR2041647}
+   - Bavard, Pansu \cite{MR875084}
+   - Sternberg, Zumbrun \cite{MR1674097}
+   - minimal surfaces \cite{MR764944}
+   - Aubin-Cartan-Hadamard: Croke, Kleiner, Ritore \cite{MR1156385}, \cite{MR2167269} \cite{MR608287} and references within
+   - optimal often convex - maximal symmetry constant mean curvature Steiner symmetrisation \cite{MR1849187}
+   - comparison: particularly profile of smooth domains, \cite{pbthesis}\cite{MR2843240}
+   - distance comparison: \cite{MR2794630,MR1656553} \cite{MR3011290,MR2967056}
+   - isoperimetric comparison: \cite{pbthesis,MR2843240,MR2729306,MR1369140,MR1369139}
+   - isoperimetric inequalities: \cite{MR1849187}, \cite{MR0500557}
+   - comparison geometry: \cite{MR1063226}
+   - Heintze: comparison \cite{MR0493885} \cite{MR936318}
+   - variations and stability: \cite{MR917854,MR731682}
 
-***** The Cross Curvature Flow
+***** The Cross Curvature Flow (XCF)
+
+****** Aims
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+
+1. Prove that the XCF deforms strictly negatively curved metrics to constant curvature metrics and hence path connectedness of the moduli space of negatively curved metrics on hyperbolic manifolds,
+2. Prove isoperimetric comparisons for the XCF,
+3. Generalise the XCF to higher dimensions.
+
+****** Background
+
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+
+******* The XCF and hyperbolic manifolds
+
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+
+In \cite{MR2602839} it is noted that in Thurston's geometrisation program, hyperbolic manifolds are the largest class of prime manifolds. It's not known whether this space is contractible, or even connected. More generally, one may ask similar questions about the classes of pinched metrics.
+
+The Cross Curvature Flow (XCF) was introduced in \cite{MR2055396} in the hopes of deforming negatively curved metrics $g_0$ on a compact three-manifold $M$ to constant curvature metrics in a similar manner to the seminal work on Ricci flow for positively curved metrics \cite{MR664497}. Such a result would show contractibility of the space of negatively curved metrics on a hyperbolic manifold. Very little apart from short-time existence and uniqueness \cite{MR2207496} and some results in special situations such as homogeneous spaces and tori \cite{MR2222245,MR2448593,MR2602839, MR2426751,MR2407107, MR2653711, MR2601352} is known about solutions of the cross-curvature flow, but such results support the conjecture that XCF deforms negatively curved metrics to constant curvature metrics.
+
 Let
 \[
 E = \operatorname{Ric} - \tfrac{1}{2} R g
@@ -503,6 +535,42 @@ Let us write $E^{-1}(X, Y) = g(\mathcal{E} (X), Y)$ in the case of strictly nega
 \partial_t g = \det \mathcal{E} E^{-1}.
 \]
 
+
+The XCF may be written in two ways in three dimensions:
+1. $\partial_t g = 2\operatorname{Tr}_{E} \operatorname{Rm}$, ($\partial_t g_{ij} = 2E^{kl} R_{iklj}$)
+2. $\partial_t g = 2\operatorname{adj}(E)$ ($\partial_t g_{ij} = 2 \det E^i_j V_{ij}$ where $V_{ij}$ is the inverse matrix of $E^{ij}$).
+The first form is the trace of the Riemann tensor with respect to the Einstein tensor $E = \ric - \frac{1}{2} R g$ which is a positive definite tensor if $g$ has strictly negative sectional curvature in dimensions three and above. The second form is to take the adjugate operator of $E$ and metrically contract using $g$ which is defined even if $g$ does not have strictly negative curvature. Both definition make perfect sense in all dimensions, but are trivial for dimensions less than three and are different for dimensions greater than three. Thus dimension three is the critical dimension.
+
+Compare with the Ricci flow and the Yamabe flow. The Ricci tensor vanishes in dimension less than two, in dimension three we have $\ric = \tfrac{1}{2} R g$ and in higher dimensions no such simple relationship holds. The Ricci flow is the evolution equation,
+\[
+\partial_t g = -2\ric
+\]
+while the Yamabe flow is the equation,
+\[
+\partial_t g = -R g.
+\]
+In the critical dimension, $n=2$, the two flows agree.
+
+******* Estimates
+
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+
+The conjectured asymptotic behavior of the XCF has however been recently confirmed whenever $M$ locally isometrically embeds as a hypersurface into Minkowski space $\RR^{3,1}$ \cite{MR3344442}. The main observation there is that in such a situation, the embedded hypersurface evolves by the Gauss curvature flow. The obstruction to applying this method is the local, isometric embedding problem which is equivalent to isometrically embedding the universal cover of $M$ into $\RR^{3,1}$. Given that $M$ admits a metric of negative sectional curvature, it's cover is a so-called Cartan-Hadamard manifold and well known standard results in differential geometry state that the universal cover is isometric to $\RR^3$ equipped with a negative sectional curvature metric. The difficulty is that one cannot expect in general to *isometrically* embed this $\RR^3$ into Minkowski space.
+
+In the locally isometrically embedible situation we obtained the Harnack inequality \cite{BIS4},
+\[
+\partial_t \sqrt{{\det} E} - \frac{1}{\sqrt{{\det}E}} \abs{\nabla \sqrt{{\det}E}}_E^2  + \frac{3}{4 t} \sqrt{{\det}E} \geq 0
+\]
+where $\abs{\cdot}_E$ refers to the norm with respect to the Einstein tensor $E$. Along with $C^0$ estimates, this should give an alternate proof of the conjecture. In fact, all that is required is a Harnack inequality and not the isometrically embedible assumption. Proving the Harnack involves great computational complexity in the general case, though early computations show it is possible to obtain a Harnack under the assumption, $\nabla V$ is totally symmetric. In the locally embedible case this follows from the Codazzi equation, but does not necessarily imply local embedibility. These initial results are thus already more general than those in \cite{MR3344442}.
+
+******* Comparisons for the Einstein volume under the Cross Curvature Flow.
+
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+
 Pursuing the analogy further, the conformal nature of $\ric$ in 2 dimensions is closely related to the Gauss-Bonnet formula,
 \[
 \int_M K = 2\pi \chi (M)
@@ -522,39 +590,12 @@ In the critical dimension three, one hopes to be able to exploit such topologica
 
 - Question: Does Codazzi imply locally embeddable? Is it topological?
 
-****** *Aim 1* Comparisons for the Einstein volume under the Cross Curvature Flow.
-
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-
-The Cross Curvature Flow (XCF) was introduced in \cite{MR2055396} in the hopes of deforming negatively curved metrics $g_0$ on a compact three-manifold $M$ to constant curvature metrics in a similar manner to the seminal work on Ricci flow for positively curved metrics \cite{MR664497}.  Very little apart from short-time existence and uniqueness \cite{MR2207496} and some results in special situations such as homogeneous spaces and tori \cite{MR2222245,MR2448593,MR2602839, MR2426751,MR2407107, MR2653711, MR2601352} is known about solutions of the cross-curvature flow.
-
-The conjectured asymptotic behavior of the XCF has however been recently confirmed whenever $M$ locally isometrically embeds as a hypersurface into Minkowski space $\RR^{3,1}$ \cite{MR3344442}. The main observation there is that in such a situation, the embedded hypersurface evolves by the Gauss curvature flow. The obstruction to applying this method is the local, isometric embedding problem which is equivalent to isometrically embedding the universal cover of $M$ into $\RR^{3,1}$. Given that $M$ admits a metric of negative sectional curvature, it's cover is a so-called Cartan-Hadamard manifold and well known standard results in differential geometry state that the universal cover is isometric to $\RR^3$ equipped with a negative sectional curvature metric. The difficulty is that one cannot expect in general to isometrically embed this $\RR^3$ into Minkowski space.
-
-In \cite{BIS4} we obtained a Harnack inequality for such a situation which may also be used to obtain the conjecture result in the locally isometrically embedible situation. In fact, all that is required is a Harnack inequality, but his is considerably difficult in the general case, though early computations show it is possible to obtain a Harnack under some assumptions which are satisfied in the locally embedible case, but do not necessarily imply local embedibility.
-
-The XCF may be written in two ways in three dimensions:
-1. $\partial_t g = 2\operatorname{Tr}_{E} \operatorname{Rm}$, ($\partial_t g_{ij} = 2E^{kl} R_{iklj}$)
-2. $\partial_t g = 2\operatorname{adj}(E)$ ($\partial_t g_{ij} = 2 \det E^i_j V_{ij}$ where $V_{ij}$ is the inverse matrix of $E^{ij}$).
-The first form is the trace of the Riemann tensor with respect to the Einstein tensor $E = \ric - \frac{1}{2} R g$ which is a positive definite tensor if $g$ has strictly negative sectional curvature in dimensions three and above. The second form is to take the adjugate operator of $E$ and metrically contract using $g$ which is defined even if $g$ does not have strictly negative curvature. Both definition make perfect sense in all dimensions, but are trivial for dimensions less than three and are different for dimensions greater than three. Thus dimension three is the critical dimension.
-
-Compare with the Ricci flow and the Yamabe flow. The Ricci tensor vanishes in dimension less than two, in dimension three we have $\ric = \tfrac{1}{2} R g$ and in higher dimensions no such simple relationship holds. The Ricci flow is the evolution equation,
-\[
-\partial_t g = -2\ric
-\]
-while the Yamabe flow is the equation,
-\[
-\partial_t g = -R g.
-\]
-In the critical dimension, $n=2$, the two flows agree.
-
-****** *Aim 2* Estimates
-- Can prove the Harnack when we have Codazzi.
-- Deal with non-Codazzi
-- Modulus of continuity may handle non-linearities better
 ***** Singularities, symmetries and ancient solutions of fully non-linear geometric evolution equations
 
+****** Aims
+1. Classify ancient solutions of curvature flows in Riemannian backgrounds.
+2. Prove area estimates for unstable minimal surfaces in terms of the space of unstable directions.
+****** Background
 - Background space can introduce non-linearities
 - Linearisation near minimal surfaces
 - Conformal symmetries in the sphere
@@ -570,7 +611,13 @@ In the critical dimension, $n=2$, the two flows agree.
 
 ***** Estimates for fully non-linear geometric evolution equations
 
-****** Harnack estimates.
+****** Aims
+
+1. Obtain and extend Harnack estimates for curvature flows,
+2. Obtain modulus of continuity estimates for curvature flows.
+
+****** Background
+******* Harnack estimates.
 
 - Julian's grant: DFG-Grant number is SCHE 1879/1-1 "Harnack inequalities for curvature flows and applications"
 - A-priori estimates for approximating solutions to $k^{\alpha}$ flows.
@@ -580,7 +627,7 @@ In the critical dimension, $n=2$, the two flows agree.
 - Scalar eat equations
 - Compensated Harnack like Chow and Hamilton-Yau for $k^{\alpha}$ flows and flows in general backgrounds.
 
-****** Modulus of continuity.
+******* Modulus of continuity.
 
 - Comparison theorems better suited to fully non-linear equations.
 - Works well from Ben and Julies work.
@@ -594,13 +641,12 @@ In the critical dimension, $n=2$, the two flows agree.
 
 *** Project Quality And Innovation
 
-The proposed research addresses several current, actively studied problems: the connection between curvature, topology and isoperimetry and obtain more precise comparisons than existing ones. As discussed in "Aims and Background", the understanding of the isoperimetric profile is limited to special cases such as surfaces, constant curvature spaces, and minimal surfaces. The Aubin-Cartan-Hadamard conjecture still remains open despite the relatively simple properties of Cartan-Hadamard manifolds. 
+The proposed research project on isoperimetric comparisons addresses several current, actively studied problems: the connection between curvature, topology and isoperimetry and obtain more precise comparisons than existing ones. As discussed in "Aims and Background", the understanding of the isoperimetric profile is limited to special cases such as surfaces, constant curvature spaces, and minimal surfaces. The Aubin-Cartan-Hadamard conjecture still remains open despite the relatively simple properties of Cartan-Hadamard manifolds. 
 
-Convexity allows global methods, and the Euclidean case is well understood, but though generalisations are possible, this is still lacking. Many interesting situations are not amenable to such global methods and so some sort of localisation is required.
+The project on the Cross Curvature Flow and hyperbolic manifolds is highly innovative, identifying previously unknown deep structure and describing powerful techniques for understanding the geometry of hyperbolic manifolds similar to the Ricci flow's role in positively curve geometry. The extensions to higher dimensions and underlying algebraic structure have not previously been observed and will open up an entirely new approach to high dimensional hyperbolic geometry.
 
-The connection between these and curvature flows, particularly in singularity formulation is there for the picking. 
+It has long been understood that curvature flows and minimal surfaces are closely related, yet explicit applications to minimal surfaces have been minimal. The proposed research identifies an entirely new connection between the topics which will attract considerable attention from the minimal surface community.
 
-My work with flows allows for very strong results to be obtained and is very new and still being explored and understood. It is highly innovative, with no one else realising the connection before. It is also highly effective. The methods should be broadly applicable and the results should be well regarded.
 
 **** Old							   :noexport:
 ***** _Isoperimetric Comparisons
@@ -657,7 +703,7 @@ roles they may hold.
 
 *** Feasibility
 
-The project builds on the candidates existing expertise and has a high chance of producing strong research outcomes. The aims are ambitious, but involve many intermediate steps along the away, ensuring continual progress throughout the duration of the project. The aims closely align with the expertise of the MSI, with several experts in the field available to offer support and guidance to the candidate.
+The project builds on the candidates existing expertise and has a high chance of producing strong research outcomes. The aims are ambitious, but involve many intermediate steps along the away, some of which already have been established, ensuring continual progress throughout the duration of the project. The aims closely align with the expertise of the MSI, with several experts in the field available to offer support and guidance to the candidate.
 
 **** notes							   :noexport:
 - Explain how the design of the proposed project, the expertise of the participants and requested budget will be sufficient to ensure the project can be successfully completed within the proposed budget and timeframe.
@@ -665,9 +711,10 @@ The project builds on the candidates existing expertise and has a high chance of
 - Describe the necessary facilities available to complete the Project.
 
 *** Benefit
-  The funding requested is minimal, consisting principally of salary and a modest request for travel. Hence the execution of the of the project offers excellent value for money, particularly as the candidates research to date, shows that the methods described in this proposal are extremely effective. 
 
-  The research is highly innovative, with strong results already obtained by these methods, and involves international collaboration strengthening Australia's ties with research institutes in North and South America, Europe and China. The techniques developed also have very broad applicability, as has already been established by the candidates previous work, and hence benefits the international community in pushing the frontiers of geometric and non-linear analysis. Australia in particular will see social, cultural and economic benefits by strengthening it's international reputation and attracting leading researchers and students to Australia to study the methods developed in the project.
+The funding requested is minimal, consisting principally of salary and a modest request for travel. Hence the execution of the of the project offers excellent value for money, particularly as the candidates research to date, shows that the methods described in this proposal are extremely effective. 
+
+The research is highly innovative, with strong results already obtained by these methods, and involves international collaboration strengthening Australia's ties with research institutes in North and South America, Europe and China. The techniques developed also have very broad applicability, as has already been established by the candidates previous work, and hence benefits the international community in pushing the frontiers of geometric and non-linear analysis. Australia in particular will see social, cultural and economic benefits by strengthening it's international reputation and attracting leading researchers and students to Australia to study the innovative new methods developed in the project.
 
 *** Communication Of Results
 
