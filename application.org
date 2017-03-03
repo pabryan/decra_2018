@@ -12,6 +12,7 @@
 
 
 # *** Other formatting settings
+#+OPTIONS: toc:nil  
 #+LATEX_HEADER: \date{}
 
 #+LaTeX_Header: \renewcommand*{\bibfont}{\footnotesize}
@@ -395,9 +396,8 @@ When combined these programs have applications to a range of problems. In this p
 :END:
 
 1. Prove the Aubin-Cartan-Hadamard conjecture,
-1. Obtain comparisons of the isoperimetric profile with radial models,
-1. Prove the multiplicity one conjecture for Curve Shortening of Networks,
-1. Prove a Grayson theorem for Homogeneous Curve Shortening Flow.
+2. Prove the multiplicity one conjecture for Curve Shortening of Networks,
+3. Prove a Grayson theorem for Homogeneous Curve Shortening Flow.
 
 ****** Background
 
