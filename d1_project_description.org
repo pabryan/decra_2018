@@ -153,7 +153,7 @@ The aim here is to extend these results from convex curves to arbitrary emedded 
 \[
 \partial_t \gamma = -\kappa\abs{\kappa^2 + \epsilon^2}^{\tfrac{\alpha-1}{2}} \nu
 \]
-which are smooth, strictly parabolic flows. The next step is to obtain a priori estimates via two approaches: one for $\alpha \in (1/3, 1]$ and one for $\alpha \geq 1$. Both methods are applicable to the critical case of the Curve Shortening Flow, $\alpha = 1$, the first method being the distance comparison principle in \cite\cite{MR2794630}.
+which are smooth, strictly parabolic flows. The next step is to obtain a priori estimates via two approaches: one for $\alpha \in (1/3, 1]$ and one for $\alpha \geq 1$. Both methods are applicable to the critical case of the Curve Shortening Flow, $\alpha = 1$, the first method being the distance comparison principle in \cite{MR2794630}.
 
 Comparison of chord-arc profiles for $\alpha \in (1/3, 1]$: For such flows, in order to couple time and spatial variations of the chord-arc profile, the speed, $f$ of the flow must be a so-called /operator monotone/ function, which means upon applying the spectral theory we have for two matrices $A$ and $B$,
 \[
@@ -161,8 +161,10 @@ A \leq B \Rightarrow f(A) \leq f(B).
 \]
 This restricts us to consider $\alpha \in (0,1]$, in which case the following differential inequality for the chord-arc profile holds,
 \[
-Z'.
+\pd{t}Z \geq 2 \frac{2^{\alpha+1}}{\left(\sqrt{1 - (Z')^2}\right)^{\alpha-1}} f(Z'') - \avg{f(\curvecurv) \curvecurv} \left(Z - Z'\ell\right) - Z' \int_{p_0}^{q_0} f(\curvecurv)\curvecurv ds
 \]
+where $f(y) = y\abs{y}^{\alpha-1}$ is the speed of the flow, $\avg{\cdot}$ denotes the mean value over the curve $\gamma$ and $(p_0, q_0)$ are points of given intrinsic length $\ell(p_0, q_0)$ achieving the infimum of extrinsic distance $d(p_0, q_0)$.
+
 Given the critical exponent $\alpha=1/3$ discussed above, it's expected that the curvature estimates obtained using the methods in \cite{MR2794630} should hold for $\alpha \in (1/3, 1]$. Supporting evidence for this conjecture is that the differential inequality is linearly stable around the round circle.
 
 For the case $\alpha \geq 1$, the Harnack inquality (see also the section on estimates below) was used in \cite{MR1094458} to show that arbitrary metrics on $\sphere^2$ become positively curved in finite time under the Ricci flow. Then the results of \cite{MR954419} show convergence to the constant curvature metric. The aim here is to show similar results hold for the approximating flows defined above.
@@ -178,12 +180,11 @@ The distance comparison argument in \cite{MR2794630} applies also to the Curve S
 \end{figure}
 The flow is by curve shortening on the interior of the edges, subject to the boundary triple condition. Such a flow was initially studied to model annealing metals \cite{MR0078836} and is of interest in materials science. The flow, like in the smooth case, is also the gradient flow of the length functional, from which perspective the triple condition arises naturally.
 
-
-A distance comparison based on \cite{MR1656553} was used in the special situation of convex, lens shaped networks. More generally, Prof. Mariel \saez I have shown that the comparison principle for the chord-arc profile developed in \cite{MR2794630} holds for networks after suitable modification to deal with the nodes. Namely the viscosity equation for the chord-arc profile is
+A distance comparison based on \cite{MR1656553} was used in the special situation of convex, lens shaped networks. More generally, Prof. Mariel \saez I have shown that the comparison principle for the chord-arc profile developed in \cite{MR2794630} holds for networks after suitable modification to deal with the triple points. To preserve the coincidence of the vertices of the edges, a tangential component of velocity must be introduced, and geometric invariant of the flow implies only the value at the vertices is important. Let us write $\Delta v_m$ for the difference between the this value at joining edges. Then the viscosity equation for the chord-arc profile is
 \[
-Z''
+\partial_t Z \geq 4Z''+\bar{Q}(Z-xZ')+f'(\Delta Q(p,q)).
 \]
-which is identical to the smooth case apart from the additional $\Delta v_i$ terms.
+where $\bar{Q}=\frac{1}{L}\int k^2 ds-\sum_{m=1}^n \Delta v_m$ and $\Delta Q(p,q)=\frac{1}{L}\int_p^q k^2 ds-\sum_{m=i_p}^{i_q} \Delta v_m$. The only difference with the smooth case is the introduction of the $\Delta v_m$ terms.
 
 The aim here is to use construct suitable comparison functions in order to obtain a curvature bound similar to \cite{MR2794630}. The network flow has a number of differences to the smooth flow requiring further analysis. Two important differences are:
 
