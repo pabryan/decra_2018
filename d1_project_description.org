@@ -328,18 +328,19 @@ The aim here is to develop a theory of short-time existence and uniqueness as we
 1. Classify ancient solutions of curvature flows in Riemannian backgrounds.
 2. Prove area estimates for unstable minimal surfaces in terms of the space of unstable directions.
 *** Background
-- Background space can introduce non-linearities
-- Linearisation near minimal surfaces
-- Conformal symmetries in the sphere
-- Degeneracies and perturbation
-- Lyapunov Functions - L_p Version, Giga-Kohn
-- Area and eigenvalue estimates based on forwards time estimates
-  - Go past Peter's estimates by working with level set flow for which some time regularity does hold as in Colding-Minicozzi time-of-arrival function is C^2.
-- Conformal rescaling.
-- Classification of ancient solutions.
-- Linearisation techniques.
-- Conformal symmetries of the sphere.
-- Eigenvalue and area estimates for minimal surfaces, including singular ones!
+
+In \cite{2016arXiv160401694B} my collaborators and I proved that effectively any convex, ancient solution of a parabolic, geometric flow must be a family of shrinking geodesic spheres emenating from an equator at $t=-\infty$. This is in stark constrast to the Euclidean space situation when many such solutions exist. The methods employed relied heavily on the geometry of the sphere and to generalise these results to Riemannian backgrounds, different methods must be adopted.
+
+With this end in mind, given an unstable minimal surface $M_0$, we linearise the curvature flow and apply stability analysis such as in \cite{MR1485470,2016arXiv160104986H}. The theory of maximal regularity \cite{MR3012216} implies that the space of ancient solutions converging backwards to $M_0$ as $t\to-\infty$ is a finite dimensional linear sub-manifold of the space of smooth functions $M_0 \to \RR$ with dimension equal to the Morse index of $M_0$. Further analysis should show that there is unique mean convex ancient solution corresponding to the first eigenvalue which is simple (the eigenspace is one-dimensional). In this project I will complete making this program rigourous and by applying compactness results show that arbitrary non-singular ancient solutions fit into this framework.
+
+As a striking example of possible applications, we see that there is a five-dimensional family of ancient solutions emenating from a Clifford Torus in $\S^3$. The motion of this family is, to first order, by the canonical family of conformal transformations used in the resolution of the Wilmore conjecture \cite{MR3152944}. This suggests a hitherto unknown connection between the conformal geometry of the sphere and the Mean Curvature flow with applications to Wilmore surfaces.
+
+In general backgrounds, similar results hold and two points are of note:
+1. There is a unique mean convex ancient solution emenating from an unstable minimal surface $M_0$,
+2. Regularity theory of mean convex mean curvature flow has undergone significant development recently \cite{2013arXiv1304.0926H,MR3570481}
+Using these these two results, I will extend the geometric inequalities of \cite{MR1650335} to the unique mean convex mean curvature flow (which may undergo signularities previously hampering progress with this method) to obtain area control for $M_0$ in terms of the value of the first eigenvalue.
+
+For flows other than the mean curvature flow, one can encounter degenerecies and singularities in the linearisation around a minimal surface. The results in \cite{2016arXiv160401694B} show that nevertheless classification results are possible. To progress then I will develop approximating techniques, e.g. by approximating the flow with speed $H^p$ by the flow with speed $H (H^2 + \epsilon^2)^{\tfrac{p-1}{2}}$ (similar to the approximating flows for the $\kappa^p$ homogeneous curvature flows), obtain a-prior estimates and classification, then pass to the limit $\epsilon \to 0$ to conclude the classification for the original flow.
 
 ** Estimates for fully non-linear geometric evolution equations (joint with Dr. Mohammad Ivaki and Dr. Julian Scheuer)
 
