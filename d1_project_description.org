@@ -283,75 +283,44 @@ In the locally isometrically embedible situation, with Doctor's Mohammad Ivaki a
 \]
 where $\abs{\cdot}_E$ refers to the norm with respect to the Einstein tensor $E$. An immediate application of this inequality is that negative sectional curvature is preserved by the flow since that corresponds to preserving $\mathcal{E}$ non-singular and the Harnack inequality implies that if $\mathcal{E}$ becomes singular, then $\nabla \mathcal{E}$ blows up. Moreover, combined with $C^0$ estimates, the Harnack inequality gives an alternate proof of the conjecture. In fact, all that is required is a Harnack inequality and not the isometrically embedible assumption. Proving the Harnack involves great computational complexity in the general case, though early computations show it is possible to obtain a Harnack under the assumption, $\nabla V$ is totally symmetric where $V (X, Y) = g(\mathcal{E}^{-1}(X), Y)$. In the locally embedible case this condition follows from the Codazzi equation, but does not necessarily imply local embedibility. These initial results are thus already more general than those in \cite{MR3344442} and will be an early output of the project.
 
+The techniques just described, particulary the Harnack inequality also relate closely to solitons - self similar solutions of the flow $g(t) = e^{u(t)} \phi_t^{\ast} g_0$ moving by the scaling factor $e^{u(t)}$ and by the one-parameter family of diffemorophisms. These techniques should yield convergence to a soliton, and the next step is to classify such solitons as constant negative curvature metrics. In the locally-embedible case, such a result was proven in Minkowksi space \cite{MR3344442} and recently in Euclidean space \cite{2016arXiv160905487C,2016arXiv161008933B} giving strong indication that the result for the XCF may be obtained similarly.
+
 *** Comparisons for the Einstein volume under the Cross Curvature Flow.
 
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
 
-Pursuing the analogy further, the conformal nature of $\ric$ in 2 dimensions is closely related to the Gauss-Bonnet formula,
-\[
-\int_M K = 2\pi \chi (M)
-\]
-where $\chi(M)$ denotes the Euler characteristic of $M$ which is the alternating sum of the Betti numbers. Briefly recall that in order to prove the Gauss-Bonnet formula, one applies the Poincare-Hopf index theorem to a vector field $e_1$ which is completed to a basis $\{e_1, e_2\}$ away from the zeros of $e_1$ and uses the Cartan structure equations in the form
-\[
-d \omega = K \theta^1 \wedge \theta^2
-\]
-where $d$ is the exterior derivative, $\omega$ is the connection one-form, $K$ the Gauss curvature and $\theta^i$ the dual basis to $e_i$. Integrating and applying Stokes' theorem gives the sum of the index of $e_1$ at each zero which is equal to the Euler characteristic.
 
-The relevance here is that the Gauss-Bonnet theorem played a pivotal role in the proof of the isoperimetric comparison theorems for the Ricci flow in \cite{Bryan,MR2729306}. There, the theorem was applied to the second variation of perimeter of isoperimetric domains to obtain a viscosity equation for the isoperimetric profile which formed the basis of the comparison theorem. In three dimensions, a consequence of the Poincare-Hopf index lemma is that one always has a non-vanishing vector field $X$ at one's disposal, and by Hodge duality, also a non-vanishing two-vector field $\eta$. Then the aim is to find a topological invariant modeled on Gauss-Bonnet by writing terms arising in the second variation of the Einstein volume as $d\zeta$ for a two-form $\zeta$ obtained by exploiting Hodge duality via the Einstein tensor, and then deriving a viscosity equation for the Einstein Isoperimetric Profile, giving the least area for a given volume as measured by the induced volume form and surface measure by the Einstein tensor:
+The aim is to derive a viscosity equation for the Einstein Isoperimetric Profile, giving the least area for a given volume as measured by the induced volume form and surface measure by the Einstein tensor:
 \[
 I_E (x) = \inf\{\operatorname{Area}_E (\Omega) : \operatorname{Vol}_E (E) = x\}.
 \]
-In the critical dimension three, one hopes to be able to exploit such topological invariants arising from the conformal-like structure of the cross curvature flow, as well as Hodge duality identifying vectors and two-vectors.
+In \cite{MR2055396} it was shown that the Einstien volume is monotone along the flow, which suggests that as with the isoperimetric profile for the Ricci flow, this approach will prove quite powerful.
 
-
-- Question: Does Codazzi imply locally embeddable? Is it topological?
+In the critical dimension three, one hopes to be able to exploit such topological invariants arising from the conformal-like structure of the cross curvature flow, as well as Hodge duality identifying vectors and two-vectors. The relevance here is that the Gauss-Bonnet theorem played a pivotal role in the proof of the isoperimetric comparison theorems for the Ricci flow in \cite{Bryan,MR2729306}. There, the theorem was applied to the second variation of perimeter of isoperimetric domains to obtain a viscosity equation for the isoperimetric profile which formed the basis of the comparison theorem. In three dimensions, a consequence of the Poincare-Hopf index lemma is that one always has a non-vanishing vector field $X$ at one's disposal, and by Hodge duality, also a non-vanishing two-vector field $\eta$ but a lack of exactness as measured by $H^1(M) \simeq H^2(M)$ is an obstruction and the aim is to quantity this toplogically similar to the way the Euler characteristic appears in the Gauss-Bonnet theorem.
 
 *** Higher Dimensions
 
-Let
+The definition given above for the XCF makes sense in any dimension. Moreover, there is another way to interpret the XCF. First recall above that the XCF is the equation,
 \[
-E = \operatorname{Ric} - \tfrac{1}{2} R g
+\partial_t g = -2 \operatorname{Ric}_E.
 \]
-be the Einstein tensor where $\operatorname{Ric}$ is the Ricci tensor and $R$ the scalar curvature. Since $E$ is symmetric, we may write $E(X, Y) = g(\mathcal{E} (X), Y)$ for a $g$ self-adjoint endomorphism $\mathcal{E}$. Also let $\operatorname{adj} \mathcal{E}$ denote the adjugate of $\mathcal{E}$ defined as the $\wedge$-adjoint of $\wedge^{n-1} \mathcal{E}$:
+Let us call this equation the /Einstein Ricci Flow/. Now, let $\operatorname{adj} \mathcal{E}$ denote the adjugate of $\mathcal{E}$ defined as the $\wedge$-adjoint of $\wedge^{n-1} \mathcal{E}$:
 \[
 \operatorname{adj} \mathcal{E} (X) \wedge \eta = X \wedge (\wedge^{n-1} \mathcal{E}) \eta
 \]
-for any tangent vector $X$ and $n-1$-vector $\eta$. Finally, writing $\adj E (X, Y) = g(\adj \mathcal{E} (X), Y)$, we define the /adjugate Einstein flow/:
+for any tangent vector $X$ and $n-1$ vector $\eta$. Writing $\adj E (X, Y) = g(\adj \mathcal{E} (X), Y)$, we define the /adjugate Einstein flow/:
 \[
 \partial_t g = \adj E.
 \]
-
-The XCF may be written in two ways in three dimensions:
-1. $\partial_t g = 2\operatorname{Tr}_{E} \operatorname{Rm}$, ($\partial_t g_{ij} = 2E^{kl} R_{iklj}$)
-2. $\partial_t g = 2\operatorname{adj}(E)$ ($\partial_t g_{ij} = 2 \det E^i_j V_{ij}$ where $V_{ij}$ is the inverse matrix of $E^{ij}$).
-The first form is the trace of the Riemann tensor with respect to the Einstein tensor $E = \ric - \frac{1}{2} R g$ which is a positive definite tensor if $g$ has strictly negative sectional curvature in dimensions three and above. The second form is to take the adjugate operator of $E$ and metrically contract using $g$ which is defined even if $g$ does not have strictly negative curvature. Both definition make perfect sense in all dimensions, but are trivial for dimensions less than three and are different for dimensions greater than three. Thus dimension three is the critical dimension.
-
-Compare with the Ricci flow and the Yamabe flow. The Ricci tensor vanishes in dimension less than two, in dimension three we have $\ric = \tfrac{1}{2} R g$ and in higher dimensions no such simple relationship holds. The Ricci flow is the evolution equation,
-\[
-\partial_t g = -2\ric
-\]
-while the Yamabe flow is the equation,
-\[
-\partial_t g = -R g.
-\]
-In the critical dimension, $n=2$, the two flows agree.
-
-In three dimensions, $\adj E = 2 \operatorname{Ric}_E$ and so both flows agree and are known as the Cross Curvature Flow (XCF). There is an interesting parallel with the Ricci and Yamabe flows, which agree in two dimensions. The Ricci flow is the evolution equation,
-\[
-\partial_t g = -2 \operatorname{Ric}
-\]
-while the Yamabe flow is the evolution equation,
-\[
-\partial_t g = - R g.
-\]
-The latter flow is a conformal flow and in the critical dimension 2, so is the Ricci flow.
-
-Let us write $E^{-1}(X, Y) = g(\mathcal{E} (X), Y)$ in the case of strictly negative curvature, in which case the adjugate Einstein equation exhibits a conformal-like structure,
+In the critical dimension three, by diagonalising $\operatorname{Ric}$, one finds that $\adj E = -2\operatorname{Ric}_E$ so that both flows agree. In higher dimensions however this is no longer true. This should be compared with the Ricci flow and Yamabe flow which agree in the critical dimension, two but differ in higher dimensions. The latter preserves the conformal class of $g$. In this situation, let us write $E^{-1}(X, Y) = g(\mathcal{E} (X), Y)$ in the case of strictly negative curvature, in which case the adjugate Einstein equation exhibits a conformal-like structure,
 \[
 \partial_t g = \det \mathcal{E} E^{-1}.
 \]
+somewhat analogous to the Yamabe flow where $\mathcal{E}$ is replaced by the scalar curvature $R$ and $E^{-1}$ by the metric $g$.
+
+The aim here is to develop a theory of short-time existence and uniqueness as well as all the basic evolution equations necessary for the analysis of these flows in higher dimensions. In this situation, strictly negative curvature does not correspond to positive-definiteness of $E$, again diagonalising $\operatorname{ric}$ shows the conditions of strictly negative curvature operator and vanishing Weyl tensor are related to the postive definiteness of $E$ and hence are hence natural conditions to impose in the initial study which likely will lead to similar results as those in the three dimensional case.
 
 ** Singularities, symmetries and ancient solutions of fully non-linear geometric evolution equations (joint with Dr. Mohammad Ivaki and Dr. Juliean Scheuer)
 
