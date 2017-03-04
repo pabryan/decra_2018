@@ -15,6 +15,10 @@
 #+OPTIONS: toc:nil  
 #+options: num:nil
 #+LATEX_HEADER: \date{}
+#+LATEX_HEADER:\setlength{\textwidth}{\paperwidth}
+#+LATEX_HEADER:\addtolength{\textwidth}{-2in}
+#+LATEX_HEADER:\calclayout
+
 
 #+LaTeX_Header: \renewcommand*{\bibfont}{\footnotesize}
 
@@ -136,14 +140,14 @@ A related flow is the flow,
 \[
 \partial_t \gamma = -\kappa\abs{\kappa}^{\alpha-1} \nu.
 \]
-This flow has greater non-linearity than the Curve Shortening Flow, and owing to the absolute value, has non-smooth speed for non-convex curves. Convergence results for convex curves have been obtained \cite{MR1255274,MR1660843} but the general embedded case remains open.
+This flow has greater non-linearity than the Curve Shortening Flow, and owing to the absolute value, has non-smooth speed for non-convex curves. Convergence results for convex curves have been obtained \cite{MR1660843} but the general embedded case remains open.
 
 *** Curve Shortening of Networks (joint with Prof. Mariel \saez)
 
 The distance comparison argument in \cite{MR2794630} applies also to the Curve Shortening Flow of networks that has received considerable attention in recent years \cite{MR2394409,MR2075985,MR2763716}. In this context, a network is an emedded graph in the plane where the two vertices of each edge either lie on the boundary, $\bdry{\Omega}$ of a convex body with interior (or on the circle at infinity) or meets precisely two other edges at a vertex with equal angles of $2\pi/3$ (/triple condition/). The edges are supposed further to be otherwise disjoint. See figure \ref{fg:network}.
 \begin{figure}[htb]
 \centering
-\includegraphics[width=.9\linewidth]{network}
+\includegraphics[width=.5\linewidth]{network}
 \caption{A network with three nodes, $p_0, s_0, q_0$ satisfying the triple condition.}
 \label{fg:network}
 \end{figure}
@@ -414,6 +418,6 @@ The research is highly innovative, with strong results already obtained by these
 
 * Management Of Data
 
-  The project will primarily generate research articles, published in scholarly journals, with standard access are re-use arrangements. Preference will be given to open access journals with their access and re-use arrangements. All work, wherever permitted by copyright requirements will also be deposited on the arXiv pre-print server (http://arxiv.org/).
+  The project will primarily generate research articles and not make use of any data.
 
 \printbibliography
