@@ -103,37 +103,26 @@ This project has aims straddling four broad, interrelated programs:
 1. Isoperimetric comparisons,
 2. The Cross Curvature Flow,
 3. Singularities, symmetries and ancient solutions of fully non-linear geometric evolution equations,
-4. Estimates for fully non-linear geometric evolution equations.
 
-When combined these programs have applications to a range of problems. In this project, they will be applied to classic geometric flows such as the Ricci flow, Curve Shortening Flow and Mean Curvature Flow to obtain new results and to re-examine old results in a new light. But the program goes considerably deeper, developing new techniques to prove theorems for fully non-linear flows such as the Cross Curvature Flow, Planar Flow by Powers of Curvature, and general hypersurface flows in Riemannian backgrounds. The fourth program on estimates is interwoven with the other three, but the estimates themselves are of broad applicability and interest.
-
-** Isoperimetric Comparisons
+** 1. Isoperimetric Comparisons
 
 *** Aims
 
 1. Prove the Aubin-Cartan-Hadamard conjecture,
-2. Prove the multiplicity one conjecture for Curve Shortening of Networks,
-3. Prove a Grayson theorem for Homogeneous Curve Shortening Flow.
-
-*** Background
-
-Isoperimetric comparisons also play an important role in the study of curvature flows. In the papers \cite{MR2729306,MR2843240,MR2794630,Bryan}, isoperimetric estimates under curvature flows were used to obtain curvature bounds and direct proofs of convergence results. Such comparisons are very powerful and could prove extrelemly effective in the analysis of higher dimensional Ricci flow, Yamabe flow, the Cross Curvature Flow (see section on Cross Curvature Flow) and the Curve Shortening Flow of networks.
+2. Prove a Grayson theorem for Homogeneous Curve Shortening Flow.
+3. Prove the multiplicity one conjecture for Curve Shortening of Networks,
 
 *** Comparison theorems for the isoperimetric profile.
 
-The isoperimetric profile of a Riemannian manifold was introduced in the 1980's \cite{MR875084,MR999971} to study isoperimetric inequalities on Riemannian manifolds. By definition, for a given real number $x$, the isoperimetric profile $I(x)$ is the infimum of the boundary area of all domains with volume equal to $x$:
+The isoperimetric profile of a Riemannian manifold was introduced in the 1980's \cite{MR875084,MR999971} to study isoperimetric inequalities on Riemannian manifolds. It is defined by
 \[
 I(x) = \inf\{\operatorname{Area} (\bdry{\Omega}) : \operatorname{Vol}(\Omega) = x\}
 \]
-For instance, the isoperimetric profile of the plane is $I(x) = \sqrt{4\pi x}$ which follows immediately from the classical isoperimetric inequality $L^2 \geq 4\pi A$ with equality attained by round circles.
+For example the classic isoperimetric inequality implies that the isoperimetric profile of the plane is $I(x) = \sqrt{4\pi x}$.
 
-A major outstanding conjecture in this area is the Aubin-Cartan-Hadamard conjecture \cite{MR0448404, MR936419} stating that a Cartan-Hadamard manifold with sectional curvature bounded above by $K_0$ has isoperimetric profile bounded below by the isoperimetric profile of the simply-connected model space of constant section curvature $K_0$. This has been proven in dimension 2 \cite{zbMATH02588223}, dimension 3 \cite{MR1156385,MR2167269} and dimension 4 \cite{MR608287} (for $K_0 = 0$ only), but still remains outstanding in general. Using the curve shortening flow, an analogous comparison for rotationally symmetric model spaces with total positive curvature less than $2\pi$ was obtained in \cite{MR1417620} in dimension $2$. This was also one of the first works to characterise isoperimetric regions in spaces with non-constant curvature. In the twenty or so years since then, much research has been undertaken to increase the understanding of isoperimetric domains \cite{MR1883725, MR1661278} yet in general, as the Aubin-Cartan-Hadamard conjecture suggests, we have only so far scratched the surface of this deep problem.
+A major outstanding conjecture in this area is the Aubin-Cartan-Hadamard conjecture \cite{MR0448404, MR936419} bounding the isoperimetric profile of a negatively curved manifold by the constant curvature model space profile. Classicaly, this has been proven in dimension 2 \cite{zbMATH02588223}, dimension 3 \cite{MR1156385,MR2167269} and dimension 4 \cite{MR608287} (for $K_0 = 0$ only), but still remains outstanding in general.
 
-In \cite{Bryan,pbthesis,MR2843240,MR2794630}, a (parabolic) viscosity differential inequality for the isoperimetric profile is used to obtain a comparison principle for the isoperimetric profile evolving under curvature flows. The elliptic version of this inequality is also used to investigate properties of the isoperimetric profile. For example, in positive curvature, the isoperimetric profile is concave and hence isoperimetric regions have connected boundary (see also \cite{MR1674097}). Such results are broadly applicable as for instant in the the recent work of \cite{MR3608721} showsing that the Levy-Gromov isoperimetric inequality holds in RCD spaces; that is those metric measure spaces with lower Ricci bounds \cite{MR2237206,MR2237207,MR2480619,MR3205729}. This result relates closely to the viscosity equation mentioned above via \cite{MR3544942} in which the ellptic version of the viscosity equation is used to prove the Levy-Gromov isoperimetric inequality in the smooth setting.
-
-The aim here is to extend classical comparison results (see e.g. \cite{MR2229062, MR1063226}) under lower curvature bound assumptions for the isoperimetric profile to more general spaces. In particular, sharp comparisons may be obtained comparing against radially symmetric model space with such as those studied in \cite{MR839689, MR2836657,MR1417620}. The expectation is that sharper comparisons may be obtained in this situation by allowing variable comparisons. The radial models themselves have been studied in \cite{MR1883725, MR1699261, MR3581260} with models existing displaying various pathologies and one might hope to dedeuce whether these pathologies capture the higher dimensional behaviour also.
-
-Such comparisons may then be used to tackle problems such as the Aubin-Cartan-Hadamard conjecture mentioned above. One possible approach is to deform regions by curvature flows such as the Mean Curvature Flow or the Inverse Mean Curvature Flow. This approach was taken in \cite{MR2420018} by using the mean-convex Mean Curvature Flow to prove the Euclidean isoperimetric inequality but suffered from the lack of suitable tools to analyse non-smooth flows. Such tools have been developed recently for example in \cite{MR3570481,2013arXiv1304.0926H} where regularity results and structure theorems have been more fully developed. In the radial model setting, isoperimetric inequalities have been proven using curvature flows \cite{MR3439091,2016arXiv160908238G}, whilst my collaborator has proven long-time existence results for inverse curvature flows in non-positively curved backgrounds \cite{MR3581327}. Combining these techniques and comparing singularity formation with the radial model in a similar manner to \cite{MR1650335} may be used to obtain suitable comparison results resolving the conjecture.
+In \cite{Bryan,pbthesis,MR2843240,MR2794630}, a (parabolic) viscosity differential inequality for the isoperimetric profile is used to obtain a comparison principle for the isoperimetric profile evolving under curvature flows. The elliptic version of this inequality is also used to investigate properties of the isoperimetric profile. For example, in positive curvature, the isoperimetric profile is concave and hence isoperimetric regions have connected boundary (see also \cite{MR1674097}). Such results are broadly applicable as for instant in the the recent work of \cite{MR3608721} showing that the Levy-Gromov isoperimetric inequality holds in RCD spaces; that is those metric measure spaces with lower Ricci bounds. This result relates closely to the viscosity equation mentioned above via \cite{MR3544942} in which the ellptic version of the viscosity equation is used to prove the Levy-Gromov isoperimetric inequality in the smooth setting.
 
 *** $k^{\alpha}$ distance comparison (joint with Prof. Ben Andrews)
 
@@ -141,33 +130,13 @@ The (planar) Curve Shortening Flow is the evolution equation,
 \[
 \partial_t \gamma = - \kappa\nu
 \]
-for a smooth, on-parameter family of immersed curves $\gamma_t \subset \RR^2$ in the plane where $\kappa$ is the geodesic curvature with respect to a smooth choice of unit normal, $\nu$. The most famous result regarding this equation is that when $\gamma$ is a closed, embedded curve it collapses to a point in finite time, smoothly converging to a circle after rescalining to keep the total length fixed. Initially the result was proven for strictly convex curves \cite{MR840401} and then later it was shown that arbitrary closed, embedded curves become convex \cite{MR906392} and then the result for convex curves applies. In \cite{MR2794630}, with Prof. Ben Andrews I proved a distance comparison principle leading to a curvature bound and subsequent direct proof of this result in the general case without convexity assumptions.
+for a smooth, one-parameter family of immersed curves $\gamma_t \subset \RR^2$ in the plane with $\kappa$ is the geodesic curvature with respect to a smooth choice of unit normal, $\nu$. The most famous result regarding this equation is that when $\gamma$ is a closed, embedded curve it collapses to a point in finite time, smoothly converging to a circle after rescalining to keep the total length fixed \cite{MR840401,MR906392}. In \cite{MR2794630}, with Prof. Ben Andrews I proved a distance comparison principle leading to a curvature bound and subsequent direct proof of this result.
 
 A related flow is the flow,
 \[
 \partial_t \gamma = -\kappa\abs{\kappa}^{\alpha-1} \nu.
 \]
-This flow has greater non-linearity than the Curve Shortening Flow, and owing to the absolute value, has non-smooth speed for non-convex curves. In the case of convex curves, when $\alpha = 1/3$ the flow is known as the Affine Curve Shortening Flow and strictly convex initial curves collapse to a point in finite time, smooth converging to ellipses after rescaling \cite{MR1255274}. More generally, it was shown \cite{MR1660843} that for $\alpha > 1/3$, convex curves collapse to a point in finite time, smoothly converging to a circle after rescaling.
-
-The aim here is to extend these results from convex curves to arbitrary emedded curves. To achieve this end, first we define approximating flows,
-\[
-\partial_t \gamma = -\kappa\abs{\kappa^2 + \epsilon^2}^{\tfrac{\alpha-1}{2}} \nu
-\]
-which are smooth, strictly parabolic flows. The next step is to obtain a priori estimates via two approaches: one for $\alpha \in (1/3, 1]$ and one for $\alpha \geq 1$. Both methods are applicable to the critical case of the Curve Shortening Flow, $\alpha = 1$, the first method being the distance comparison principle in \cite{MR2794630}.
-
-Comparison of chord-arc profiles for $\alpha \in (1/3, 1]$: For such flows, in order to couple time and spatial variations of the chord-arc profile, the speed, $f$ of the flow must be a so-called /operator monotone/ function, which means upon applying the spectral theory we have for two matrices $A$ and $B$,
-\[
-A \leq B \Rightarrow f(A) \leq f(B).
-\]
-This restricts us to consider $\alpha \in (0,1]$, in which case the following differential inequality for the chord-arc profile holds,
-\[
-\partial_t Z \geq 2 \frac{2^{\alpha+1}}{\left(\sqrt{1 - (Z')^2}\right)^{\alpha-1}} f(Z'') - \avg{f(\kappa) \kappa} \left(Z - Z'\ell\right) - Z' \int_{p_0}^{q_0} f(\kappa)\kappa ds
-\]
-where $f(y) = y\abs{y}^{\alpha-1}$ is the speed of the flow, $\avg{\cdot}$ denotes the mean value over the curve $\gamma$ and $(p_0, q_0)$ are points of given intrinsic length $\ell(p_0, q_0)$ achieving the infimum of extrinsic distance $d(p_0, q_0)$.
-
-Given the critical exponent $\alpha=1/3$ discussed above, it's expected that the curvature estimates obtained using the methods in \cite{MR2794630} should hold for $\alpha \in (1/3, 1]$. Supporting evidence for this conjecture is that the differential inequality is linearly stable around the round circle.
-
-For the case $\alpha \geq 1$, the Harnack inquality (see also the section on estimates below) was used in \cite{MR1094458} to show that arbitrary metrics on $\S^2$ become positively curved in finite time under the Ricci flow. Then the results of \cite{MR954419} show convergence to the constant curvature metric. The aim here is to show similar results hold for the approximating flows defined above.
+This flow has greater non-linearity than the Curve Shortening Flow, and owing to the absolute value, has non-smooth speed for non-convex curves. Convergence results for convex curves have been obtained \cite{MR1255274,MR1660843} but the general embedded case remains open.
 
 *** Curve Shortening of Networks (joint with Prof. Mariel \saez)
 
@@ -179,21 +148,6 @@ The distance comparison argument in \cite{MR2794630} applies also to the Curve S
 \label{fg:network}
 \end{figure}
 The flow is by curve shortening on the interior of the edges, subject to the boundary triple condition. Such a flow was initially studied to model annealing metals \cite{MR0078836} and is of interest in materials science. The flow, like in the smooth case, is also the gradient flow of the length functional, from which perspective the triple condition arises naturally.
-
-A distance comparison based on \cite{MR1656553} was used in the special situation of convex, lens shaped networks. More generally, Prof. Mariel \saez I have shown that the comparison principle for the chord-arc profile developed in \cite{MR2794630} holds for networks after suitable modification to deal with the triple points. To preserve the coincidence of the vertices of the edges, a tangential component of velocity must be introduced, and geometric invariant of the flow implies only the value at the vertices is important. Let us write $\Delta v_m$ for the difference between the this value at joining edges. Then the viscosity equation for the chord-arc profile is
-\[
-\partial_t Z \geq 4Z''+\bar{Q}(Z-xZ')+f'(\Delta Q(p,q)).
-\]
-where $\bar{Q}=\frac{1}{L}\int k^2 ds-\sum_{m=1}^n \Delta v_m$ and $\Delta Q(p,q)=\frac{1}{L}\int_p^q k^2 ds-\sum_{m=i_p}^{i_q} \Delta v_m$. The only difference with the smooth case is the introduction of the $\Delta v_m$ terms.
-
-The aim here is to use construct suitable comparison functions in order to obtain a curvature bound similar to \cite{MR2794630}. The network flow has a number of differences to the smooth flow requiring further analysis. Two important differences are:
-
-1. The asymptotics of the chord arc profile have a different lower order constant and include a quadratic term not present in the smooth case,
-2. The triple points introduce new terms into the viscosity equation not present in the smooth case.
-
-These two points then require modification of the arguments used in the smooth case. However, though not explicitly articulated in \cite{MR2794630}, there is a powerful procedure for finding suitable comparison functions: make a similarity substitution using the profile of the self-similar solution in the viscosity equation. In the smooth case, this is the circle but in the network case there are multiple self-simlar solutions and the comparison must take this into account. On the other hand, the correct asymptotics and additional terms arising from the triple points are present in the self-similar solution so the points above are adequaltely dealt with.
-
-The aim then is to complete this program and prove the major current oustanding conjecture, that the only singularities possible are of multiplicity one. This follows essentially from a chord-arc comparison which shows that the whenever and edge has positive length, all other points remain at positive extrinsic distance hence the only collapse possible is when an edge collapses to zero length. Note that there are heuristic examples giving strong evidence that such behaviour does indeed occur.
 
 *** Notes							   :noexport:
 
@@ -233,7 +187,7 @@ The aim then is to complete this program and prove the major current oustanding 
 - Heintze: comparison \cite{MR0493885} \cite{MR936318}
 - variations and stability: \cite{MR917854,MR731682}
 
-** The Cross Curvature Flow and hyperbolic manifolds (joint with Dr. Mohammad Ivaki and Dr. Julian Scheuer)
+** 2. The Cross Curvature Flow and hyperbolic manifolds (joint with Dr. Mohammad Ivaki and Dr. Julian Scheuer)
 
 *** Aims
 
@@ -243,9 +197,7 @@ The aim then is to complete this program and prove the major current oustanding 
 
 *** Background
 
-In \cite{MR2602839} it is noted that in Thurston's geometrisation program, hyperbolic manifolds are the largest class of prime manifolds. It's not known whether this space is contractible, or even connected. More generally, one may ask similar questions about the classes of pinched metrics.
-
-The Cross Curvature Flow (XCF) was introduced in \cite{MR2055396} in the hopes of deforming negatively curved metrics $g_0$ on a compact three-manifold $M$ to constant curvature metrics in a similar manner to the seminal work on Ricci flow for positively curved metrics \cite{MR664497}. Such a result would show contractibility of the space of negatively curved metrics on a hyperbolic manifold. Very little apart from short-time existence and uniqueness \cite{MR2207496} and some results in special situations such as homogeneous spaces and tori \cite{MR2222245,MR2448593,MR2602839, MR2426751,MR2407107, MR2653711, MR2601352} is known about solutions of the cross-curvature flow, but such results support the conjecture that XCF deforms negatively curved metrics to constant curvature metrics.
+In \cite{MR2602839} it is noted that in Thurston's geometrisation program, hyperbolic manifolds are the largest class of prime manifolds. It's not known whether this space is contractible, or even connected. More generally, one may ask similar questions about the classes of pinched metrics. The Cross Curvature Flow (XCF) was introduced in \cite{MR2055396} in the hopes of deforming negatively curved metrics $g_0$ on a compact three-manifold $M$ to constant curvature metrics. Such a result would confirm contractibility of the space of negatively curved metrics on a hyperbolic manifold. Very little apart from short-time existence and uniqueness \cite{MR2207496} and partial results (e.g. \cite{MR2448593,MR2407107}) is known about solutions of the cross-curvature flow, but such results support the conjecture that XCF deforms negatively curved metrics to constant curvature metrics.
 
 Let
 \[
@@ -255,19 +207,68 @@ denote the Einstein tensor of a Riemannian manifold $(M, g)$. We define the endo
 \[
 E(X, Y) = g(\mathcal{E}(X), Y).
 \]
-This enables us to define the Einstein-Ricci tensor,
+and Einstein-Ricci tensor,
 \[
 \operatorname{Ric}_E (X, Y) = \operatorname{Tr} \left[Z \mapsto \operatorname{Rm} (\mathcal{E}(Z), X) Y\right],
 \]
 Then the XCF is the evolution equation,
 \[
-\partial_t g = -2 \operatorname{Ric}_E,
+\partial_t g = -2 \operatorname{Ric}_E.
 \]
-typically written in coordinates (depending on curvature tensor conventions),
+
+** 3. Singularities, symmetries and ancient solutions of fully non-linear geometric evolution equations (joint with Dr. Mohammad Ivaki and Dr. Julian Scheuer)
+
+*** Aims
+1. Classify ancient solutions of curvature flows in Riemannian backgrounds.
+2. Prove area estimates for unstable minimal surfaces in terms of the space of unstable directions.
+*** Background
+
+In \cite{2016arXiv160401694B} my collaborators and I proved that the very general result that any convex, ancient solution of a parabolic, geometric flow must be a family of shrinking geodesic spheres emenating from an equator at $t=-\infty$. In a general Riemannian badkground, given an unstable minimal surface $M_0$, we linearise the curvature flow and apply stability analysis such as in \cite{MR1485470}. Stability theory implies that the space of ancient solutions converging backwards to $M_0$ as $t\to-\infty$ is a finite dimensional linear sub-manifold corresponding to the unstable eigenspace. Further analysis should show that there is unique mean convex ancient solution corresponding to the first eigenvalue which is simple (the eigenspace is one-dimensional).
+
+As a striking example of possible applications, we see that there is a five-dimensional family of ancient solutions emenating from a Clifford Torus in $\S^3$. The motion of this family is, to first order, by the canonical family of conformal transformations used in the resolution of the Wilmore conjecture \cite{MR3152944}. This suggests a hitherto unknown connection between the conformal geometry of the sphere and the Mean Curvature flow with applications to Wilmore surfaces.
+
+* Project Quality And Innovation
+
+** Isoperimetric Comparisons
+
+An innovation of this project is the use of Isoperimetric comparisons which may then be used to tackle problems such as the Aubin-Cartan-Hadamard conjecture mentioned above. One possible approach is to deform regions by curvature flows such as the Mean Curvature Flow or the Inverse Mean Curvature Flow. This approach was taken in \cite{MR2420018} by using the mean-convex Mean Curvature Flow to prove the Euclidean isoperimetric inequality but suffered from the lack of suitable tools to analyse non-smooth flows. Such tools have been developed recently for example in \cite{MR3570481,2013arXiv1304.0926H} where regularity results and structure theorems have been more fully developed. In the radial model setting, isoperimetric inequalities have been proven using curvature flows \cite{MR3439091,2016arXiv160908238G}, whilst my collaborator has proven long-time existence results for inverse curvature flows in non-positively curved backgrounds \cite{MR3581327}. Combining these techniques and comparing singularity formation with the radial model in a similar manner to \cite{MR1650335} may be used to obtain suitable comparison results resolving the conjecture.
+
+** Homogeneous Curve Shortening Flow
+
+For the homogeneous Curve Shortening Flow, an innovation is to define approximating flows,
 \[
-\partial_t g_{ij} = -2 E^{kl} R_{kijl}
+\partial_t \gamma = -\kappa\abs{\kappa^2 + \epsilon^2}^{\tfrac{\alpha-1}{2}} \nu
 \]
-where $E^{ij} = g^{ik}g^{jl}E_{kl}$ is the raising of $E$ by the metric $g$. In three dimensions, whenever $(M, g)$ has strictly negative sectional curvature, $E$ is positive definite and hence defines a metric.
+which are smooth, strictly parabolic flows. The next step is to obtain a priori estimates via two approaches: one for $\alpha \in (1/3, 1]$ and one for $\alpha \geq 1$. Both methods are applicable to the critical case of the Curve Shortening Flow, $\alpha = 1$, the first method being the distance comparison principle in \cite{MR2794630}.
+
+Comparison of chord-arc profiles for $\alpha \in (1/3, 1]$: For such flows, the comparison applies for /operator monotone/ functions which satisfy $A \geq 0 \Rightarrow f(A) \leq 0$ for matrix $A$, which restricts to $\alpha \leq 1$. The following differential inequality for the chord-arc profile holds in this case:
+\[
+\partial_t Z \geq 2 \frac{2^{\alpha+1}}{\left(\sqrt{1 - (Z')^2}\right)^{\alpha-1}} f(Z'') - \avg{f(\kappa) \kappa} \left(Z - Z'\ell\right) - Z' \int_{p_0}^{q_0} f(\kappa)\kappa ds
+\]
+where $f(y) = y\abs{y}^{\alpha-1}$ is the speed of the flow, $\avg{\cdot}$ denotes the mean value over the curve $\gamma$ and $(p_0, q_0)$ are points of given intrinsic length $\ell(p_0, q_0)$ achieving the infimum of extrinsic distance $d(p_0, q_0)$. Given the critical exponent $\alpha=1/3$ discussed above, it's expected that the curvature estimates obtained using the methods in \cite{MR2794630} should hold for $\alpha \in (1/3, 1]$. Supporting evidence for this conjecture is that the differential inequality is linearly stable around the round circle.
+
+For the case $\alpha \geq 1$, the Harnack inquality (see also the section on estimates below) was used in \cite{MR1094458} to show that arbitrary metrics on $\S^2$ become positively curved in finite time under the Ricci flow. Then the results of \cite{MR954419} show convergence to the constant curvature metric. The aim here is to show similar results hold for the approximating flows defined above.
+
+** Network Curve Shortening Flow
+
+A distance comparison based on \cite{MR1656553} was used in the special situation of convex, lens shaped networks. More generally, Prof. Mariel \saez I have shown that the comparison principle for the chord-arc profile developed in \cite{MR2794630} holds for networks after suitable modification to deal with the triple points. To preserve the coincidence of the vertices of the edges, a tangential component of velocity must be introduced, and geometric invariant of the flow implies only the value at the vertices is important. Let us write $\Delta v_m$ for the difference between the this value at joining edges. Then the viscosity equation for the chord-arc profile is
+\[
+\partial_t Z \geq 4Z''+\bar{Q}(Z-xZ')+f'(\Delta Q(p,q)).
+\]
+where $\bar{Q}=\frac{1}{L}\int k^2 ds-\sum_{m=1}^n \Delta v_m$ and $\Delta Q(p,q)=\frac{1}{L}\int_p^q k^2 ds-\sum_{m=i_p}^{i_q} \Delta v_m$. The only difference with the smooth case is the introduction of the $\Delta v_m$ terms.
+
+The aim here is to use construct suitable comparison functions in order to obtain a curvature bound similar to \cite{MR2794630}. The network flow has a number of differences to the smooth flow requiring further analysis. Two important differences are:
+
+1. The asymptotics of the chord arc profile have a different lower order constant and include a quadratic term not present in the smooth case,
+2. The triple points introduce new terms into the viscosity equation not present in the smooth case.
+
+These two points then require modification of the arguments used in the smooth case. However, though not explicitly articulated in \cite{MR2794630}, there is a powerful procedure for finding suitable comparison functions: make a similarity substitution using the profile of the self-similar solution in the viscosity equation. In the smooth case, this is the circle but in the network case there are multiple self-simlar solutions and the comparison must take this into account. On the other hand, the correct asymptotics and additional terms arising from the triple points are present in the self-similar solution so the points above are adequaltely dealt with.
+
+The aim then is to complete this program and prove the major current oustanding conjecture, that the only singularities possible are of multiplicity one. This follows essentially from a chord-arc comparison which shows that the whenever and edge has positive length, all other points remain at positive extrinsic distance hence the only collapse possible is when an edge collapses to zero length. Note that there are heuristic examples giving strong evidence that such behaviour does indeed occur.
+
+** Cross Curvature Flow
+
+The project on the Cross Curvature Flow and hyperbolic manifolds is highly innovative, identifying previously unknown deep structure and describing powerful techniques for understanding the geometry of hyperbolic manifolds similar to the Ricci flow's role in positively curve geometry. The extensions to higher dimensions and underlying algebraic structure have not previously been observed and will open up an entirely new approach to high dimensional hyperbolic geometry. Furthermore, the isoperimetric comparisons will demonstrate that the tremendous power of these methods has very broad applicability building upon previous innovations of the applicant.
 
 *** Estimates
 
@@ -322,64 +323,22 @@ somewhat analogous to the Yamabe flow where $\mathcal{E}$ is replaced by the sca
 
 The aim here is to develop a theory of short-time existence and uniqueness as well as all the basic evolution equations necessary for the analysis of these flows in higher dimensions. In this situation, strictly negative curvature does not correspond to positive-definiteness of $E$, again diagonalising $\operatorname{ric}$ shows the conditions of strictly negative curvature operator and vanishing Weyl tensor are related to the postive definiteness of $E$ and hence are hence natural conditions to impose in the initial study which likely will lead to similar results as those in the three dimensional case.
 
-** Singularities, symmetries and ancient solutions of fully non-linear geometric evolution equations (joint with Dr. Mohammad Ivaki and Dr. Juliean Scheuer)
+** Ancient solutions and minimal surfaces
 
-*** Aims
-1. Classify ancient solutions of curvature flows in Riemannian backgrounds.
-2. Prove area estimates for unstable minimal surfaces in terms of the space of unstable directions.
-*** Background
+It has long been understood that curvature flows and minimal surfaces are closely related, yet explicit applications to minimal surfaces have been minimal. The proposed research identifies an entirely new connection between the topics which will attract considerable attention from the minimal surface community. Moreover, the previously unobserved connections to the conformal geometry of the sphere are certain to inspire future research and produce novel results.
 
-In \cite{2016arXiv160401694B} my collaborators and I proved that effectively any convex, ancient solution of a parabolic, geometric flow must be a family of shrinking geodesic spheres emenating from an equator at $t=-\infty$. This is in stark constrast to the Euclidean space situation when many such solutions exist. The methods employed relied heavily on the geometry of the sphere and to generalise these results to Riemannian backgrounds, different methods must be adopted.
-
-With this end in mind, given an unstable minimal surface $M_0$, we linearise the curvature flow and apply stability analysis such as in \cite{MR1485470,2016arXiv160104986H}. The theory of maximal regularity \cite{MR3012216} implies that the space of ancient solutions converging backwards to $M_0$ as $t\to-\infty$ is a finite dimensional linear sub-manifold of the space of smooth functions $M_0 \to \RR$ with dimension equal to the Morse index of $M_0$. Further analysis should show that there is unique mean convex ancient solution corresponding to the first eigenvalue which is simple (the eigenspace is one-dimensional). In this project I will complete making this program rigourous and by applying compactness results show that arbitrary non-singular ancient solutions fit into this framework.
-
-As a striking example of possible applications, we see that there is a five-dimensional family of ancient solutions emenating from a Clifford Torus in $\S^3$. The motion of this family is, to first order, by the canonical family of conformal transformations used in the resolution of the Wilmore conjecture \cite{MR3152944}. This suggests a hitherto unknown connection between the conformal geometry of the sphere and the Mean Curvature flow with applications to Wilmore surfaces.
-
-In general backgrounds, similar results hold and two points are of note:
+In general backgrounds, two points are of note:
 1. There is a unique mean convex ancient solution emenating from an unstable minimal surface $M_0$,
 2. Regularity theory of mean convex mean curvature flow has undergone significant development recently \cite{2013arXiv1304.0926H,MR3570481}
 Using these these two results, I will extend the geometric inequalities of \cite{MR1650335} to the unique mean convex mean curvature flow (which may undergo signularities previously hampering progress with this method) to obtain area control for $M_0$ in terms of the value of the first eigenvalue.
 
 For flows other than the mean curvature flow, one can encounter degenerecies and singularities in the linearisation around a minimal surface. The results in \cite{2016arXiv160401694B} show that nevertheless classification results are possible. To progress then I will develop approximating techniques, e.g. by approximating the flow with speed $H^p$ by the flow with speed $H (H^2 + \epsilon^2)^{\tfrac{p-1}{2}}$ (similar to the approximating flows for the $\kappa^p$ homogeneous curvature flows), obtain a-prior estimates and classification, then pass to the limit $\epsilon \to 0$ to conclude the classification for the original flow.
 
-** Estimates for fully non-linear geometric evolution equations (joint with Dr. Mohammad Ivaki and Dr. Julian Scheuer)
+** Estimates
 
-*** Aims
+In the course of this project, various estimates are essential. Of particular note is the use of the Harnack inequality for the homogeneous curve shortening flow, network flow and XCF. This aspect of the project has very broad applicibility and is partly funded by DFG-Grant number is SCHE 1879/1-1 "Harnack inequalities for curvature flows and applications" awarded to my collaborator Dr. Julian Scheuer. Such estimates are notoriously difficult, but our work \cite{2015arXiv150802821B,2015arXiv151203374B}, particularly \cite{BIS4} provides a framework for undertaking the complicated complications and that will be extended in this project. It is a major innovation that facilites the use of this method in the problems consiered here.
 
-1. Obtain and extend Harnack estimates for curvature flows,
-2. Obtain modulus of continuity estimates for curvature flows.
-
-*** Background
-**** Harnack estimates.
-
-- Julian's grant: DFG-Grant number is SCHE 1879/1-1 "Harnack inequalities for curvature flows and applications"
-- A-priori estimates for approximating solutions to $k^{\alpha}$ flows.
-- Matrix Harnack for high co-dimension flows.
-- XCF
-- Ricci flow
-- Scalar eat equations
-- Compensated Harnack like Chow and Hamilton-Yau for $k^{\alpha}$ flows and flows in general backgrounds.
-
-**** Modulus of continuity.
-
-- Comparison theorems better suited to fully non-linear equations.
-- Works well from Ben and Julies work.
-- Works also in the viscosity setting/level set flow by Xioalong and Kui's works. Could be quite powerful for obtaining estimates particularly in the mean convex MCF setting.
-- Apply it to the speed of the flow like in the Harnack.
-- Answer Balmer's question about time-of-existence close to a model implies initially close to the model. He already has a paper on this.
-- Relation to Harnack.
-- One-dimensional comparison and rotationally symmetric models like Langer.
-- Deal with non-constant curvature by comparison with radial model. e.g. for MCF, we have $u = \partial_t \ln H$. In the sphere, we can add a constant bonus term $u = \partial_t \ln H + K_0$ where $K_0$ is the background curvature. More generally, we'd like to add something like $u = \partial_t \ln H + f(Rm)$. The problem is that then we take $(\partial_t - \Delta) u$ which introduces second derivatives of $Rm$ from the $\Delta$ (maybe it's okay because they might cancel with the $\partial_t Rm$ terms?) and things get out of hand. Still there are also $\nabla Rm$ terms just with $u = \partial_t \ln H$ and it's not clear how to cancel these. But if instead we have something like $u = \partial_t \ln H + f(t, \rho(x))$ where $\rho(x) = d(x, x_0)$ is the distance from a fixed point it may be possible to do radial comparisons.
-- Apply it to \cite{2016arXiv160908238G} to obtain gradient estimates and remove assumptions
-
-* Project Quality And Innovation
-
-The proposed research project on isoperimetric comparisons addresses several current, actively studied problems: the connection between curvature, topology and isoperimetry and obtain more precise comparisons than existing ones. As discussed in "Aims and Background", the understanding of the isoperimetric profile is limited to special cases such as surfaces, constant curvature spaces, and minimal surfaces. The Aubin-Cartan-Hadamard conjecture still remains open despite the relatively simple properties of Cartan-Hadamard manifolds. 
-
-The project on the Cross Curvature Flow and hyperbolic manifolds is highly innovative, identifying previously unknown deep structure and describing powerful techniques for understanding the geometry of hyperbolic manifolds similar to the Ricci flow's role in positively curve geometry. The extensions to higher dimensions and underlying algebraic structure have not previously been observed and will open up an entirely new approach to high dimensional hyperbolic geometry.
-
-It has long been understood that curvature flows and minimal surfaces are closely related, yet explicit applications to minimal surfaces have been minimal. The proposed research identifies an entirely new connection between the topics which will attract considerable attention from the minimal surface community.
-
+Nevertheless, the Harnack inequality has it's limits which may be traced back to non-linearities introduced by the curvature. To overcome these problems, new estimates are also required. These will take the form of modulus of conitnuity estimates as described in \cite{MR3381494} and extended to the viscosity setting in \cite{MR3606561}. Such estimates have yet been applied to the speed of the flow (as is done with the Harnack inequality). What's more, these kinds of estimates are better adapted to comparison principles, a vital tool in the study of fully non-linear evolution equations. These may be used to proceed where the Harnack fails or becomes excessivly complicated such as in the XCF. But they retain many features, offering sharp comparisons and gradient estimates with equality occuring on 1-dimensional model spaces similar to the Harnack attaining equality on solitons. This technique, also being applicable in the viscosity setting applies to the mean convex mean curvature flow which is generally not smooth but is a viscosity equation.
 
 ** Old 								   :noexport:
 ***** _Isoperimetric Comparisons
