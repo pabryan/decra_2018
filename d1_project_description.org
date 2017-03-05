@@ -134,7 +134,7 @@ This flow has greater non-linearity than the Curve Shortening Flow, and owing to
 
 *** Curve Shortening of Networks (joint with Prof. Mariel \saez)
 
-The distance comparison argument in \cite{MR2794630} applies also to the Curve Shortening Flow of networks, a topic that has received considerable attention in recent years \cite{MR2394409,MR2075985,MR2763716}. In this context, a network is an embedded graph in the plane. Each edge has vertices either lying on the boundary of a convex body with interior (or on the circle at infinity), or meets precisely two other edges at a vertex and with equal angles of $2\pi/3$ (/triple condition/). See figure \ref{fg:network}.
+The distance comparison argument in \cite{MR2794630} applies also to the Curve Shortening Flow of networks, a topic that has received considerable attention in recent years \cite{MR2394409,MR2075985,MR2763716}. In this context, a network is an embedded graph in the plane. Each edge has vertices either lying on the boundary of a convex body (or on the circle at infinity), or meets precisely two other edges at a vertex and with equal angles of $2\pi/3$ (/triple condition/). See figure \ref{fg:network}.
 \begin{figure}[htb]
 \centering
 \includegraphics[width=.3\linewidth]{network}
@@ -209,7 +209,7 @@ Then the XCF is the evolution equation,
 2. Prove area estimates for unstable minimal surfaces in terms of the space of unstable directions.
 *** Background
 
-In \cite{2016arXiv160401694B} my collaborators and I proved that the very general result that any convex, ancient solution of a parabolic, geometric flow must be a family of shrinking geodesic spheres emenating from an equator at $t=-\infty$. To obtain similar results in a general Riemannian background, given an unstable minimal surface $M_0$, linear stability analysis implies that the space of ancient solutions converging backwards to $M_0$ as $t\to-\infty$ is a finite dimensional linear sub-manifold corresponding to the unstable eigenspace. Further analysis should show that there is unique mean convex ancient solution corresponding to the first eigenvalue which is simple (the eigenspace is one-dimensional).
+In \cite{2016arXiv160401694B} my collaborators and I proved that the very general result that any convex, ancient solution of a parabolic, geometric flow must be a family of shrinking geodesic spheres emanating from an equator at $t=-\infty$. To obtain similar results in a general Riemannian background, given an unstable minimal surface $M_0$, linear stability analysis implies that the space of ancient solutions converging backwards to $M_0$ as $t\to-\infty$ is a finite dimensional linear sub-manifold corresponding to the unstable eigenspace. Further analysis should show that there is unique mean convex ancient solution corresponding to the first eigenvalue which is simple (the eigenspace is one-dimensional).
 
 As a striking example of possible applications, we see that there is a five-dimensional family of ancient solutions emanating from a Clifford Torus in $\sphere^3$. The motion of this family is, to first order, by the canonical family of conformal transformations used in the resolution of the Willmore conjecture \cite{MR3152944}. This suggests a hitherto unknown connection between the conformal geometry of the sphere and the Mean Curvature flow with applications to Willmore surfaces.
 
@@ -237,7 +237,7 @@ For the case $\alpha \geq 1$, the Harnack inequality may be used (similar to \ci
 
 ** Network Curve Shortening Flow
 
-Prof. Mariel \saez I have shown that the comparison principle for the chord-arc profile developed in \cite{MR2794630} holds for networks after suitable modification to deal with the triple points. To preserve the coincidence of the vertices of the edges, a tangential component of velocity must be introduced, and geometric invariant of the flow implies only the value at the vertices is important. Let us write $\Delta v_m$ for the difference between the this value at joining edges. Then the viscosity equation for the chord-arc profile is
+Prof. Mariel \saez I have shown that the comparison principle for the chord-arc profile developed in \cite{MR2794630} holds for networks after suitable modification to deal with the triple points. To preserve the coincidence of the vertices of the edges, a tangential component of velocity must be introduced, and geometric invariant of the flow implies only the value at the vertices is important. Let us write $\Delta v_m$ for the difference between this value at joining edges. Then the viscosity equation for the chord-arc profile is
 \[
 \partial_t Z \geq 4Z''+\bar{Q}(Z-xZ')+f'(\Delta Q(p,q)).
 \]
@@ -276,7 +276,7 @@ I_E (x) = \inf\{\operatorname{Area}_E (\Omega) : \operatorname{Vol}_E (E) = x\}.
 \]
 In \cite{MR2055396} it was shown that the Einstien volume is monotone along the flow, which suggests that as with the isoperimetric profile for the Ricci flow, this approach will prove quite powerful.
 
-In the critical dimension three, one hopes to be able to exploit such topological invariants arising from the conformal-like structure of the cross curvature flow, as well as Hodge duality identifying vectors and two-vectors. The relevance here is that the Gauss-Bonnet theorem played a pivotal role in the proof of the isoperimetric comparison theorems for the Ricci flow in \cite{Bryan,MR2729306}. There, the theorem was applied to the second variation of perimeter of isoperimetric domains to obtain a viscosity equation for the isoperimetric profile which formed the basis of the comparison theorem. In three dimensions, a consequence of the Poincare-Hopf index lemma is that one always has a non-vanishing vector field $X$ at one's disposal, and by Hodge duality, also a non-vanishing two-vector field $\eta$ but a lack of exactness as measured by $H^1(M) \simeq H^2(M)$ is an obstruction and the aim is to quantity this toplogically similar to the way the Euler characteristic appears in the Gauss-Bonnet theorem.
+In the critical dimension three, one hopes to be able to exploit such topological invariants arising from the conformal-like structure of the cross curvature flow, as well as Hodge duality identifying vectors and two-vectors. The relevance here is that the Gauss-Bonnet theorem played a pivotal role in the proof of the isoperimetric comparison theorems for the Ricci flow in \cite{Bryan,MR2729306}. There, the theorem was applied to the second variation of perimeter of isoperimetric domains to obtain a viscosity equation for the isoperimetric profile which formed the basis of the comparison theorem. In three dimensions, a consequence of the Poincare-Hopf index lemma is that one always has a non-vanishing vector field $X$ at one's disposal, and by Hodge duality, also a non-vanishing two-vector field $\eta$ but a lack of exactness as measured by $H^1(M) \simeq H^2(M)$ is an obstruction and the aim is to quantify this topologically, similar to the way the Euler characteristic appears in the Gauss-Bonnet theorem.
 
 *** Higher Dimensions
 
@@ -284,7 +284,7 @@ The definition given above for the XCF makes sense in any dimension. Moreover, t
 \[
 \partial_t g = -2 \operatorname{Ric}_E.
 \]
-Let us call this equation the /Einstein Ricci Flow/. Now, let $\operatorname{adj} \mathcal{E}$ denote the adjugate of $\mathcal{E}$ defined as the $\wedge$-adjoint of $\wedge^{n-1} \mathcal{E}$:
+Let us call this equation the /Einstein Ricci Flow/. Now, let $\operatorname{adj} \mathcal{E}$ denote the adjugate of $\mathcal{E}$ defined as the $\wedge$ adjoint of $\wedge^{n-1} \mathcal{E}$:
 \[
 \operatorname{adj} \mathcal{E} (X) \wedge \eta = X \wedge (\wedge^{n-1} \mathcal{E}) \eta
 \]
@@ -310,7 +310,7 @@ For flows other than the mean curvature flow, one can encounter degeneracy's and
 
 ** Estimates
 
-In the course of this project, various estimates are essential. Of particular note is the use of the Harnack inequality for the homogeneous curve shortening flow, network flow and XCF. This aspect of the project has very broad applicability and is already partly funded by DFG-Grant number is SCHE 1879/1-1 "Harnack inequalities for curvature flows and applications" awarded to my collaborator Dr. Julian Scheuer. Such estimates are notoriously difficult, but our work \cite{2015arXiv150802821B,2015arXiv151203374B}, particularly \cite{BIS4} provides a framework for undertaking the complicated complications. The extension and refinement of this framework is a major innovation.
+In the course of this project, various estimates are essential. Of particular note is the use of the Harnack inequality for the homogeneous curve shortening flow, network flow and XCF. This aspect of the project has very broad applicability and is already partly funded by DFG-Grant number is SCHE 1879/1-1 "Harnack inequalities for curvature flows and applications" awarded to my collaborator Dr. Julian Scheuer. Such estimates are notoriously difficult, but our work \cite{2015arXiv150802821B,2015arXiv151203374B}, particularly \cite{BIS4} provides a framework for undertaking the complicated complications. The extension and refinement of this framework are major innovations.
 
 The Harnack inequality has its limits owing to non-linearities introduced by the curvature. To overcome these problems, new estimates are also required. These will take the form of modulus of continuity estimates as described in \cite{MR3381494} and extended to the viscosity setting in \cite{MR3606561} as used in several parts of this project. Such estimates have yet to be applied to the speed of the flow (as is done with the Harnack inequality) and are perhaps better adapted to comparison principles, a vital tool in the study of fully non-linear evolution equations. Sharp comparisons and gradient estimates may be obtained with equality occurring on 1-dimensional model spaces similar to the Harnack attaining equality on solitons.
 
@@ -369,7 +369,7 @@ roles they may hold.
 
 * Feasibility
 
-The project builds on the candidates existing expertise and has a high chance of producing strong research outcomes. The aims are ambitious, but involve many intermediate steps along the away, some of which already have been established, ensuring continual progress throughout the duration of the project. The aims closely align with the expertise of the MSI, with several experts in the field available to offer support and guidance to the candidate.
+The project builds on the candidate's existing expertise and has a high chance of producing strong research outcomes. The aims are ambitious, but involve many intermediate steps along the away, some of which already have been established, ensuring continual progress throughout the duration of the project. The aims closely align with the expertise of the MSI, with several experts in the field available to offer support and guidance to the candidate.
 
 ** notes 							   :noexport:
 - Explain how the design of the proposed project, the expertise of the participants and requested budget will be sufficient to ensure the project can be successfully completed within the proposed budget and timeframe.
@@ -378,9 +378,9 @@ The project builds on the candidates existing expertise and has a high chance of
 
 * Benefit
 
-The funding requested is minimal, consisting principally of salary and a modest request for travel. Hence the execution of the of the project offers excellent value for money, particularly as the candidates research to date, shows that the methods described in this proposal are extremely effective. 
+The funding requested is minimal, consisting principally of salary and a modest request for travel. Hence the execution of the of the project offers excellent value for money, particularly as the candidate's research to date shows the methods described in this proposal are extremely effective. 
 
-The research is highly innovative, with strong results already obtained by these methods, and involves international collaboration strengthening Australia's ties with research institutes in North and South America, Europe and China. The techniques developed also have very broad applicability, as has already been established by the candidates previous work, and hence benefits the international community in pushing the frontiers of geometric and non-linear analysis. Australia in particular will see social, cultural and economic benefits by strengthening it's international reputation and attracting leading researchers and students to Australia to study the innovative new methods developed in the project.
+The research is highly innovative, with strong results already obtained by these methods, and involves international collaboration strengthening Australia's ties with research institutes in North and South America, Europe and China. The techniques developed also have very broad applicability, as has already been established by the candidate's previous work, and hence benefits the international community in pushing the frontiers of geometric and non-linear analysis. Australia in particular will see social, cultural and economic benefits by strengthening it's international reputation and attracting leading researchers and students to Australia to study the innovative new methods developed in the project.
 
 * Communication Of Results
 
