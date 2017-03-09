@@ -22,7 +22,7 @@
 
 ** A1 Working Title
 
-Fully non-linear analysis of geometric flows
+Analysis of fully non-linear geometric problems and differential equations
 
 ** A4 Proposal Summary
 :PROPERTIES:
