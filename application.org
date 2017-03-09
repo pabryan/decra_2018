@@ -28,6 +28,9 @@ Fully non-linear analysis of geometric flows
 :PROPERTIES:
 :characters: 750
 :END:
+
+This project aims to investigate non-linear geometric evolution equations that have received considerable attention in the past decades through their use is solving many famous outstanding problems in mathematics such as the Poincare conjecture, a million dollar Millennium Prize problem. By developing innovative new techniques intertwining geometry and analysis, the project endeavours to make advances in non-linear problems modeling complex phenomena. The project addresses topics as varied as hyperbolic geometry (the geometry of space around black holes) and a geometric approach to irregularities forming in crystal growth in materials science, focusing on developing cutting edge mathematical tools and surprising connections to geometry.
+
 *** Notes							   :noexport:
 - Introductory statement:
   (For example: This Project aims to address/investigate/review …; by utilising/advancing/conceptualising …)
@@ -43,7 +46,7 @@ Fully non-linear analysis of geometric flows
 :characters: 500
 :END:
 
-The project aims at conducting top quality mathematical research with internationally renowned mathematicians on deepening the understanding of the geometry of space itself. It will attract collaborators from all around the world, helping to cement Australia's position as an important part of the global mathematics community by answering questions about optimal shapes, giving a geometric picture of energy conservation.
+The project aims at conducting top quality mathematical research with internationally renowned mathematicians on deepening the understanding of the geometry of space itself. It aspires to attract international collaborators, contributing to fortify Australia's position as an important part of the global mathematics community by answering current questions about optimal shapes and giving a geometric picture of energy conservation.
 
 ** Old Version 							   :noexport:
 
