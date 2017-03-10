@@ -138,7 +138,7 @@ see the ARC ROPE Policy.
   # #+END_LATEX
 
 
-**** Refereed Journal Articles
+**** *Refereed Journal Articles*
 
    1. * Ben Andrews, *Paul Bryan*. /Curvature bounds by isoperimetric comparison for normalized Ricci flow on the two-sphere/. Calc. Var. Partial Differential Equations 39, 419--428, 2010.
    2. * Ben Andrews, *Paul Bryan*. /A comparison theorem for the isoperimetric profile under curve-shortening flow/. Comm. Anal. Geom. 19, 503--539, 2011.
@@ -149,7 +149,7 @@ see the ARC ROPE Policy.
    7. * *Paul Bryan*, Mohammad Ivaki, Julian Scheuer /Harnack inequalities for evolving hypersurfaces on the sphere/ Comm. Anal Geom. (Accepted) 2016 arXiv: [math.DG] (available at http://arxiv.org/abs/1512.03374)
    8. *Paul Bryan*, Mohammad Ivaki, Julian Scheuer /A unified flow approach to smooth, even $L_p$-Minkowski problems/, Analysis & PDE (Accepted) 2016 arXiv: [math.DG] (available at http://arxiv.org/abs/1512.03374)
 
-**** Other
+**** *Other Research Outputs*
 ***** Pre-prints
 
   1. * *Paul Bryan*, Mohammad Ivaki, Julian Scheuer /On the classification of ancient solutions to curvature flows on the sphere/, Submitted to /Journal of the European Mathematical Society/, 2016. arXiv: [math.DG] (available at [[http://arxiv.org/abs/1604.01694]])
