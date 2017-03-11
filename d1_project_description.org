@@ -14,7 +14,9 @@
 # *** Other formatting settings
 #+OPTIONS: toc:nil  
 #+options: num:nil
-#+LATEX_HEADER: \date{}
+#+OPTIONS: author:nil date:nil
+#+LATEX_HEADER: \renewcommand\maketitle{}
+
 # #+LATEX_HEADER:\setlength{\textwidth}{\paperwidth}
 # #+LATEX_HEADER:\addtolength{\textwidth}{-2in}
 # #+LATEX_HEADER:\calclayout
@@ -23,13 +25,11 @@
 #+LATEX_HEADER: \usepackage{setspace}
 #+LATEX_HEADER: \usepackage[margin = 6mm]{geometry}
 
-#+LATEX_HEADER: \onehalfspacing
 #+LATEX_HEADER: \pagenumbering{gobble}
 #+LATEX_HEADER: \pagestyle{empty}
 
 
 #+LaTeX_Header: \renewcommand*{\bibfont}{\footnotesize}
-#+LaTeX_Header: \setenumerate{label=(\Alph*)}
 
 * Notes 							   :noexport:
 
@@ -109,62 +109,127 @@ o References may be in 10 point Times New Roman or equivalent font.
 Analysis and geometric techniques for fully non-linear problems in geometry and PDE.
 
 * Aims And Background
+Geometric evolution equations are ubiquitous and have been used to extraordinary effect in solving many important problems in geometry and topology.  Perhaps the most famous, is the resolution of the \poincare{} conjecture by Hamilton and Perelman \cite{MR2334563}.  Other, equally striking (mathematically, perhaps if not sensationally) results are the $1/4$ pinched sphere theorems (see \cite{MR2738904} for a recent survey article or \cite{MR2760593} for a more comprehensive account), Cao's proof of the Calabi conjecture \cite{MR799272} and two different proofs of the Riemannian Penrose inequality \cite{MR1916951, MR1908823}.  Geometric flow type techniques were also recently used to prove the fundamental gap conjecture \cite{MR2784332} whilst  the Ricci flow on surfaces can also be used to prove the uniformisation theorem \cite{MR2729306}.
 
-- Curvature Flows including XCF, manifold topology and singularities.
-  - Hamilton, Perelman.
-- Isoperimetric Inequalities.
-  - Classic results and simple examples.
-- Harnack inequalities and ancient solutions.
-- Emphasise my work on these topics
+Such results depend crucially on careful analysis of asymptotics and singularity formation. Innovative isoperimetric comparison techniques were introduced in \cite{MR2729306,MR2794630,MR2843240,pbthesis,Bryan} Prof. Ben Andrews and I to obtaining very direct proofs that arbitrary initial configurations converge smoothly to the model, constant curvature configuration. These results then yield proofs of the famous uniformisation theorem classifying all closed surfaces by genus, and also the classical isoperimetric inequality stating that among all planar figures of a given area, the circle has the least perimeter.
+
+In three dimensions, the \poincare{} conjecture mentioned above fits into a larger scheme known as the Thurston Geometrisation Conjecture and this is in fact what Hamilton and Perelman proved. Roughly speaking, this conjecture says any compact three dimensional manifold may be decomposed into smaller simpler pieces, and that each of these pieces is one of eight possible types - the so called /Prime manifolds/. The manifolds include in particular the standard Euclidean, Spherical and Hyperbolic geometries. Such a decomposition allows one to study these pieces separately and is a great boon given the otherwise complex topology of three-manifolds. In particular, the negatively curved manifolds form the largest class of prime manifolds and deeper questions on these objects are not well suited to Hamilton's and Perelman's approach based on the Ricci flow which is most effective in positive curvature. To remedy the situation Hamilton and Chow introduced the Cross Curvature Flow \cite{MR2055396}, a fully non-linear equation that preserves the property of negative curvature. Only scattered results are known for this flow so far, but all support the conjecture that any negatively curved manifold will smooth converge to a constant curvature, /hyperbolic manifold/. Such a result would imply, for example, that the space of negative curvature metrics on a hyperbolic manifold is path connected and hence any such manifold may be seen as a perturbation of the constant curvature hyperbolic manifold thus revealing hidden simplicity in the topology of these mysterious negatively curved spaces.
+
+Another approach to these types of problems is to study ancient solutions, solitons and the closely related Harnack inequality. It has been known for some time that ancient solutions, and solitons in particular model singularity formation and hence studying such special solutions lends tremendous insight into the sort of problems described above. Dr. Mohammad Ivaki, Dr. Julian Scheuer and I have developed considerable apparatus \cite{BIS4,2016arXiv160401694B,2015arXiv150802821B,2015arXiv151203374B} for studying ancient solutions and obtaining Harnack inequalities in Riemannian backgrounds, a very surprising and difficult result given the non-linearity introduced by the curvature of the background space, and the only major new result on such inequalities this century. Moreover, very strong classification results for ancient solutions were obtained via geometric methods showing for example that for any heat-type geometric flow on the sphere, the only ancient, convex solutions are spherical caps, suggesting that in positive curvature, the space of such solutions is very rigid. By linear stability analysis, one may approximate a minimal surface by an ancient solution of the Mean Curvature Flow and the classification results may then be applied to obtain area bounds for minimal surfaces in terms of topological properties such as the Morse index which measures the number of independent directions in which a minimal surface may be deformed to strictly decrease area.
 
 The *aim* of this proposal is to extend the innovative and powerful methods described above to a broad variety of actively studied problems with applications to hyperbolic manifold topology, isoperimetric inequalities, and minimal surfaces.
 
-A. Examine the connections between geometric evolution equations and isoperimetric comparisons, obtaining comparisons and quantifying asymptotic singulariy formation for a variety of geometric evolutione equations.
-B. Develop a theory of the Cross Curvature Flow and apply it to obtain a topological classification of hyperbolic manifolds,
-C. Perform stability analysis of ancient solutions to curvature flows and classify such solutions. In particular, apply these results to obtain conjectured area bounds for minimal surfaces and explore the connections between curvature flows and the conformal geometry of the sphere.
+#+ATTR_LATEX: :options [label=\textbf{(\Alph*)}]
+A. Examine the connections between geometric evolution equations and isoperimetric comparisons, obtaining comparisons and quantifying asymptotic singulariy formation for a variety of geometric evolutione equations (joint with Prof. Ben Andrews and Prof Mariel \saez{}).
+B. Develop a theory of the Cross Curvature Flow and apply it to obtain a topological classification of hyperbolic manifolds (joint with Dr. Mohammad Ivaki and Dr. Julian Scheuer).
+C. Perform stability analysis of ancient solutions to curvature flows and classify such solutions. In particular, apply these results to obtain conjectured area bounds for minimal surfaces and explore the connections between curvature flows and the conformal geometry of the sphere (joint with Dr. Mohammad Ivaki and Dr. Julian Scheuer).
 
-** 1. Isoperimetric Comparisons
+\noindent More details aims and background for each project follow.
 
-*** Aims
+** Project A: Isoperimetric Comparisons
+The classic isoperimetric inequality states that the figure in the plane with least perimeter bounding a given area is a circle. This result has been known since antiquity by the name Dido's problem who was tasked with enclosing the greatest amount of area given a fixed perimeter. In the 20th century, isoperimetric inequalities comparing the perimeter of a figure with it's enclosed area were obtained for constant curvature spaces. The situation is illustrated in figure \ref{fg:const_curve_isoperimetric}. The latter part of the 20th century and early parts of this century saw the beginning of results for spaces with variable curvature \cite{MR1699261,MR1661278,MR1883725,MR1417620}.
 
-1. Prove the Aubin-Cartan-Hadamard conjecture,
-2. Prove a Grayson theorem for Homogeneous Curve Shortening Flow.
-3. Prove the multiplicity one conjecture for Curve Shortening of Networks,
+#+ATTR_LaTeX: :width 0.7\textwidth
+#+CAPTION: From left to right: an isoperimetric region (red) in a constant negative curvature surface, the plane, and the sphere.
+#+NAME: fg:const_curve_isoperimetric
+[[file:img/const_curve.png]]
 
-*** Comparison theorems for the isoperimetric profile.
-
-The isoperimetric profile of a Riemannian manifold was introduced in the 1980's \cite{MR875084,MR999971} to study isoperimetric inequalities on Riemannian manifolds. It is defined by
+The isoperimetric profile of a Riemannian manifold was introduced in the 1980's \cite{MR875084,MR999971} to study isoperimetric inequalities on Riemannian manifolds. It is a function that gives the least perimeter bounding a given area $x$, and is defined by
 \[
-I(x) = \inf\{\operatorname{Area} (\bdry{\Omega}) : \operatorname{Vol}(\Omega) = x\}
+I(x) = \inf\{\operatorname{Area} (\bdry{\Omega}) : \operatorname{Vol}(\Omega) = x\}.
 \]
-For example the classic isoperimetric inequality implies that the isoperimetric profile of the plane is $I(x) = \sqrt{4\pi x}$. A major outstanding conjecture in this area is the Aubin-Cartan-Hadamard conjecture \cite{MR0448404, MR936419} bounding the isoperimetric profile of a negatively curved manifold by the constant curvature model space profile. Classically, this has been proven in dimension 2 \cite{zbMATH02588223}, dimension 3 \cite{MR1156385,MR2167269} and dimension 4 \cite{MR608287} (for $K_0 = 0$ only), but still remains outstanding in general.
+Thee sharpest possible isoperimetric inequality on a Riemannian manifold comparing the $n-1$ dimensional area of a figure with it's enclosed $n$ dimensional volume is recorded in $I$:
+\[
+\operatorname{Area}_{n-1} (\bdry{\Omega}) \geq I(\operatorname{Vol}_n(\Omega))
+\]
+For example the classic isoperimetric inequality implies that the isoperimetric profile of the plane is $I_{\RR^2}(x) = \sqrt{4\pi x}$, of the $2$-sphere is $I_{\sphere^2}(x) = \sqrt{4\pi x - x^2}$ and of the hyperbolic plane is $I_{\HH^2} (x) = \sqrt{4\pi x + x^2}$. We have the obvious inequalities,
+\[
+I_{\sphere^2} < I_{\RR^2} < I_{\HH^2}
+\]
+which exhibits the general expected phenomena that increasing curvature allows one to enclose more area for a given perimeter which is also evident in figure \ref{fg:const_curve_isoperimetric}. A variant of Dido's problem says that she encircled a hill (positive curvature) to obtain more area compared with a flat plane (zero curvature) suggesting that she was qualitatively aware of the connection to curvature.
 
-In \cite{Bryan,pbthesis,MR2843240,MR2794630}, a (parabolic) viscosity differential inequality for the isoperimetric profile is used to obtain a comparison principle for the isoperimetric profile evolving under curvature flows. The spatial version of this inequality is also used to investigate properties of the isoperimetric profile such as in positive curvature, concavity of the isoperimetric profile implies isoperimetric regions have connected boundary (see also \cite{MR1674097}). The Levy-Gromov isoperimetric inequality can also be proved using this approach \cite{MR3544942} and has been recently extended to RCD spaces \cite{MR3608721}, those metric measure spaces with lower Ricci bounds.
+A major outstanding conjecture in this area is the Aubin-Cartan-Hadamard conjecture \cite{MR0448404, MR936419} bounding the isoperimetric profile of a negatively curved manifold by the constant curvature model space profile. Classically, this has been proven in dimension 2 \cite{zbMATH02588223}, dimension 3 \cite{MR1156385,MR2167269} and dimension 4 \cite{MR608287} (for $K_0 = 0$ only), but still remains outstanding in general.
 
-*** $k^{\alpha}$ distance comparison (joint with Prof. Ben Andrews)
+For a curve in the plane, similar to the isoperimetric profile, we may define the /chord-arc profile/ as the least distance between any points on the curve of a given arc-length along the curve):
+\[
+Z(x) = \inf\{d(p, q) : \ell(p, q) = x\}
+\]
+where $d$ denotes the distance between two points in the plane and $\ell$ denotes the distance along the curve.
+
+Once more, curvature plays a role in this profile as depicted in figure \ref{fg:chord_arc} with larger curvature forcing greater length along the curve as compared with an arc of fixed distance between two points on the curve.
+
+#+ATTR_LaTeX: :width 0.5\textwidth
+#+CAPTION: From top to bottom, a straight line has equal distance and arc-length, small curvature implies slightly larger arc-length, and large curvature has much larger arc-length.
+#+NAME: fg:chord_arc
+[[file:img/chord_arc.png]]
 
 The (planar) Curve Shortening Flow is the evolution equation,
 \[
 \partial_t \gamma = - \kappa\nu
 \]
-for a smooth, one-parameter family of immersed curves $\gamma_t \subset \RR^2$ in the plane with $\kappa$ is the geodesic curvature with respect to a smooth choice of unit normal, $\nu$. The most famous result regarding this equation is that closed, embedded curves collapse to a point in finite time, smoothly converging to a circle after rercaling to keep the total length fixed \cite{MR840401,MR906392}. In \cite{MR2794630}, with Prof. Ben Andrews I proved a distance comparison principle leading to a curvature bound and subsequent direct proof of this result. A related flow is the flow,
+for a smooth, one-parameter family of immersed curves $\gamma_t \subset \RR^2$ in the plane with $\kappa$ is the geodesic curvature with respect to a smooth choice of unit normal, $\nu$. The most famous result regarding this equation is that closed, embedded curves collapse to a point in finite time, smoothly converging to a circle after rescaling to keep the total length fixed \cite{MR840401,MR906392}. In \cite{MR2794630}, with Prof. Ben Andrews and using the chord-arc profile, I proved a distance comparison principle leading to a curvature bound and subsequent direct proof of this result. A related flow is the flow,
 \[
 \partial_t \gamma = -\kappa\abs{\kappa}^{\alpha-1} \nu.
 \]
-This flow has greater non-linearity than the Curve Shortening Flow, and owing to the absolute value, has non-smooth speed for non-convex curves. Convergence results for convex curves (where the speed is smooth) have been obtained \cite{MR1660843} and proving the general embedded case is the aim of this part of the project.
-
-*** Curve Shortening of Networks (joint with Prof. Mariel \saez)
+This flow has greater non-linearity than the Curve Shortening Flow, and owing to the absolute value, has non-smooth speed for non-convex curves at points where the curvature vanishes. Convergence results for convex curves (where the speed is smooth) have been obtained \cite{MR1660843}, but the general case remains open and may be approached using distance comparison methods Prof. Ben Andrews and I developed.
 
 The distance comparison argument in \cite{MR2794630} applies also to the Curve Shortening Flow of networks, a topic that has received considerable attention in recent years \cite{MR2394409,MR2075985,MR2763716}. In this context, a network is an embedded graph in the plane. Each edge has vertices either lying on the boundary of a convex body (or on the circle at infinity), or meets precisely two other edges at a vertex and with equal angles of $2\pi/3$ (/triple condition/). See figure \ref{fg:network}.
-\begin{figure}[htb]
-\centering
-\includegraphics[width=.3\linewidth]{network}
-\caption{A network with three nodes, $p_0, s_0, q_0$ satisfying the triple condition.}
-\label{fg:network}
-\end{figure}
+#+ATTR_LaTeX: :width 0.4\textwidth
+#+CAPTION: A network with three nodes satisfying the triple condition.
+#+NAME: fg:network
+[[file:img/network.png]]
+
 The flow is by curve shortening on the interior of the edges, subject to the boundary triple condition. Such a flow was initially studied to model annealing metals \cite{MR0078836} and is of interest in materials science. The flow, like in the smooth case, is also the gradient flow of the length functional, from which perspective the triple condition arises naturally. This part of the project aims to prove that singularity formation can only occur when an edge has length collapsing to zero, confirming the so-called multiplicity one conjecture.
 
-*** Notes							   :noexport:
+This project's *aims* are:
+#+ATTR_LATEX: :options [label=\textbf{(A.\arabic*)}]
+1. Investigate isoperimetric comparisons in negatively curved manifolds.
+2. Define Homogeneous Curve Shortening Flow for non-convex curves and obtain convergence results by distance comparison.
+3. Develop distance comparison for the Curve Shortening Flow of networks and investigate singularity formation.
+
+** Project B: Cross Curvature Flow (XCF) And Hyperbolic Manifolds
+Let $E = \operatorname{Ric} - \tfrac{1}{2} \operatorname{R} g$ denote the Einstein tensor of a Riemannian manifold $(M, g)$. We define the endomorphism $\mathcal{E}$ of the tangent bundle $TM$ by $E(X, Y) = g(\mathcal{E}(X), Y)$, and Einstein-Ricci tensor,
+\[
+\operatorname{Ric}_E (X, Y) = \operatorname{Tr} \left[Z \mapsto \operatorname{Rm} (\mathcal{E}(Z), X) Y\right],
+\]
+Then the XCF is the evolution equation,
+\[
+\partial_t g = -2 \operatorname{Ric}_E.
+\]
+This is a parabolic equation and preserves negative sectional curvature \cite{MR2055396,MR2207496}. In three dimensions, negative sectional curvature corresponds to $E$ being a metric (positive definite bi-linear form), and the Einstein-Ricci tensor is nothing more than contracting the Riemann tensor, not with the metric $g$, but with the metric $E$. Note that contracting with $g$ gives the usual Ricci tensor and the flow becomes the celebrated Ricci flow. The XCF may in fact be defined in other equivalent ways that agree in three dimensions, but not in higher dimensions in a similar manner to the agreement of the Ricci flow and Yamabe flow in two dimensions. These higher dimensional flows have yet to be studied, opening the door for significant results in hyperbolic geometry of higher dimensions.
+
+As noted in \cite{MR2602839}, hyperbolic manifolds are the largest class of prime manifolds, but it's not yet known whether this space is contractible, or even connected. The Cross Curvature Flow (XCF) was introduced in \cite{MR2055396} in the hopes of deforming negatively curved metrics $g_0$ on a compact three-manifold $M$ to constant curvature metrics. Such a conjectured result would confirm contractibility of the space of negatively curved metrics on a hyperbolic manifold. Partial results for homogeneous manifolds and solid tori have been established \cite{MR2407107,MR2653711,MR2602839} as well as asymptotic stability near hyperbolic metrics \cite{MR2448593} in support of the conjecture.
+
+This project's *aims* are:
+#+ATTR_LATEX: :options [label=\textbf{(B.\arabic*)}]
+1. Prove the XCF deforms classes of strictly negatively curved metrics to constant curvature metrics.
+2. Determine isoperimetric comparisons for the XCF.
+3. Generalise the XCF to higher dimensions.
+
+** Project C: Ancient Solutions
+It has long been understood that curvature flows and minimal surfaces are closely related, yet explicit applications to minimal surfaces have been minimal. In \cite{2016arXiv160401694B}, Dr. Mohammad Ivaki, Dr. Julian Scheuer and I proved the very general result that any convex, ancient hypersurface solution of a parabolic, geometric flow in the sphere must be a family of shrinking spherical caps emanating from an equator (a minimal surface) at $t=-\infty$ and collapsing to the north pole at $t=0$. To obtain similar results in a general Riemannian background, given an unstable minimal surface $M_0$, linear stability analysis implies that the space of ancient solutions converging backwards to $M_0$ as $t\to-\infty$ is a finite dimensional linear sub-manifold corresponding to the unstable eigenspace. Further analysis should show that there is unique mean convex ancient solution corresponding to the first eigenvalue which is simple (the eigenspace is one-dimensional).
+
+Regularity theory of mean convex mean curvature flow has undergone significant development recently \cite{2013arXiv1304.0926H,MR3570481} allowing the geometric inequalities of \cite{MR1650335} to be applied to the unique mean convex mean curvature flow (which may undergo singularities previously hampering progress with this method) to obtain area control for $M_0$ in terms of the value of the first eigenvalue.
+
+As a striking example of possible applications, we see that there is a five-dimensional family of ancient solutions emanating from a Clifford Torus in $\sphere^3$. The motion of this family is, to first order, by the canonical family of conformal transformations used in the resolution of the Willmore conjecture \cite{MR3152944}. This suggests a hitherto unknown connection between the conformal geometry of the sphere and the Mean Curvature flow with applications to Willmore surfaces.
+
+This project's *aims* are:
+#+ATTR_LATEX: :options [label=\textbf{(C.\arabic*)}]
+1. Classify ancient solutions of curvature flows in Riemannian backgrounds.
+2. Prove area estimates for unstable minimal surfaces in terms of the space of unstable directions.
+
+* Project Quality And Innovation
+
+- Brief summary of innovations.
+
+** Isoperimetric Comparisons
+*** Comparison theorems for the isoperimetric profile.
+
+
+
+In \cite{Bryan,pbthesis,MR2843240,MR2794630}, a (parabolic) viscosity differential inequality for the isoperimetric profile is used to obtain a comparison principle for the isoperimetric profile evolving under curvature flows. The spatial version of this inequality is also used to investigate properties of the isoperimetric profile such as in positive curvature, concavity of the isoperimetric profile implies isoperimetric regions have connected boundary (see also \cite{MR1674097}). The Levy-Gromov isoperimetric inequality can also be proved using this approach \cite{MR3544942} and has been recently extended to RCD spaces \cite{MR3608721}, those metric measure spaces with lower Ricci bounds.
+
+*** Notes 							   :noexport:
 
   - Maybe I should just try to study certain situations such as radially symmetric or homogeneous/symmetric spaces.
   - The conjecture is probably too much to prove in full generality.
@@ -202,39 +267,11 @@ The flow is by curve shortening on the interior of the edges, subject to the bou
 - Heintze: comparison \cite{MR0493885} \cite{MR936318}
 - variations and stability: \cite{MR917854,MR731682}
 
-** 2. The Cross Curvature Flow and hyperbolic manifolds (joint with Dr. Mohammad Ivaki and Dr. Julian Scheuer)
-
-*** Aims
-
-1. Prove that the XCF deforms strictly negatively curved metrics to constant curvature metrics,
-2. Prove isoperimetric comparisons for the XCF,
-3. Generalise the XCF to higher dimensions.
-
-*** Background
-
+** The Cross Curvature Flow and hyperbolic manifolds (joint with Dr. Mohammad Ivaki and Dr. Julian Scheuer)
 As noted in \cite{MR2602839}, hyperbolic manifolds are the largest class of prime manifolds. It's not known whether this space is contractible, or even connected. The Cross Curvature Flow (XCF) was introduced in \cite{MR2055396} in the hopes of deforming negatively curved metrics $g_0$ on a compact three-manifold $M$ to constant curvature metrics. Such a result would confirm contractibility of the space of negatively curved metrics on a hyperbolic manifold. Very little apart from short-time existence and uniqueness \cite{MR2207496} and partial results (e.g. \cite{MR2448593,MR2407107}) is known about solutions of the cross-curvature flow, but such results support the conjectured contractibility which is the aim of this section.
 
-Let $E = \operatorname{Ric} - \tfrac{1}{2} \operatorname{R} g$ denote the Einstein tensor of a Riemannian manifold $(M, g)$. We define the endomorphism $\mathcal{E}$ of the tangent bundle $TM$ by $E(X, Y) = g(\mathcal{E}(X), Y)$, and Einstein-Ricci tensor,
-\[
-\operatorname{Ric}_E (X, Y) = \operatorname{Tr} \left[Z \mapsto \operatorname{Rm} (\mathcal{E}(Z), X) Y\right],
-\]
-Then the XCF is the evolution equation,
-\[
-\partial_t g = -2 \operatorname{Ric}_E.
-\]
+** Singularities, symmetries and ancient solutions of fully non-linear geometric evolution equations (joint with Dr. Mohammad Ivaki and Dr. Julian Scheuer)
 
-** 3. Singularities, symmetries and ancient solutions of fully non-linear geometric evolution equations (joint with Dr. Mohammad Ivaki and Dr. Julian Scheuer)
-
-*** Aims
-1. Classify ancient solutions of curvature flows in Riemannian backgrounds.
-2. Prove area estimates for unstable minimal surfaces in terms of the space of unstable directions.
-*** Background
-
-In \cite{2016arXiv160401694B} my collaborators and I proved that the very general result that any convex, ancient solution of a parabolic, geometric flow must be a family of shrinking geodesic spheres emanating from an equator at $t=-\infty$. To obtain similar results in a general Riemannian background, given an unstable minimal surface $M_0$, linear stability analysis implies that the space of ancient solutions converging backwards to $M_0$ as $t\to-\infty$ is a finite dimensional linear sub-manifold corresponding to the unstable eigenspace. Further analysis should show that there is unique mean convex ancient solution corresponding to the first eigenvalue which is simple (the eigenspace is one-dimensional).
-
-As a striking example of possible applications, we see that there is a five-dimensional family of ancient solutions emanating from a Clifford Torus in $\sphere^3$. The motion of this family is, to first order, by the canonical family of conformal transformations used in the resolution of the Willmore conjecture \cite{MR3152944}. This suggests a hitherto unknown connection between the conformal geometry of the sphere and the Mean Curvature flow with applications to Willmore surfaces.
-
-* Project Quality And Innovation
 
 ** Isoperimetric Comparisons
 
@@ -268,7 +305,7 @@ The aim here is to use construct suitable comparison functions in order to obtai
 
 ** Cross Curvature Flow
 
-The project on the Cross Curvature Flow and hyperbolic manifolds is highly innovative, identifying previously unknown deep structure and describing powerful techniques for understanding the geometry of hyperbolic manifolds similar to the Ricci flow's role in positively curve geometry. The extensions to higher dimensions and underlying algebraic structure have not previously been observed and will open up an entirely new approach to high dimensional hyperbolic geometry. Furthermore, the isoperimetric comparisons will demonstrate that the tremendous power of these methods has very broad applicability building upon previous innovations of the applicant.
+The project on the Cross Curvature Flow and hyperbolic manifolds is highly innovative, identifying previously unknown deep structure and describing powerful techniques for understanding the geometry of hyperbolic manifolds similar to the Ricci flow's role in positively curve geometry. The extensions to higher dimensions and underlying algebraic structure have not previously been observed and will open up an entirely new approach to high dimensional hyperbolic geometry. Furthermore, the isoperimetric comparisons will demonstrate that the tremendous power of these methods has very broad applicability building upon my previous innovations.
 
 *** Estimates
 
@@ -323,9 +360,6 @@ The aim here is to develop a theory of the XCF in higher dimensions strictly neg
 
 ** Ancient solutions and minimal surfaces
 
-It has long been understood that curvature flows and minimal surfaces are closely related, yet explicit applications to minimal surfaces have been minimal. The proposed research identifies an entirely new connection between the topics which will attract considerable attention from the minimal surface community. Moreover, the previously unobserved connections to the conformal geometry of the sphere are certain to inspire future research and produce novel results.
-
-In general backgrounds, there is a unique mean convex ancient solution emanating from an unstable minimal surface $M_0$, and regularity theory of mean convex mean curvature flow has undergone significant development recently \cite{2013arXiv1304.0926H,MR3570481}. I will then extend the geometric inequalities of \cite{MR1650335} to the unique mean convex mean curvature flow (which may undergo singularities previously hampering progress with this method) to obtain area control for $M_0$ in terms of the value of the first eigenvalue.
 
 For flows other than the mean curvature flow, one can encounter degeneracy's and singularities in the linearisation but the results in \cite{2016arXiv160401694B} show that classification results are still possible. To progress then I will develop approximating techniques, e.g. by approximating the flow with speed $H^p$ by the flow with speed $H (H^2 + \epsilon^2)^{\tfrac{p-1}{2}}$ (similar to the approximating flows for the $\kappa^p$ homogeneous curvature flows), to obtain a-prior estimates.
 
