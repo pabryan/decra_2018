@@ -29,6 +29,7 @@
 
 
 #+LaTeX_Header: \renewcommand*{\bibfont}{\footnotesize}
+#+LaTeX_Header: \setenumerate{label=(\Alph*)}
 
 * Notes 							   :noexport:
 
@@ -108,6 +109,19 @@ o References may be in 10 point Times New Roman or equivalent font.
 Analysis and geometric techniques for fully non-linear problems in geometry and PDE.
 
 * Aims And Background
+
+- Curvature Flows including XCF, manifold topology and singularities.
+  - Hamilton, Perelman.
+- Isoperimetric Inequalities.
+  - Classic results and simple examples.
+- Harnack inequalities and ancient solutions.
+- Emphasise my work on these topics
+
+The *aim* of this proposal is to extend the innovative and powerful methods described above to a broad variety of actively studied problems with applications to hyperbolic manifold topology, isoperimetric inequalities, and minimal surfaces.
+
+A. Examine the connections between geometric evolution equations and isoperimetric comparisons, obtaining comparisons and quantifying asymptotic singulariy formation for a variety of geometric evolutione equations.
+B. Develop a theory of the Cross Curvature Flow and apply it to obtain a topological classification of hyperbolic manifolds,
+C. Perform stability analysis of ancient solutions to curvature flows and classify such solutions. In particular, apply these results to obtain conjectured area bounds for minimal surfaces and explore the connections between curvature flows and the conformal geometry of the sphere.
 
 ** 1. Isoperimetric Comparisons
 
