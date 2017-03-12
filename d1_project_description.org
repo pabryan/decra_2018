@@ -122,9 +122,9 @@ Another approach to these types of problems is to study ancient solutions, solit
 The *aim* of this proposal is to extend the innovative and powerful methods described above to a broad variety of actively studied problems with applications to hyperbolic manifold topology, isoperimetric inequalities, and minimal surfaces.
 
 #+ATTR_LATEX: :options [label=\textbf{(\Alph*)}]
-A. Examine the connections between geometric evolution equations and isoperimetric comparisons, obtaining comparisons and quantifying asymptotic singulariy formation for a variety of geometric evolutione equations (joint with Prof. Ben Andrews and Prof Mariel \saez{}).
+A. Examine the connections between geometric evolution equations and isoperimetric comparisons, obtaining comparisons and quantifying asymptotic singularity formation for a variety of geometric evolution equations (joint with Prof. Ben Andrews and Prof Mariel \saez{}).
 B. Develop a theory of the Cross Curvature Flow and apply it to obtain a topological classification of hyperbolic manifolds (joint with Dr. Mohammad Ivaki and Dr. Julian Scheuer).
-C. Perform stability analysis of ancient solutions to curvature flows and classify such solutions. In particular, apply these results to obtain conjectured area bounds for minimal surfaces and explore the connections between curvature flows and the conformal geometry of the sphere (joint with Dr. Mohammad Ivaki and Dr. Julian Scheuer).
+C. Perform stability analysis of ancient solutions to curvature flows and classify such solutions. In particular, apply these results to obtain conjectured area estimates for minimal surfaces and explore the connections between curvature flows and the conformal geometry of the sphere (joint with Dr. Mohammad Ivaki and Dr. Julian Scheuer).
 
 \noindent More detailed aims and background for each project follow.
 
