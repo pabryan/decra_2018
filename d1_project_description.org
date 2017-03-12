@@ -229,65 +229,12 @@ This project's *aims* are:
 
 * Project Quality And Innovation
 
-- Brief summary of innovations.
+** Comparison theorems for the isoperimetric profile.
+An innovation of this project is the use of Isoperimetric comparisons which may then be used to tackle problems such as the Aubin-Cartan-Hadamard conjecture mentioned above. One possible approach is to deform regions by curvature flows such as the Mean Curvature Flow or the Inverse Mean Curvature Flow. This approach was taken in \cite{MR2420018} by using the mean-convex Mean Curvature Flow to prove the Euclidean isoperimetric inequality but suffered from the lack of suitable tools to analyse non-smooth flows. Such tools have been developed recently for example in \cite{MR3570481,2013arXiv1304.0926H} where regularity results and structure theorems have been more fully developed.
 
-** Isoperimetric Comparisons
-*** Comparison theorems for the isoperimetric profile.
-
-
-
-In \cite{Bryan,pbthesis,MR2843240,MR2794630}, a (parabolic) viscosity differential inequality for the isoperimetric profile is used to obtain a comparison principle for the isoperimetric profile evolving under curvature flows. The spatial version of this inequality is also used to investigate properties of the isoperimetric profile such as in positive curvature, concavity of the isoperimetric profile implies isoperimetric regions have connected boundary (see also \cite{MR1674097}). The Levy-Gromov isoperimetric inequality can also be proved using this approach \cite{MR3544942} and has been recently extended to RCD spaces \cite{MR3608721}, those metric measure spaces with lower Ricci bounds.
-
-*** Notes 							   :noexport:
-
-  - Maybe I should just try to study certain situations such as radially symmetric or homogeneous/symmetric spaces.
-  - The conjecture is probably too much to prove in full generality.
-  - It might be possible to prove it for rotationally symmetric manifolds using comparison geometry like in \cite{MR839689}.
-  - Levy-Gromov may prove useful, but works on lower curvature bounds.
-  - The required inequality is true for geodesic balls. Perhaps one can extend this to convex domains (non-singular Wiengarten map). This connects with the convexity part.
-  - Perhaps one can use perturbation arguments, or curvature balls to extend the results from convex domains. Can I compare the second fundamental form (or even just the mean curvature) to the second fundamental form of a curvature ball and hence to the model space?
-  - Again connecting with the convexity part, one may be able to perform some kind of symmetrisation in say, symmetric spaces.
-  - Extend comparison theorems to manifolds with bounded /total/ curvature via comparison with radial models.
-  - Here we want to extend classical comparison results with constant curvature spaces to the radially symmetric case such as in Abresch and later. Since Toponogov works, why not volume comparison?
-  - Also, tackling a more general problem than aim 1 may allow for progress in aim 1.
-
-- *Aim 3*:
-   
-  - Derive the growth of $(n-1)$ dimensional area for Riemannian covering spaces of $n$-dimensional manifolds.
-  - Compare Burago-Z- for tori.
-  - High genus surfaces would be first.
-  - Look at Ben's email with a suggestion about geodesic loops.
-
-*** References							   :noexport:
-- Topping iso inequalities \cite{MR1714389}
-- Ritore surfaces \cite{MR2167269,MR1883725}
-- Morgan, Hass, Hutchings surfaces \cite{MR1417428}\cite{MR1661278}
-- Bayle, Rosales: isoprofile \cite{MR2177105,MR2041647}
-- Bavard, Pansu \cite{MR875084}
-- Sternberg, Zumbrun \cite{MR1674097}
-- minimal surfaces \cite{MR764944}
-- Aubin-Cartan-Hadamard: Croke, Kleiner, Ritore \cite{MR1156385}, \cite{MR2167269} \cite{MR608287} and references within
-- optimal often convex - maximal symmetry constant mean curvature Steiner symmetrisation \cite{MR1849187}
-- comparison: particularly profile of smooth domains, \cite{pbthesis}\cite{MR2843240}
-- distance comparison: \cite{MR2794630,MR1656553} \cite{MR3011290,MR2967056}
-- isoperimetric comparison: \cite{pbthesis,MR2843240,MR2729306,MR1369140,MR1369139}
-- isoperimetric inequalities: \cite{MR1849187}, \cite{MR0500557}
-- comparison geometry: \cite{MR1063226}
-- Heintze: comparison \cite{MR0493885} \cite{MR936318}
-- variations and stability: \cite{MR917854,MR731682}
-
-** The Cross Curvature Flow and hyperbolic manifolds (joint with Dr. Mohammad Ivaki and Dr. Julian Scheuer)
-As noted in \cite{MR2602839}, hyperbolic manifolds are the largest class of prime manifolds. It's not known whether this space is contractible, or even connected. The Cross Curvature Flow (XCF) was introduced in \cite{MR2055396} in the hopes of deforming negatively curved metrics $g_0$ on a compact three-manifold $M$ to constant curvature metrics. Such a result would confirm contractibility of the space of negatively curved metrics on a hyperbolic manifold. Very little apart from short-time existence and uniqueness \cite{MR2207496} and partial results (e.g. \cite{MR2448593,MR2407107}) is known about solutions of the cross-curvature flow, but such results support the conjectured contractibility which is the aim of this section.
-
-** Singularities, symmetries and ancient solutions of fully non-linear geometric evolution equations (joint with Dr. Mohammad Ivaki and Dr. Julian Scheuer)
-
-
-** Isoperimetric Comparisons
-
-An innovation of this project is the use of Isoperimetric comparisons which may then be used to tackle problems such as the Aubin-Cartan-Hadamard conjecture mentioned above. One possible approach is to deform regions by curvature flows such as the Mean Curvature Flow or the Inverse Mean Curvature Flow. This approach was taken in \cite{MR2420018} by using the mean-convex Mean Curvature Flow to prove the Euclidean isoperimetric inequality but suffered from the lack of suitable tools to analyse non-smooth flows. Such tools have been developed recently for example in \cite{MR3570481,2013arXiv1304.0926H} where regularity results and structure theorems have been more fully developed. In the radial model setting, isoperimetric inequalities have been proven using curvature flows \cite{MR3439091,2016arXiv160908238G}, whilst my collaborator has proven long-time existence results for inverse curvature flows in non-positively curved backgrounds \cite{MR3581327}. Combining these techniques and comparing singularity formation with the radial model in a similar manner to \cite{MR1650335} may be used to obtain suitable comparison results resolving the conjecture.
+A further exciting possibility is tied in with the Cross Curvature Flow project described in this proposal and better adapted to negative curvature than the Ricci flow. The aim is to develop a parabolic viscosity equation leading to comparisons similar to those developed for the Ricci flow and Curve Shortening Flow \cite{MR2729306,MR2843240,pbthesis,Bryan}. If the Cross Curvature Flow deforms the metric to constant curvature, then the isoperimetric profile also converges to the model case and suitable monotonicity would prove the Aubin-Cartan-Hadamard conjecture.
 
 ** Homogeneous Curve Shortening Flow
-
 For the homogeneous Curve Shortening Flow, an innovation is to define approximating flows,
 \[
 \partial_t \gamma = -\kappa\abs{\kappa^2 + \epsilon^2}^{\tfrac{\alpha-1}{2}} \nu
@@ -303,17 +250,15 @@ where $f(y) = y\abs{y}^{\alpha-1}$ is the speed of the flow, $\avg{\cdot}$ denot
 For the case $\alpha \geq 1$, the Harnack inequality may be used (similar to \cite{MR1094458}) to show that the approximating flows become convex in finite time whence the existing results for convex curves apply.
 
 ** Network Curve Shortening Flow
-
-Prof. Mariel \saez I have shown that the comparison principle for the chord-arc profile developed in \cite{MR2794630} holds for networks after suitable modification to deal with the triple points. To preserve the coincidence of the vertices of the edges, a tangential component of velocity must be introduced, and geometric invariant of the flow implies only the value at the vertices is important. Let us write $\Delta v_m$ for the difference between this value at joining edges. Then the viscosity equation for the chord-arc profile is
+Preliminary work by Prof. Mariel \saez{} and Dr. Bryan have shown that a comparison principle for the chord-arc profile developed in \cite{MR2794630} holds for networks. Let us write $\Delta v_m$ for the tangential speed at vertices. Then the viscosity equation for the chord-arc profile is
 \[
 \partial_t Z \geq 4Z''+\bar{Q}(Z-xZ')+f'(\Delta Q(p,q)).
 \]
 where $\bar{Q}=\frac{1}{L}\int k^2 ds-\sum_{m=1}^n \Delta v_m$ and $\Delta Q(p,q)=\frac{1}{L}\int_p^q k^2 ds-\sum_{m=i_p}^{i_q} \Delta v_m$. The only difference with the smooth case is the introduction of the $\Delta v_m$ terms.
 
-The aim here is to use construct suitable comparison functions in order to obtain a curvature bound similar to \cite{MR2794630}. The network flow has a number of differences to the smooth flow requiring further analysis. Two important differences are asymptotics of the chord arc profile differ from the smooth case while the triple points introduce new terms into the viscosity equation. However, though not explicitly articulated in \cite{MR2794630}, there is a powerful procedure for finding suitable comparison functions: make a similarity substitution using the profile of the self-similar solution in the viscosity equation. In the smooth case, this is the circle but in the network case there are multiple self-similar solutions and the comparison must take this into account. On the other hand, the correct asymptotics and additional terms arising from the triple points are automatically dealt with. The aim then is to complete this program and prove the major current outstanding conjecture, that the only singularities possible are of multiplicity one which follows readily from the chord-arc comparison.
+Two important differences however are that the asymptotics of the chord-arc profile differ from the smooth case and that the triple points introduce new terms into the viscosity equation. An important innovation here, only guess at in \cite{MR2794630}, is to apply a powerful procedure for finding suitable comparison functions: make a similarity substitution using the profile of the self-similar solution in the viscosity equation which handles has the advantage of automatically building in the two differences to the comparison.
 
-** Cross Curvature Flow
-
+** The Cross Curvature Flow and hyperbolic manifolds
 The project on the Cross Curvature Flow and hyperbolic manifolds is highly innovative, identifying previously unknown deep structure and describing powerful techniques for understanding the geometry of hyperbolic manifolds similar to the Ricci flow's role in positively curve geometry. The extensions to higher dimensions and underlying algebraic structure have not previously been observed and will open up an entirely new approach to high dimensional hyperbolic geometry. Furthermore, the isoperimetric comparisons will demonstrate that the tremendous power of these methods has very broad applicability building upon my previous innovations.
 
 *** Estimates
@@ -343,8 +288,6 @@ I_E (x) = \inf\{\operatorname{Area}_E (\Omega) : \operatorname{Vol}_E (E) = x\}.
 \]
 In \cite{MR2055396} it was shown that the Einstien volume is monotone along the flow, which suggests that as with the isoperimetric profile for the Ricci flow, this approach will prove quite powerful.
 
-In the critical dimension three, one hopes to be able to exploit such topological invariants arising from the conformal-like structure of the cross curvature flow, as well as Hodge duality identifying vectors and two-vectors. The relevance here is that the Gauss-Bonnet theorem played a pivotal role in the proof of the isoperimetric comparison theorems for the Ricci flow in \cite{Bryan,MR2729306}. There, the theorem was applied to the second variation of perimeter of isoperimetric domains to obtain a viscosity equation for the isoperimetric profile which formed the basis of the comparison theorem. In three dimensions, a consequence of the Poincare-Hopf index lemma is that one always has a non-vanishing vector field $X$ at one's disposal, and by Hodge duality, also a non-vanishing two-vector field $\eta$ but a lack of exactness as measured by $H^1(M) \simeq H^2(M)$ is an obstruction and the aim is to quantify this topologically, similar to the way the Euler characteristic appears in the Gauss-Bonnet theorem.
-
 *** Higher Dimensions
 
 The definition given above for the XCF makes sense in any dimension. Moreover, there is another way to interpret the XCF. First recall above that the XCF is the equation,
@@ -359,15 +302,9 @@ for any tangent vector $X$ and $n-1$ vector $\eta$. Writing $\operatorname{adj} 
 \[
 \partial_t g = \operatorname{adj} E.
 \]
-In the critical dimension three, by diagonalising $\operatorname{Ric}$, one finds that $\operatorname{adj} E = -2\operatorname{Ric}_E$ so that both flows agree. In higher dimensions however this is no longer true. This should be compared with the Ricci flow and Yamabe flow which agree in the critical dimension, two but differ in higher dimensions. The latter preserves the conformal class of $g$. In this situation, let us write $E^{-1}(X, Y) = g(\mathcal{E} (X), Y)$ in the case of strictly negative curvature, in which case the adjugate Einstein equation exhibits a conformal-like structure,
-\[
-\partial_t g = \det \mathcal{E} E^{-1}.
-\]
-somewhat analogous to the Yamabe flow where $\mathcal{E}$ is replaced by the scalar curvature $R$ and $E^{-1}$ by the metric $g$.
+In the critical dimension three, by diagonalising $\operatorname{Ric}$, one finds that $\operatorname{adj} E = -2\operatorname{Ric}_E$ so that both flows agree. In higher dimensions however this is no longer true. This should be compared with the Ricci flow and Yamabe flow which agree in the critical dimension, two but differ in higher dimensions. The aim here is to develop a theory of the XCF in higher dimensions strictly negative curvature operator and/or vanishing Weyl tensor are related to the positive definiteness of $E$ giving natural conditions to impose in the initial study.
 
-The aim here is to develop a theory of the XCF in higher dimensions strictly negative curvature operator and/or vanishing Weyl tensor are related to the positive definiteness of $E$ giving natural conditions to impose in the initial study.
-
-** Ancient solutions and minimal surfaces
+** Singularities, symmetries, minimal surfaces and ancient solutions of fully non-linear geometric evolution equations (joint with Dr. Mohammad Ivaki and Dr. Julian Scheuer)
 
 
 For flows other than the mean curvature flow, one can encounter degeneracy's and singularities in the linearisation but the results in \cite{2016arXiv160401694B} show that classification results are still possible. To progress then I will develop approximating techniques, e.g. by approximating the flow with speed $H^p$ by the flow with speed $H (H^2 + \epsilon^2)^{\tfrac{p-1}{2}}$ (similar to the approximating flows for the $\kappa^p$ homogeneous curvature flows), to obtain a-prior estimates.
