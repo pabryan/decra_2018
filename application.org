@@ -29,7 +29,7 @@ Analysis of fully non-linear geometric problems and differential equations
 :characters: 750
 :END:
 
-This project aims to investigate non-linear geometric evolution equations that have received considerable attention in the past decades through their use is solving many famous outstanding problems in mathematics such as the Poincare conjecture, a million dollar Millennium Prize problem. By developing innovative new techniques intertwining geometry and analysis, the project endeavours to make advances in non-linear problems modeling complex phenomena. The project addresses topics as varied as hyperbolic geometry (the geometry of space around black holes) and a geometric approach to irregularities forming in crystal growth in materials science, focusing on developing cutting edge mathematical tools and surprising connections to geometry.
+This project aims to investigate non-linear geometric evolution equations that have received considerable attention in the past decades through their use is solving many famous outstanding problems in mathematics such as the Poincare conjecture, a million dollar Millennium Prize problem. By developing innovative new techniques intertwining geometry and analysis, the project endeavours to make advances in non-linear problems modelling complex phenomena. The project addresses topics as varied as hyperbolic geometry (the geometry of space around black holes) and a geometric approach to irregularities forming in crystal growth in materials science, focusing on developing cutting edge mathematical tools and surprising connections to geometry.
 
 *** Notes							   :noexport:
 - Keywords here will help them choose referees - use mathematics sufficiently many times
