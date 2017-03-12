@@ -129,7 +129,7 @@ C. Perform stability analysis of ancient solutions to curvature flows and classi
 \noindent More detailed aims and background for each project follow.
 
 ** Project A: Isoperimetric Comparisons
-The classic isoperimetric inequality states that the figure in the plane with least perimeter bounding a given area is a circle. This result has been known since antiquity by the name Dido's problem who was tasked with enclosing the greatest amount of area given a fixed perimeter. In the 20th century, isoperimetric inequalities comparing the perimeter of a figure with it's enclosed area were obtained for constant curvature spaces. The situation is illustrated in figure \ref{fg:const_curve_isoperimetric}. The latter part of the 20th century and early parts of this century saw the beginning of results for spaces with variable curvature \cite{MR1699261,MR1661278,MR1883725,MR1417620}.
+The classic isoperimetric inequality states that the figure in the plane with least perimeter bounding a given area is a circle. This result has been known since antiquity by the name Dido's problem who was tasked with enclosing the greatest amount of area given a fixed perimeter. In the 20th century, isoperimetric inequalities comparing the perimeter of a figure with it's enclosed area were obtained for constant curvature spaces. The situation is illustrated in figure \ref{fg:const_curve_isoperimetric}. The latter part of the 20th century and early parts of this century saw the beginning of results for spaces with variable curvature \cite{MR1699261,MR1661278,MR1883725}.
 
 #+ATTR_LaTeX: :width 0.7\textwidth
 #+CAPTION: From left to right: an isoperimetric region (red) in a constant negative curvature surface, the plane, and the sphere.
@@ -156,7 +156,7 @@ exhibiting the general expected phenomena that increasing curvature allows one t
 
 The connection between curvature and isoperimetric comparisons was exploited by Prof. Ben Andrews and Dr. Bryan in \cite{MR2729306,MR2843240,pbthesis,Bryan} as mentioned above to obtain curvature bounds and prove convergence results for the Ricci flow on closed surfaces and the Curve Shortening Flow.
 
-A major outstanding conjecture in this area is the Aubin-Cartan-Hadamard conjecture \cite{MR0448404, MR936419} stating that for simply connected, non-positively curved manifolds, the expected comparison where increasing curvature decreases $I$ holds: if the sectional curvature is bounded above by $K_0 \leq 0$, then $I(x) \geq I_{K_0}$. Classically, this has been proven in dimension 2 \cite{zbMATH02588223}, dimension 3 \cite{MR1156385,MR2167269} and dimension 4 \cite{MR608287} (for $K_0 = 0$ only), but still remains outstanding in general.
+A major outstanding conjecture in this area is the Aubin-Cartan-Hadamard conjecture \cite{MR936419} stating that for simply connected, non-positively curved manifolds, the expected comparison where increasing curvature decreases $I$ holds: if the sectional curvature is bounded above by $K_0 \leq 0$, then $I(x) \geq I_{K_0}$. Classically, this has been proven generally in dimensions two and three and in dimension four when $K_0 = 0$ (see \cite{MR2167269}), but still remains outstanding in general.
 
 For a curve in the plane, similar to the isoperimetric profile, we may define the /chord-arc profile/ as the least distance between any points on the curve of a given arc-length along the curve:
 \[
@@ -216,8 +216,6 @@ This project's *aims* are:
 
 ** Project C: Ancient Solutions
 It has long been understood that curvature flows and minimal surfaces are closely related, yet explicit applications to minimal surfaces have been minimal. In \cite{2016arXiv160401694B}, Dr. Mohammad Ivaki, Dr. Julian Scheuer and Dr. Bryan proved the very general result that any convex, ancient hypersurface solution of a parabolic, geometric flow in the sphere must be a family of shrinking spherical caps emanating from an equator (a minimal surface) at $t=-\infty$ and collapsing to the north pole at $t=0$. To obtain similar results in a general Riemannian background, given an unstable minimal surface $M_0$, linear stability analysis implies that the space of ancient solutions converging backwards to $M_0$ as $t\to-\infty$ is a finite dimensional linear sub-manifold corresponding to the unstable eigenspace. Further analysis should show that there is unique mean convex ancient solution corresponding to the first eigenvalue which is simple (the eigenspace is one-dimensional).
-
-As a striking example of possible applications, we see that there is a five-dimensional family of ancient solutions emanating from a Clifford Torus in $\sphere^3$. The motion of this family is, to first order, by the canonical family of conformal transformations used in the resolution of the Willmore conjecture \cite{MR3152944}. This suggests a hitherto unknown connection between the conformal geometry of the sphere and the Mean Curvature flow with applications to Willmore surfaces.
 
 This project's *aims* are:
 #+ATTR_LATEX: :options [label=\textbf{(C.\arabic*)}]
@@ -289,6 +287,21 @@ for any tangent vector $X$ and $n-1$ vector $\eta$. Writing $\operatorname{adj} 
 In the critical dimension three, by diagonalising $\operatorname{Ric}$, one finds that $\operatorname{adj} E = -2\operatorname{Ric}_E$ so that both flows agree. In higher dimensions however this is no longer true. This should be compared with the Ricci flow and Yamabe flow which agree in the critical dimension, two but differ in higher dimensions. The aim here is to develop a theory of the XCF in higher dimensions strictly negative curvature operator and/or vanishing Weyl tensor are related to the positive definiteness of $E$ giving natural conditions to impose in the initial study.
 
 ** Ancient Solutions and Minimal Surfaces
+An important innovation in this part of the proposal is to use linear stability analysis of the Mean Curvature Flow near an unstable minimal surface to produce ancient solutions. Such techniques were first used to prove forward convergence results \cite{MR1485470} and the novelty here is to show that corresponding to the negative eigenspace is a linear, invariant manifold containing all ancient solutions emanating from an unstable, closed minimal surface. What's more, corresponding to the first eigenvalue - whose eigenspace is one-dimensional - there exists a unique mean-convex ancient solution of the mean curvature flow.
+
+Conversely, assuming bounds on the second fundamental form $\abs{A} \leq M$ for an ancient solution, compactness results should produce a limiting hypersurface $M_0$ at $t=-\infty$. In the particular case of mean convex ancient solutions, the flow is monotone and hence $M_0$ is unique and a partial classification may be so obtained. When a suitable Harnack inequality holds for a convex ancient solution, the assumed bound on $\abs{A}$ follows directly.
+
+A completely new idea introduced here is now to use such classification results, particularly in the mean convex case to obtain estimates for minimal surfaces. Geometric inequalities for a minimal surface $M_0$ bounding a region $\Omega_0$ may be obtained similarly to \cite{MR1650335} by integrals of the form
+\[
+\text{Vol}(\Omega_0) \leq \int_{\text{Area}(M_T)}^{\text{Area}(M_0)} f(x) dx
+\]
+where the integrand $f$ is deduced from model comparisons obtained by estimates of the Willmore energy $\mathcal{W} = \int H^2$ which arises naturally from the variation of area under the Mean Curvature Flow,
+\[
+\partial_t \text{Area} = -\int H^2.
+\]
+Here $T$ denotes the first singular time, but using new results for mean convex mean curvature flow \cite{2013arXiv1304.0926H,MR3570481}, one may extend the integral past $T$ to the time when the mean convex solution becomes extinct, at which point $\text{Area}(M_T) = 0$. Thus one obtains estimates depending only on the $\text{Vol}(M_0)$ and $\text{Area}(M_0)$.
+
+As a striking example of possible further innovative applications, the methods described produce a five-dimensional family of ancient solutions emanating from a Clifford Torus in $\sphere^3$. The motion of this family is, to first order, by the canonical family of conformal transformations used in the resolution of the Willmore conjecture \cite{MR3152944}. This suggests a hitherto unknown connection between the conformal geometry of the sphere and the Mean Curvature flow with applications to Willmore surfaces.
 
 ** Old 								   :noexport:
 ***** _Isoperimetric Comparisons
