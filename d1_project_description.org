@@ -31,80 +31,6 @@
 
 #+LaTeX_Header: \renewcommand*{\bibfont}{\footnotesize}
 
-* Notes 							   :noexport:
-
-**** OVERVIEW
-The PDF must be in the format described in Appendix B of these Instructions. The PDF
-must provide the following information using the headings below and in this order:
-
-- PROJECT TITLE
-- AIMS AND BACKGROUND
-- PROJECT QUALITY AND INNOVATION
-- DECRA CANDIDATE
-- FEASIBILITY
-- BENEFIT
-- COMMUNICATION OF RESULTS
-- MANAGEMENT OF DATA
-- REFERENCES
- Applicants should ensure that information provided under these headings
-addresses the Selection Criteria as detailed in the Funding Rules.
-**** PROJECT TITLE
-- This title may differ from that shown in Part A1 of the Proposal form, and may exceed ten words.
-
-**** AIMS AND BACKGROUND
-o Briefly outline the aims and background of the Proposal.
-o Include information about national/international progress in this field of
-research and its relationship to this Proposal.
-o Refer only to publications or non-traditional equivalents (outputs) that are
-accessible to the national and international research communities.
-
-**** PROJECT QUALITY AND INNOVATION
-o Explain how the research addresses a significant problem.
-o Outline the conceptual/theoretical framework, design and methods and
-demonstrate that these are adequately developed, well integrated,
-innovative and original?
-o If the research has been nominated as focussing upon a topic or outcome
-that falls within one of the Science and Research Priorities, explain how it
-addresses one or more of the associated Practical Research Challenges
-(as selected in question B1 of the Proposal form).
-o Explain how the aims, concepts, methods and results advance knowledge.
-**** DECRA CANDIDATE
-o Describe how the DECRA Candidate will have the time and capacity to
-undertake the proposed research, taking into account any other grants or
-roles they may hold. 
-Discovery for Early Career Researcher Award for funding commencing in 2018 – Instructions to
-Applicants
-19
-**** FEASIBILITY
-o Explain how the design of the proposed project, the expertise of the
-participants and requested budget will be sufficient to ensure the project can
-be successfully completed within the proposed budget and timeframe.
-o Describe whether there is an existing, or developing, supportive and high
-quality environment for this Candidate, their Project and for Higher Degree
-by Research students where appropriate.
-o Describe the necessary facilities available to complete the Project.
-**** BENEFIT
-o Outline how the completed project will produce significant new knowledge
-and/or innovative economic, commercial, environmental, social and/or
-cultural benefit to the Australian and international community.
-o Describe how the proposed research will be cost-effective and value for
-money.
-**** COMMUNICATION OF RESULTS
-o Outline plans for communicating the research results to other researchers
-and the broader community, including but not limited to scholarly and public
-communication and dissemination.
-**** MANAGEMENT OF DATA
-o Outline plans for the management of data produced as a result of the
-proposed research, including but not limited to storage, access and re-use
-arrangements.
-o It is not sufficient to state that the organisation has a data management
-policy. Researchers are encouraged to highlight specific plans for the
-management of their research data.
-**** REFERENCES
-o Include a list of all references, including relevant references to the
-Participant’s previous work
-o References may be in 10 point Times New Roman or equivalent font. 
-
 * Project Title
 Analysis and geometric techniques for fully non-linear problems in geometry and PDE.
 
@@ -284,7 +210,7 @@ for any tangent vector $X$ and $n-1$ vector $\eta$. Writing $\operatorname{adj} 
 \[
 \partial_t g = \operatorname{adj} E.
 \]
-In the critical dimension three, by diagonalising $\operatorname{Ric}$, one finds that $\operatorname{adj} E = -2\operatorname{Ric}_E$ so that both flows agree. In higher dimensions however this is no longer true. This should be compared with the Ricci flow and Yamabe flow which agree in the critical dimension, two but differ in higher dimensions. The aim here is to develop a theory of the XCF in higher dimensions strictly negative curvature operator and/or vanishing Weyl tensor are related to the positive definiteness of $E$ giving natural conditions to impose in the initial study.
+In the critical dimension $(n=3)$, by diagonalising $\operatorname{Ric}$, one finds that $\operatorname{adj} E = -2\operatorname{Ric}_E$ so that both flows agree. In higher dimensions however this is no longer true. This should be compared with the Ricci flow and Yamabe flow which agree in the critical dimension ($n=2)$ but differ in higher dimensions. The aim here is to develop a theory of the XCF in higher dimensions strictly negative curvature operator and/or vanishing Weyl tensor are related to the positive definiteness of $E$ giving natural conditions to impose in the initial study.
 
 ** Ancient Solutions and Minimal Surfaces
 An important innovation in this part of the proposal is to use linear stability analysis of the Mean Curvature Flow near an unstable minimal surface to produce ancient solutions. Such techniques were first used to prove forward convergence results \cite{MR1485470} and the novelty here is to show that corresponding to the negative eigenspace is a linear, invariant manifold containing all ancient solutions emanating from an unstable, closed minimal surface. What's more, corresponding to the first eigenvalue - whose eigenspace is one-dimensional - there exists a unique mean-convex ancient solution of the mean curvature flow.
@@ -303,65 +229,11 @@ Here $T$ denotes the first singular time, but using new results for mean convex 
 
 As a striking example of possible further innovative applications, the methods described produce a five-dimensional family of ancient solutions emanating from a Clifford Torus in $\sphere^3$. The motion of this family is, to first order, by the canonical family of conformal transformations used in the resolution of the Willmore conjecture \cite{MR3152944}. This suggests a hitherto unknown connection between the conformal geometry of the sphere and the Mean Curvature flow with applications to Willmore surfaces.
 
-** Old 								   :noexport:
-***** _Isoperimetric Comparisons
-
-   *Aim 1* _Comparison theorems for the isoperimetric profile._
-   
-   The principal innovation here is to obtain finer comparisons than comparison with constant curvature spaces. This idea was used in \cite{Bryan,pbthesis,MR2843240,MR2729306} to extend the isoperimetric comparisons with constant curvature spaces \cite{MR1369140,MR1369139} to radially symmetric comparisons under curvature flows. Here an understanding of the isoperimetric profile of radially symmetric surfaces is required. This has been carried out to a certain extent in \cite{MR1883725} and \cite{MR1714389}. One immediate difficulty encountered is that isoperimetric regions may not be radially symmetric unless curvature conditions are imposed, which may restrict the comparison models allowed, much as in \cite{MR839689, MR2836657}. Alternatively, a comparison with radially symmetric domains may be obtained, even though in general this is not necessarily the isoperimetric profile. This latter technique was already used successfully in \cite{MR2729306}.
-
-   Another aspect of this aim is to obtain comparisons under upper bound curvature assumptions, such as in the Aubin-Cartan-Hadamard conjecture. The comparison is currently known for geodesic balls by classical comparison theorems; an investigation of to what extend this may be extended to (tangentially) convex and star-shaped domains via radial geometry comparison techniques will also be undertaken. This approach is similar to the radial comparison techniques discussed above and will require developing and applying suitable analogues of the Rauch comparison theorem \cite{MR1063226} to the radial geometry setting.
-
-   *Aim 2* _The isoperimetric profile of covers._ (Collaborator Ben Andrews)
-   
-   The innovation here is in controlling the length of the shortest geodesic to transfer control of the isoperimetric profile on the universal cover of a closed surface, to that of the closed surface itself. By deforming a closed curve (the boundary of an isoperimetric region on a surface) to a closed geodesic, it is possible to bound the boundary length in terms of the shortest geodesic. This technique uses ideas similar to Blashke's proof of the Gauss-Bonnet theorem \cite{MR0015247}. Already, it looks possible to prove the result for tori (which is already known), and as mentioned the novel part of this approach is for higher genus surfaces. 
-
-******* notes							   :noexport:
-    For more general surfaces, an isoperimetric inequality is usually insufficient because of a lack of scaling and since isoperimetric domains (domains with $L = I(A)$) may have varying topological type. For instance on the standard torus, isoperimetric domains are geodesic balls for small $x$ and annuli for larger $x$. The isoperimetric profile encapsulates all this behaviour and thus provides the finer information necessary for the general Riemannian case. Even in the case of surfaces, determining isoperimetric domains is a non-trivial problem; in \cite{MR1883725}, the question of whether isoperimetric domains in rotationally symmetric planes are also rotationally symmetric is addressed. Under the assumption that the Gauss curvature is positive and decreasing in the radial direction, this is proven, however, an example of a rotationally symmetric plane where no isoperimetric domain is rotationally symmetric is also given.
-
-***** _Estimates_
-
-   *Aim 1* _Convex bodies in Riemannian manifolds._
-  
-   A major innovation here is through the study is a support function for manifolds with conformal Killing vector fields, in which situation, the Bochner-like formula becomes an inequality. This is still amenable to the maximum principle and similar results as discussed in the backgrounds and aims section above should still be obtainable. This approach has been applied in \cite{MR1722814} to study CMC hypersurfaces in warped product spaces and this looks like just the beginning of the theory. A particular feature of the warped product situation is that the manifold may be foliated by totally geodesic submanifolds, generalising the classical foliation of $\RR^n$ by spheres. A first step in this direction would be to study situations with more rigid geometric structures such as Lie groups and symmetric spaces where suitable foliations may be obtained, and then to move onto the conformal Killing situation. The intermediate steps would be suitable for the involvement of graduate students.
-
-   The other major innovation is in determining to what extend these methods may be extended to study even more general situations: the support function may be defined via the vector field $X = d \grad d$, or more generally as a suitably chosen radial vector field $X$. Weak methods and comparison theory must be applied such as in \cite{MR1695025} to obtain regularity of the cut-locus and in \cite{MR2872966, MR2784296} within the context of optimal transport theory. In the latter work, the authors conjecture that the cut-locus is semi-concave, which is proven for surfaces in \cite{MR2784296}. The aim here is to apply such weak methods, and comparison theory to derive results similar to those discussed in the previous paragraph, and to study the question of semi-concavity of the cut-locus. The latter requires second order estimates of the distance function, which will be obtained by applying regularity techniques such as those developed through oscillation estimates for the distance function on a Riemannian manifold \cite{MR2784332}. 
-
-   Since the injectivity domain is a star-shaped region in $\RR^n$, there is a natural foliation, and part of this project will involve determining what conditions correspond to suitable foliations (e.g by minimal or constant mean curvature hypersurfaces). Therefore, results obtained here will be applicable to the study of constant mean curvature hypersurfaces and hence also the isoperimetric problem.
-
-***** _Singularities and Symmetries_
-
-   *Aim 1* _Isoperimetric comparisons and geometric flows._
-   
-   The major contribution of this part of the project will be to determine conditions (topological and/or curvature related) for which the isoperimetric profile satisfies a useful evolution equation under the Ricci flow. The principal difficulty faced here is determining integral curvature invariants such as in the Gauss-Bonnet formula for surfaces. A promising possibility is the K\"ahler-Ricci flow, where there are a number of curvature integral invariants. Appropriate variations will need to be constructed to obtain such curvature invariants, requiring the solutions of second order, non-linear (probably degenerate) equations. Some extra freedom may be obtained from the fact that only inequalities are required and that the addition of tangential components to the second variation formula may be employed without changing the integrals involved. These latter two features should be enough to render the problem tractable, at least in certain symmetric and/or rigid situations such as the K\"ahler case.
-
-   *Aim 2* _Convexity and geometric flows._
-
-   The innovation in this part is to apply the convexity theory developed in other parts of this project to study curvature flows. In particular, obtaining Harnack inequalities as described in the aims and background section for curvature flows in Riemannian spaces would make available many results obtained for Euclidean space. A theory of polar dual bodies also allows for lower curvature bounds to be obtained as described in the aims and background section.
-
-** Notes 							   :noexport:
-
-- Explain how the research addresses a significant problem.
-- Outline the conceptual/theoretical framework, design and methods and demonstrate that these are adequately developed, well integrated, innovative and original?
-- If the research has been nominated as focussing upon a topic or outcome
-that falls within one of the Science and Research Priorities, explain how it addresses one or more of the associated Practical Research Challenges (as selected in question B1 of the Proposal form).
-- Explain how the aims, concepts, methods and results advance knowledge.
-
 * Decra Candidate
 The MSI will host the candidate during this grant and will make up the shortfall in salary between the DECRA salary and the position at MSI. The teaching and administrative requirements are minimal, allowing the candidate more time to focus on research than has been available to him in the past. At this stage, the candidate will hold no other grants and will have no additional responsibilities besides the teaching and administrative requirements already mentioned. This will allow the candidate to focus his energies on conducting research, allowing him ample time to establish and implement the research program.
 
-** notes 							   :noexport:
-- Describe how the DECRA Candidate will have the time and capacity to
-undertake the proposed research, taking into account any other grants or
-roles they may hold. 
-
 * Feasibility
 The project builds on the candidate's existing expertise in isoperimetric problems and curvature flows \cite{Bryan,pbthesis,MR2843240,MR2794630,MR2729306} as well as Harnack inequalities and ancient solutions \cite{BIS4,bryanlouie,2016arXiv160401694B,2015arXiv150802821B,2015arXiv151203374B}. The methods were developed by the candidate and collaborators and have a high chance of producing strong research outcomes, building on proven techniques published in top journals. The aims are ambitious, but involve many intermediate steps along the away, some of which already have been established, ensuring continual progress throughout the duration of the project. The aims closely align with the expertise of the MSI, particularly Prof. Ben Andrew with whom the candidate has already established a strong and successful research program.
-
-** notes 							   :noexport:
-- Explain how the design of the proposed project, the expertise of the participants and requested budget will be sufficient to ensure the project can be successfully completed within the proposed budget and timeframe.
-- Describe whether there is an existing, or developing, supportive and high quality environment for this Candidate, their Project and for Higher Degree by Research students where appropriate.
-- Describe the necessary facilities available to complete the Project.
 
 * Benefit
 The funding requested is minimal, consisting principally of salary and a modest request for travel. Hence the execution of the of the project offers excellent value for money, particularly as the candidate's research to date shows the methods described in this proposal are extremely effective. 
