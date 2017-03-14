@@ -52,8 +52,6 @@ A. Examine the connections between geometric evolution equations and isoperimetr
 B. Develop a theory of the Cross Curvature Flow and apply it to obtain a topological classification of hyperbolic manifolds (joint with Dr. Mohammad Ivaki and Dr. Julian Scheuer).
 C. Perform stability analysis of ancient solutions to curvature flows and classify such solutions. In particular, apply these results to obtain conjectured area estimates for minimal surfaces and explore the connections between curvature flows and the conformal geometry of the sphere (joint with Dr. Mohammad Ivaki and Dr. Julian Scheuer).
 
-\noindent More detailed aims and background for each project follow.
-
 ** Project A: Isoperimetric Comparisons
 The classic isoperimetric inequality states that the figure in the plane with least perimeter bounding a given area is a circle. This result has been known since antiquity by the name Dido's problem who was tasked with enclosing the greatest amount of area given a fixed perimeter. In the 20th century, isoperimetric inequalities comparing the perimeter of a figure with its enclosed area were obtained for constant curvature spaces. The situation is illustrated in figure \ref{fg:const_curve_isoperimetric}. The latter part of the 20th century and early parts of this century saw the beginning of results for spaces with variable curvature \cite{MR1699261,MR1661278,MR1883725}.
 
@@ -115,7 +113,6 @@ The distance comparison argument in \cite{MR2794630} applies also to the Curve S
 
 The flow is by curve shortening on the interior of the edges, subject to the boundary triple condition. Such a flow was initially studied to model annealing metals \cite{MR0078836} and is of interest in materials science. The flow, like in the smooth case, is also the gradient flow of the length functional, from which perspective the triple condition arises naturally. This part of the project aims to prove that singularity formation can only occur when an edge has length collapsing to zero, confirming the so-called multiplicity one conjecture.
 
-This project's *aims* are:
 #+ATTR_LATEX: :options [label=\textbf{(A.\arabic*)}]
 1. Investigate isoperimetric comparisons in negatively curved manifolds.
 2. Define Homogeneous Curve Shortening Flow for non-convex curves and obtain convergence results by distance comparison.
@@ -134,7 +131,6 @@ This is a parabolic equation and preserves negative sectional curvature \cite{MR
 
 As noted in \cite{MR2602839}, hyperbolic manifolds are the largest class of prime manifolds, but it's not yet known whether this space is contractible, or even connected. The Cross Curvature Flow (XCF) was introduced in \cite{MR2055396} in the hopes of deforming negatively curved metrics $g_0$ on a compact three-manifold $M$ to constant curvature metrics. Such a conjectured result would confirm contractibility of the space of negatively curved metrics on a hyperbolic manifold. Partial results for homogeneous manifolds and solid tori have been established \cite{MR2407107,MR2653711,MR2602839} as well as asymptotic stability near hyperbolic metrics \cite{MR2448593} in support of the conjecture.
 
-This project's *aims* are:
 #+ATTR_LATEX: :options [label=\textbf{(B.\arabic*)}]
 1. Prove the XCF deforms classes of strictly negatively curved metrics to constant curvature metrics.
 2. Determine isoperimetric comparisons for the XCF.
@@ -143,7 +139,6 @@ This project's *aims* are:
 ** Project C: Ancient Solutions
 It has long been understood that curvature flows and minimal surfaces are closely related, yet explicit applications to minimal surfaces have been minimal. In \cite{2016arXiv160401694B}, Dr. Mohammad Ivaki, Dr. Julian Scheuer and Dr. Bryan proved the very general result that any convex, ancient hypersurface solution of a parabolic, geometric flow in the sphere must be a family of shrinking spherical caps emanating from an equator (a minimal surface) at $t=-\infty$ and collapsing to the north pole at $t=0$. To obtain similar results in a general Riemannian background, given an unstable minimal surface $M_0$, linear stability analysis implies that the space of ancient solutions converging backwards to $M_0$ as $t\to-\infty$ is a finite dimensional linear sub-manifold corresponding to the unstable eigenspace. Further analysis should show that there is unique mean convex ancient solution corresponding to the first eigenvalue which is simple (the eigenspace is one-dimensional).
 
-This project's *aims* are:
 #+ATTR_LATEX: :options [label=\textbf{(C.\arabic*)}]
 1. Classify ancient solutions of curvature flows in Riemannian backgrounds.
 2. Prove area estimates for unstable minimal surfaces in terms of the space of unstable directions.
@@ -221,11 +216,7 @@ A completely new idea introduced here is now to use such classification results,
 \[
 \text{Vol}(\Omega_0) \leq \int_{\text{Area}(M_T)}^{\text{Area}(M_0)} f(x) dx
 \]
-where the integrand $f$ is deduced from model comparisons obtained by estimates of the Willmore energy $\mathcal{W} = \int H^2$ which arises naturally from the variation of area under the Mean Curvature Flow,
-\[
-\partial_t \text{Area} = -\int H^2.
-\]
-Here $T$ denotes the first singular time, but using new results for mean convex mean curvature flow \cite{2013arXiv1304.0926H,MR3570481}, one may extend the integral past $T$ to the time when the mean convex solution becomes extinct, at which point $\text{Area}(M_T) = 0$. Thus one obtains estimates depending only on the $\text{Vol}(M_0)$ and $\text{Area}(M_0)$.
+where the integrand $f$ is deduced from model comparisons obtained by estimates of the Willmore energy $\mathcal{W} = \int H^2$ which arises naturally from the variation of area under the Mean Curvature Flow: $\partial_t \text{Area} = -\int H^2.$ Here $T$ denotes the first singular time, but using new results for mean convex mean curvature flow \cite{2013arXiv1304.0926H,MR3570481}, one may extend the integral past $T$ to the time when the mean convex solution becomes extinct, at which point $\text{Area}(M_T) = 0$. Thus one obtains estimates depending only on the $\text{Vol}(M_0)$ and $\text{Area}(M_0)$.
 
 As a striking example of possible further innovative applications, the methods described produce a five-dimensional family of ancient solutions emanating from a Clifford Torus in $\sphere^3$. The motion of this family is, to first order, by the canonical family of conformal transformations used in the resolution of the Willmore conjecture \cite{MR3152944}. This suggests a hitherto unknown connection between the conformal geometry of the sphere and the Mean Curvature flow with applications to Willmore surfaces.
 
@@ -236,9 +227,7 @@ The MSI will host the candidate during this grant and will make up the shortfall
 The project builds on the candidate's existing expertise in isoperimetric problems and curvature flows \cite{Bryan,pbthesis,MR2843240,MR2794630,MR2729306} as well as Harnack inequalities and ancient solutions \cite{BIS4,bryanlouie,2016arXiv160401694B,2015arXiv150802821B,2015arXiv151203374B}. The methods were developed by the candidate and collaborators with substantial preliminary investigation already having taking place as laid out in this proposal. Thus the project has a very high chance of producing strong research outcomes, building on proven techniques published in top journals. The aims closely align with the expertise of the MSI, particularly Prof. Ben Andrews with whom the candidate has already established a strong and successful research program.
 
 * Benefit
-The funding requested is minimal, consisting principally of salary and a modest request for travel. Hence the execution of the of the project offers excellent value for money, particularly as the candidate's research to date shows the methods described in this proposal are extremely effective. 
-
-The research is highly innovative, with strong results already obtained by these methods, and involves international collaboration strengthening Australia's ties with research institutes in North and South America, Europe and China. The techniques developed also have very broad applicability, as has already been established by the candidate's previous work, and hence benefits the international community in pushing the frontiers of geometric and non-linear analysis. Australia in particular will see social, cultural and economic benefits by strengthening it's international reputation and attracting leading researchers and students to Australia to study the innovative new methods developed in the project.
+The funding requested is minimal, consisting principally of salary and a modest request for travel. Hence the execution of the of the project offers excellent value for money, particularly as the candidate's research to date shows the methods described in this proposal are extremely effective. The research is highly innovative, with strong results already obtained by these methods, and involves international collaboration strengthening Australia's ties with research institutes in North and South America, Europe and China. The techniques developed also have very broad applicability, as has already been established by the candidate's previous work, and hence benefits the international community in pushing the frontiers of geometric and non-linear analysis. Australia in particular will see social, cultural and economic benefits by strengthening it's international reputation and attracting leading researchers and students to Australia to study the innovative new methods developed in the project.
 
 * Communication Of Results
 The results of the project will be disseminated primarily by scholarly publications in high quality journals similar to level of the candidates existing publications. Direction communication with the international research community will take place via conferences, workshops and seminars.
