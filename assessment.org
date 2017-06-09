@@ -1,0 +1,108 @@
+#+TITLE: Assessments of DECRA 2018
+#+SETUPFILE: ~/.emacs.d/org-templates/bibliography.org
+
+# ***  Class
+#+LATEX_CLASS: amsart
+
+# *** Macros
+# #+LATEX_HEADER: \input{local_definitions}
+
+# *** Author
+
+
+# *** Other formatting settings
+#+OPTIONS: toc:nil num:nil
+#+LATEX_HEADER: \date{}
+
+#+LaTeX_Header: \renewcommand*{\bibfont}{\footnotesize}
+
+* B
+
+** Project Quality and Innovation
+
+The project is split into three main well-motivated parts: isoperimetric comparison, application of the cross curvature flow for topological classification of hyperbolic manifolds and stability analysis for ancient solutions to curvature flows. Each of these is a worthy aim and each would result in very high quality publications. The first follows on from and extends work of Andrews and the candidate, the other two are to be addressed together with Ivaki and Scheuer, with whom the applicant also has existing joint work. The main ideas of the approach to each aim are given; the approach for the approximating curve shortening flow and Harnack estimates for the cross curvature flow seem the most well-developed, but the author’s background, experience and existing collaborative network suggests he will be able to make solid progress on the other aspects of the project as well. There are relationships between the three aims and it is common in mathematical research to be working on several related problems simultaneously. There are innovations within the proposal, the most striking in my view is the continued exploitation of isoperimetric comparison techniques pioneered in the author’s PhD work and use of the Einstein isoperimetric profile.
+
+** DECRA Candidate
+
+The candidate received his PhD in 2012; it appears that three of his eight publications arose from this work. The candidate has visited some prestigious research centres since then and remarks that in the period July 2012 to July 2015 he was very focused on teaching and research supervision at San Diego. This has had a significant impact on his research record in the last few years although in 2016 he had four papers appear or accepted to appear. The articles all appear in very strong international journals. The candidate indicates he would spend 80% of his time on research activities related to the project so he would have significantly more of his time to conduct research than he has had for the past few years and based on recent output this suggests significant research progress in the form of accepted articles would be made.
+
+** Feasibility
+
+Given the candidate’s prominent role in previous work on the isoperimetric profile, his previous work on differential Harnack inequalities for curvature flow and the well-described conceptual framework of the project, it seems very likely that significant progress would be made within the DECRA timeframe although completing the project in full in this time frame could be a little ambitious. This, however, demonstrates a very clear idea of the path forward for tackling important problems in the field. The environment for conducting this research at ANU is excellent and all necessary facilities are available there. Support for travel requested is reasonably modest and international travel is definitely justified.
+
+** Benefit
+
+The completed project will produce significant new knowledge of benefit to Australia’s reputation on the international stage as a serious contributor to research in this active area of mathematical analysis. The project will assist a strong early career researcher build the foundations of an academic career in Australia. The proposed research is cost-effective and value for money.
+
+** Improvements
+
+** Comments
+
+The proposal is generally very well written although repetitive in parts. There are some minor grammatical issues and some inconsistent formatting throughout.
+
+* D
+
+** Project Quality and Innovation
+The project contains three aims which the applicant has worked on. It'll be better to elaborate the discussion on Aims B and C. Interactions among ideas and techniques in recent progress of several geometric flows are highlighted. At times, there seem to be too many isolated topics included in the project, making it difficult to focus.
+
+** DECRA Candidate
+
+The applicant is a good young researcher, with existing works on the relevant fields. The applicant has worked at quite a few institutes, which is helpful in building up collaboration network. According to the list of publications, there is a gap, 2013-2015, which might come from the current inefficient refereeing system for most journals.
+
+** Feasibility
+
+The feasibility is mostly discussed in the section of Project Quality and Innovation, where Aim A enjoys a considerably longer discussion than the other two. The collaboration network and administering organisation provide solid support.
+
+** Benefit
+
+The benefit, other than what is for the mathematical society, is very briefly discussed, although it is usually understood in an indirect but promising way.
+
+** Improvements
+
+It could be helpful to strengthen the main theme of the project, especially with several aims on multiple objects.
+
+** Comments
+
+There is a typo in Line 2 of A4.
+
+* C
+
+** Project Quality and Innovation
+
+This is a beautiful project (I can not find a better word). The applicant formulates interesting and deep questions that are very important for this field of research. The approach is based on recent works of the applicant that were very well received by the specialists. While it is easy to see from the proposal that the author has a deep understanding of his research area, the methods he is going to use are described rather briefly; there is very little about the main difficulties to overcome and methods to do it.
+
+** DECRA Candidate
+
+Dr Bryan is an ideal candidate for this project. He has been working on questions related to the project since the beginning of his PhD. He made important contributions to the field and his results were published in good quality journals and are well known to specialists. His publication rate after the PhD has slowed down (for reasons explained on p. 7and 8) but recently has gained speed again.
+
+** Feasibility
+
+The project is very ambitious and aims to study a number of different problems. The problems are related but still the task is very challenging. The involvment of eminent specialists is assured thanks to previous collaborations of the applicant. The research environment at ANU is also excellent.
+
+** Benefit
+
+The proposal will answer some important open questions in geometry and geometric PDEs, in particular will lead to a considerable progress in our understanding of the nature of space. The project is in the area of traditional strength of Australian mathematics. If successful, it will maintain and expand this strength by training of the next generation of specialists.
+
+** Improvements
+** Comments
+* A
+
+** Project Quality and Innovation
+
+The project is a nice blend of analysis and geometry. The questions are important and interesting.
+
+** DECRA Candidate
+
+The work of the candidate when he was a student with Ben Andrews if very good. It is not clear from proposal if the consequent work is quite as good.
+
+** Feasibility
+
+The plan is very feasible.
+
+** Benefit
+
+Having more people in Australia working in this important area of mathematics would be a benefit for Australia.
+
+** Improvements
+
+** Comments
